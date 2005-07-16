@@ -44,7 +44,7 @@ function wfSpecialEditcount() {
 			$username = strtr( $wgContLang->ucfirst( $username ), '_', ' ' );
 			
 			$total = 0;
-			$nscount = User::editsByNs( User::idFromName( $username ) );
+			$nscount = $this->editsByNs( User::idFromName( $username ) );
 			foreach ( $nscount as $ns => $edits )
 				$total += $edits;
 			
@@ -77,20 +77,46 @@ function wfSpecialEditcount() {
 				$out .= '<tr><th>' .
 						wfMsg( 'editcount_total' ) .
 						"</th><th>$total</th><th>" .
-						$this->percent( $total / $total * 100 , 2 ) .
+						percent( $total / $total * 100 , 2 ) .
 						'</th></tr>';
 				foreach( $nscount as $ns => $edits ) {
 					$fns = $ns == NS_MAIN ? wfMsg( 'blanknamespace' ) : $wgLang->getFormattedNsText( $ns );
-					$percent = $this->percent( $edits / $total * 100 , 2 );
+					$percent = percent( $edits / $total * 100 );
 					$out .= "<tr><td>$fns</td><td>$edits</td><td>$percent</td></tr>";
 				}
 				$out .= '</table></p>';
 				$wgOut->addHTML( $out );
 			}
 		}
+		
+		/**
+		 * Count the number of edits of a user by namespace
+		 *
+		 * @param int $uid The user ID to check
+		 * @return array
+		 */
+		function editsByNs( $uid ) {
+			$fname = 'Editcount::editsByNs';
+			$nscount = array();
 
-		function percent( $nr, $acc ) {
-			return sprintf( "%.${acc}f%%", $nr );
+			$dbr =& wfGetDB( DB_SLAVE );
+			$res = $dbr->select(
+				array( 'user', 'revision', 'page' ),
+				array( 'page_namespace', 'COUNT(*) as count' ),
+				array(
+					'user_id' => $uid,
+					'rev_user = user_id',
+					'rev_page = page_id'
+				),
+				$fname,
+				array( 'GROUP BY' => 'page_namespace' )
+			);
+
+			while( $row = $dbr->fetchObject( $res ) ) {
+				$nscount[$row->page_namespace] = $row->count;
+			}
+
+			return $nscount;
 		}
 	}
 	
