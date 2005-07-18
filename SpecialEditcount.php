@@ -33,8 +33,8 @@ function wfSpecialEditcount() {
 	require_once( "$IP/includes/SpecialPage.php" );
 	class Editcount extends SpecialPage {
 		function Editcount() {
-			// Includable
-			SpecialPage::SpecialPage( 'Editcount', '', true, false, 'default', true );
+			SpecialPage::SpecialPage( 'Editcount' );
+			$this->includable( true );
 		}
 		
 		function execute( $par = null ) {
@@ -62,7 +62,7 @@ function wfSpecialEditcount() {
 				$action = $wgTitle->escapeLocalUrl();
 				$user = wfMsgHtml( 'editcount_username' );
 				$go = wfMsgHtml( 'go' );
-			$wgOut->addHTML( "
+				$wgOut->addHTML( "
 <form id='editcount' method='post' action=\"$action\">
 	<label>
 		$user
@@ -75,10 +75,10 @@ function wfSpecialEditcount() {
 			
 				$out = '<p><table border="2" cellpadding="4" cellspacing="0" style=";margin: 1em 1em 1em 0; background: #fff; border: 1px #aaa solid; border-collapse: collapse; font-size: 95%;">';
 				$out .= '<tr><th>' .
-						wfMsg( 'editcount_total' ) .
-						"</th><th>$total</th><th>" .
-						percent( $total / $total * 100 , 2 ) .
-						'</th></tr>';
+					wfMsg( 'editcount_total' ) .
+					"</th><th>$total</th><th>" .
+					percent( $total / $total * 100 , 2 ) .
+					'</th></tr>';
 				foreach( $nscount as $ns => $edits ) {
 					$fns = $ns == NS_MAIN ? wfMsg( 'blanknamespace' ) : $wgLang->getFormattedNsText( $ns );
 					$percent = percent( $edits / $total * 100 );
