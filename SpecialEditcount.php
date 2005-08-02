@@ -54,8 +54,8 @@ function wfSpecialEditcount() {
 				global $wgLang, $wgTitle, $wgVersion;
 			
 				$this->setHeaders();
-				if ($wgVersion != 1.5) {
-					$wgOut->versionRequired( 1.5 );
+				if ( version_compare( $wgVersion, '1.5beta4', '<' ) ) {
+					$wgOut->versionRequired( '1.5beta4' );
 					return;
 				}
 
@@ -77,11 +77,11 @@ function wfSpecialEditcount() {
 				$out .= '<tr><th>' .
 					wfMsg( 'editcount_total' ) .
 					"</th><th>$total</th><th>" .
-					percent( $total / $total * 100 , 2 ) .
+					wfPercent( $total / $total * 100 , 2 ) .
 					'</th></tr>';
 				foreach( $nscount as $ns => $edits ) {
 					$fns = $ns == NS_MAIN ? wfMsg( 'blanknamespace' ) : $wgLang->getFormattedNsText( $ns );
-					$percent = percent( $edits / $total * 100 );
+					$percent = wfPercent( $edits / $total * 100 );
 					$out .= "<tr><td>$fns</td><td>$edits</td><td>$percent</td></tr>";
 				}
 				$out .= '</table></p>';
