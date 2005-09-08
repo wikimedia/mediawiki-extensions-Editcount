@@ -16,7 +16,7 @@ if (!defined('MEDIAWIKI')) die();
 $wgExtensionFunctions[] = 'wfSpecialEditcount';
 $wgExtensionCredits['specialpage'][] = array(
 	'name' => 'Editcount',
-	'author' => 'Ævar Arnfjörð Bjarmason',
+	'author' => 'Ævar Arnfjörð Bjarmason'
 );
 
 function wfSpecialEditcount() {
@@ -63,12 +63,10 @@ function wfSpecialEditcount() {
 			
 			if ( $this->including() ) {
 				if ( $namespace === null ) {
-					if ($uid != 0) {
-						$total = $this->getTotal( $this->editsByNs( $uid ) );
-						$out = $wgContLang->formatNum( $total );
-					} else {
+					if ($uid != 0)
+						$out = $wgContLang->formatNum( User::edits( $uid ) );
+					else
 						$out = "";
-					}
 				} else {
 					$out = $wgContLang->formatNum( $this->editsInNs( $uid, $namespace ) );
 				}
@@ -155,7 +153,7 @@ function wfSpecialEditcount() {
 		 * @return string
 		 */
 		function editsInNs( $uid, $ns ) {
-			$fname = 'Editcount::editsInNn';
+			$fname = 'Editcount::editsInNs';
 			$nscount = array();
 
 			$dbr =& wfGetDB( DB_SLAVE );
@@ -228,9 +226,7 @@ function wfSpecialEditcount() {
 			}
 			$out .="
 				</table>
-			</form>
-			";
-
+			</form>";
 			$wgOut->addHTML( $out );
 		}
 		
