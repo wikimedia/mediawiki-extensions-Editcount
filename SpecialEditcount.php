@@ -241,7 +241,7 @@ function wfSpecialEditcount() {
 			
 			$total = wfMsgHtml( 'editcount_total' );
 			$ftotal = $wgLang->formatNum( $this->total );
-			$percent = wfPercent( $this->total / $this->total * 100 , 2 );
+			$percent = $this->total > 0 ? wfPercent( $this->total / $this->total * 100 , 2 ) : wfPercent( 0 ); // @bug 4400
 			$ret = "<table border='1' style='background-color: #fff; border: 1px #aaa solid; border-collapse: collapse;'>
 					<tr>
 						<th>$total</th>
