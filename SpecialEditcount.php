@@ -23,14 +23,9 @@ $wgExtensionCredits['specialpage'][] = array(
 function wfSpecialEditcount() {
 	global $IP, $wgMessageCache;
 	
-	$wgMessageCache->addMessages(
-		array(
-			'editcount' => 'Edit count',
-			'editcount_username' => 'User: ',
-			'editcount_submit' => 'Submit',
-			'editcount_total' => 'Total',
-		)
-	);
+	require_once ('SpecialEditcount.i18n.php' );
+	foreach( efEditCountMessages() as $lang => $messages )
+		$wgMessageCache->addMessages( $messages, $lang );
 
 	require_once "$IP/includes/SpecialPage.php";
 	class Editcount extends SpecialPage {
