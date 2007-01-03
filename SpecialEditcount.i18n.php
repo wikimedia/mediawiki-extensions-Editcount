@@ -31,6 +31,13 @@ function efEditCountMessages() {
 	'editcount_submit' => 'Absenden',
 	'editcount_total' => 'Gesamt',
 	),
+// Indonesian Version by Ivan Lanin
+	'id' => array(
+	'editcount' => 'Jumlah suntingan',
+	'editcount_username' => 'Pengguna: ',
+	'editcount_submit' => 'Kirim',
+	'editcount_total' => 'Total',
+	),
 );	
 	return $messages;
 }
