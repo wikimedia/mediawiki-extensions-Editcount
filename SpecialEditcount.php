@@ -17,12 +17,13 @@ if (!defined('MEDIAWIKI')) die();
 $wgExtensionFunctions[] = 'wfSpecialEditcount';
 $wgExtensionCredits['specialpage'][] = array(
 	'name' => 'Editcount',
-	'author' => 'Ævar Arnfjörð Bjarmason'
+	'author' => 'Ævar Arnfjörð Bjarmason',
+	'description' => 'Displays [[Special:Editcount|edit count]] of a user',
 );
 
 function wfSpecialEditcount() {
 	global $IP, $wgMessageCache;
-	
+
 	require_once ('SpecialEditcount.i18n.php' );
 	foreach( efEditCountMessages() as $lang => $messages )
 		$wgMessageCache->addMessages( $messages, $lang );
@@ -49,14 +50,14 @@ function wfSpecialEditcount() {
 			}
 
 			$target = isset( $par ) ? $par : $wgRequest->getText( 'username' );
-			
+
 			list( $username, $namespace ) = $this->extractParamaters( $target );
-			
+
 			$username = Title::newFromText( $username );
 			$username = is_object( $username ) ? $username->getText() : '';
-			
+
 			$uid = User::idFromName( $username );
-			
+
 			if ( $this->including() ) {
 				if ( $namespace === null ) {
 					if ($uid != 0)
@@ -85,13 +86,13 @@ function wfSpecialEditcount() {
 		 */
 		function extractParamaters( $par ) {
 			global $wgContLang;
-			
+
 			@list($user, $namespace) = explode( '/', $par, 2 );
 
 			// str*cmp sucks
 			if ( isset( $namespace ) )
 				$namespace = $wgContLang->getNsIndex( $namespace );
-			
+
 			return array( $user, $namespace );
 		}
 
@@ -110,7 +111,7 @@ function wfSpecialEditcount() {
 
 			return $total;
 		}
-		
+
 		/**
 		 * Count the number of edits of a user by namespace
 		 *
@@ -177,13 +178,13 @@ function wfSpecialEditcount() {
 		 * @var array
 		 */
 		var $nscount;
-		
+
 		/**
 		 * @access private
 		 * @var int
 		 */
 		var $total;
-		
+
 		/**
 		 * Output the HTML form on Special:Editcount
 		 *
@@ -195,9 +196,9 @@ function wfSpecialEditcount() {
 		function outputHTML( $username, $uid, $nscount, $total ) {
 			$this->nscount = $nscount;
 			$this->total = $total;
-			
+
 			global $wgTitle, $wgOut, $wgLang;
-			
+
 			$this->setHeaders();
 
 			$action = $wgTitle->escapeLocalUrl();
@@ -225,7 +226,7 @@ function wfSpecialEditcount() {
 			</form>";
 			$wgOut->addHTML( $out );
 		}
-		
+
 		/**
 		 * Make the editcount-by-namespaces HTML table
 		 *
@@ -233,7 +234,7 @@ function wfSpecialEditcount() {
 		 */
 		function makeTable() {
 			global $wgLang;
-			
+
 			$total = wfMsgHtml( 'editcount_total' );
 			$ftotal = $wgLang->formatNum( $this->total );
 			$percent = $this->total > 0 ? wfPercent( $this->total / $this->total * 100 , 2 ) : wfPercent( 0 ); // @bug 4400
@@ -263,6 +264,6 @@ function wfSpecialEditcount() {
 			return $ret;
 		}
 	}
-	
+
 	SpecialPage::addPage( new Editcount );
 }
