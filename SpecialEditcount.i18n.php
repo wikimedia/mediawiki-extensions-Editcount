@@ -19,8 +19,8 @@ function efEditCountMessages() {
 	),
 // French Version by Bertrand Grondin
 	'fr' => array(
-	'editcount' => 'Compteur d\'éditions individuel',
-	'editcount_username' => 'Utilisateur: ',
+	'editcount' => 'Compteur d’éditions individuel',
+	'editcount_username' => 'Utilisateur : ',
 	'editcount_submit' => 'Soumettre',
 	'editcount_total' => 'Total',
 	),
