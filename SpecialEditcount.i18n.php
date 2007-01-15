@@ -38,6 +38,27 @@ function efEditCountMessages() {
 	'editcount_submit' => 'Kirim',
 	'editcount_total' => 'Total',
 	),
+// Serbian default version by Sasa Stefanovic
+	'sr' => array(
+	'editcount' => 'Бројач измена',
+	'editcount_username' => 'Корисник: ',
+	'editcount_submit' => 'Унеси',
+	'editcount_total' => 'Укупно',
+	),
+// Serbian cyrillic version by Sasa Stefanovic
+	'sr-ec' => array(
+	'editcount' => 'Бројач измена',
+	'editcount_username' => 'Корисник: ',
+	'editcount_submit' => 'Унеси',
+	'editcount_total' => 'Укупно',
+	),
+// Serbian latin version by Sasa Stefanovic
+	'sr-el' => array(
+	'editcount' => 'Brojač izmena',
+	'editcount_username' => 'Korisnik: ',
+	'editcount_submit' => 'Unesi',
+	'editcount_total' => 'Ukupno',
+	),
 );	
 	return $messages;
 }
