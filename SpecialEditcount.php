@@ -6,8 +6,7 @@ if (!defined('MEDIAWIKI')) die();
  * This page can be accessed from Special:Editcount[/user] as well as being
  * included like {{Special:Editcount/user[/namespace]}}
  *
- * @package MediaWiki
- * @subpackage Extensions
+ * @addtogroup Extensions
  *
  * @author Ævar Arnfjörð Bjarmason <avarab@gmail.com>
  * @copyright Copyright © 2005, Ævar Arnfjörð Bjarmason
