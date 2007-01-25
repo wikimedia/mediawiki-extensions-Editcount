@@ -16,13 +16,7 @@ function efEditCountMessages() {
 	'editcount_submit' => 'Submit',
 	'editcount_total' => 'Total',
 	),
-// French Version by Bertrand Grondin
-	'fr' => array(
-	'editcount' => 'Compteur d’éditions individuel',
-	'editcount_username' => 'Utilisateur : ',
-	'editcount_submit' => 'Soumettre',
-	'editcount_total' => 'Total',
-	),
+
 // German by Leon Weber
 	'de' => array(
 	'editcount' => 'Anzahl der Seitenbearbeitungen',
@@ -30,6 +24,15 @@ function efEditCountMessages() {
 	'editcount_submit' => 'Absenden',
 	'editcount_total' => 'Gesamt',
 	),
+
+// French Version by Bertrand Grondin
+	'fr' => array(
+	'editcount' => 'Compteur d’éditions individuel',
+	'editcount_username' => 'Utilisateur : ',
+	'editcount_submit' => 'Soumettre',
+	'editcount_total' => 'Total',
+	),
+
 // Indonesian Version by Ivan Lanin
 	'id' => array(
 	'editcount' => 'Jumlah suntingan',
@@ -37,6 +40,15 @@ function efEditCountMessages() {
 	'editcount_submit' => 'Kirim',
 	'editcount_total' => 'Total',
 	),
+
+// nld / Dutch version by Siebrand Mazeland
+	'nl' => array(
+	'editcount' => 'Bewerkingsteller',
+	'editcount_username' => 'Gebruiker: ',
+	'editcount_submit' => 'OK',
+	'editcount_total' => 'Totaal',
+	),
+
 // Serbian default version by Sasa Stefanovic
 	'sr' => array(
 	'editcount' => 'Бројач измена',
@@ -44,6 +56,7 @@ function efEditCountMessages() {
 	'editcount_submit' => 'Унеси',
 	'editcount_total' => 'Укупно',
 	),
+
 // Serbian cyrillic version by Sasa Stefanovic
 	'sr-ec' => array(
 	'editcount' => 'Бројач измена',
@@ -51,6 +64,7 @@ function efEditCountMessages() {
 	'editcount_submit' => 'Унеси',
 	'editcount_total' => 'Укупно',
 	),
+
 // Serbian latin version by Sasa Stefanovic
 	'sr-el' => array(
 	'editcount' => 'Brojač izmena',
