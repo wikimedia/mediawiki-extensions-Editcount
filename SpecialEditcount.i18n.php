@@ -72,6 +72,46 @@ function efEditCountMessages() {
 	'editcount_submit' => 'Unesi',
 	'editcount_total' => 'Ukupno',
 	),
+
+// Chinese (China) Version by Shinjiman
+	'zh-cn' => array(
+	'editcount' => '编辑次数',
+	'editcount_username' => '用户: ',
+	'editcount_submit' => '提交',
+	'editcount_total' => '总数',
+	),
+
+// Chinese (Hong Kong) Version by Shinjiman
+	'zh-hk' => array(
+	'editcount' => '編輯次數',
+	'editcount_username' => '用戶: ',
+	'editcount_submit' => '遞交',
+	'editcount_total' => '總數',
+	),
+
+// Chinese (Singapore) Version by Shinjiman
+	'zh-sg' => array(
+	'editcount' => '编辑次数',
+	'editcount_username' => '用户: ',
+	'editcount_submit' => '提交',
+	'editcount_total' => '总数',
+	),
+
+// Chinese (Taiwan) Version by Shinjiman
+	'zh-tw' => array(
+	'editcount' => '編輯次數',
+	'editcount_username' => '用戶: ',
+	'editcount_submit' => '遞交',
+	'editcount_total' => '總數',
+	),
+
+// Cantonese Version by Shinjiman
+	'zh-yue' => array(
+	'editcount' => '編輯次數',
+	'editcount_username' => '用戶: ',
+	'editcount_submit' => '遞交',
+	'editcount_total' => '總數',
+	),
 );	
 	return $messages;
 }
