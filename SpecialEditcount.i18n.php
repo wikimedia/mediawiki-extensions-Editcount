@@ -41,6 +41,14 @@ function efEditCountMessages() {
 	'editcount_total' => 'Total',
 	),
 
+// Italian Version by BrokenArrow
+	'it' => array(
+	'editcount' => 'Conteggio delle modifiche',
+	'editcount_username' => 'Utente: ',
+	'editcount_submit' => 'Invia',
+	'editcount_total' => 'Totale',
+	),
+	
 // nld / Dutch version by Siebrand Mazeland
 	'nl' => array(
 	'editcount' => 'Bewerkingsteller',
