@@ -6,8 +6,8 @@
  * @addtogroup Extensions
  * @author Bertrand GRONDIN <bertrand.grondinr@tiscali.fr>
  */
- 
-function efEditCountMessages() {
+
+function efSpecialEditcountMessages() {
 	$messages = array(
 // English Version by Rob Church
 	'en' => array(
@@ -48,7 +48,7 @@ function efEditCountMessages() {
 	'editcount_submit' => 'Invia',
 	'editcount_total' => 'Totale',
 	),
-	
+
 // nld / Dutch version by Siebrand Mazeland
 	'nl' => array(
 	'editcount' => 'Bewerkingsteller',
@@ -128,6 +128,6 @@ function efEditCountMessages() {
 	'editcount_submit' => '遞交',
 	'editcount_total' => '總數',
 	),
-);	
+);
 	return $messages;
 }

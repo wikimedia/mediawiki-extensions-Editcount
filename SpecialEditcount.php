@@ -24,7 +24,7 @@ function wfSpecialEditcount() {
 	global $IP, $wgMessageCache;
 
 	require_once ('SpecialEditcount.i18n.php' );
-	foreach( efEditCountMessages() as $lang => $messages )
+	foreach( efSpecialEditcountMessages() as $lang => $messages )
 		$wgMessageCache->addMessages( $messages, $lang );
 
 	require_once "$IP/includes/SpecialPage.php";
