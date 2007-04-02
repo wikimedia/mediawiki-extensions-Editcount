@@ -57,6 +57,14 @@ function efEditCountMessages() {
 	'editcount_total' => 'Totaal',
 	),
 
+// Slovak version by helix84
+	'sk' => array(
+	'editcount' => 'Počet príspevkov',
+	'editcount_username' => 'Používateľ: ',
+	'editcount_submit' => 'Odoslať',
+	'editcount_total' => 'Celkom',
+	),
+
 // Serbian default version by Sasa Stefanovic
 	'sr' => array(
 	'editcount' => 'Бројач измена',
