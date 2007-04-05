@@ -246,14 +246,15 @@ function wfSpecialEditcount() {
 			";
 
 			foreach ($this->nscount as $ns => $edits) {
-				$edits = $wgLang->formatNum( $edits );
+				$fedits = $wgLang->formatNum( $edits );
 				$fns = $ns == NS_MAIN ? wfMsg( 'blanknamespace' ) : $wgLang->getFormattedNsText( $ns );
 				$percent = wfPercent( $edits / $this->total * 100 );
+				$fpercent = $wgLang->formatNum( $percent );
 				$ret .="
 					<tr>
 						<td>$fns</td>
-						<td>$edits</td>
-						<td>$percent</td>
+						<td>$fedits</td>
+						<td>$fpercent</td>
 					</tr>
 				";
 			}
