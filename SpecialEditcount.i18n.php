@@ -57,6 +57,13 @@ function efSpecialEditcountMessages() {
 	'editcount_total' => 'Totaal',
 	),
 
+// Occitan by Cedric31
+	'oc' => array(
+	'editcount' => 'Comptaire d\'edicions individual',
+	'editcount_username' => 'Utilizaire:',
+	'editcount_submit' => 'Sometre',
+	),
+
 // Slovak version by helix84
 	'sk' => array(
 	'editcount' => 'Počet príspevkov',
