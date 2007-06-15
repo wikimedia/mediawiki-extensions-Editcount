@@ -57,6 +57,14 @@ function efSpecialEditcountMessages() {
 	'editcount_total' => 'Totaal',
 	),
 
+// Norwegian (Jon Harald Søby)
+	'no' => array(
+	'editcount' => 'Redigeringsteller',
+	'editcount_username' => 'Bruker:',
+	'editcount_submit' => 'OK',
+	'editcount_total' => 'Totalt',
+	),
+
 // Occitan by Cedric31
 	'oc' => array(
 	'editcount' => 'Comptaire d\'edicions individual',
