@@ -238,4 +238,3 @@ class EditcountHTML extends Editcount {
 	}
 }
 
-?>
