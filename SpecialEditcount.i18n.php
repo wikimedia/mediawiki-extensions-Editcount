@@ -72,6 +72,14 @@ function efSpecialEditcountMessages() {
 	'editcount_submit' => 'Sometre',
 	),
 
+/* Piedmontese (Bèrto 'd Sèra) */
+	'pms' => array(
+	'editcount' => 'Total dle modìfiche',
+	'editcount_username' => 'Stranòm:',
+	'editcount_submit' => 'Manda',
+	'editcount_total' => 'Total',
+	),
+
 // Slovak version by helix84
 	'sk' => array(
 	'editcount' => 'Počet príspevkov',
