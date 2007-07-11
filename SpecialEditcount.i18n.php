@@ -17,6 +17,14 @@ function efSpecialEditcountMessages() {
 	'editcount_total' => 'Total',
 	),
 
+/* Arabic (Meno25) */
+'ar' => array(
+'editcount' => 'عداد المساهمات',
+'editcount_username' => 'مستخدم:',
+'editcount_submit' => 'تنفيذ',
+'editcount_total' => 'الإجمالي',
+),
+
 // German by Leon Weber
 	'de' => array(
 	'editcount' => 'Anzahl der Seitenbearbeitungen',
