@@ -88,6 +88,14 @@ function efSpecialEditcountMessages() {
 	'editcount_total' => 'Total',
 	),
 
+// Portuguese (Lugusto)
+	'pt' => array(
+	'editcount' => 'Contador de edições',
+	'editcount_username' => 'Usuário:',
+	'editcount_submit' => 'Enviar',
+	'editcount_total' => 'Total',
+	),
+
 // Slovak version by helix84
 	'sk' => array(
 	'editcount' => 'Počet príspevkov',
