@@ -18,12 +18,12 @@ function efSpecialEditcountMessages() {
 	),
 
 /* Arabic (Meno25) */
-'ar' => array(
-'editcount' => 'عداد المساهمات',
-'editcount_username' => 'مستخدم:',
-'editcount_submit' => 'تنفيذ',
-'editcount_total' => 'الإجمالي',
-),
+	'ar' => array(
+	'editcount' => 'عداد المساهمات',
+	'editcount_username' => 'مستخدم:',
+	'editcount_submit' => 'تنفيذ',
+	'editcount_total' => 'الإجمالي',
+	),
 
 // German by Leon Weber
 	'de' => array(
@@ -154,6 +154,7 @@ function efSpecialEditcountMessages() {
 );
 
 	/* Chinese defaults, fallback to zh-hans or zh-hant */
+	$messages['zh'] = $messages['zh-hans'];
 	$messages['zh-cn'] = $messages['zh-hans'];
 	$messages['zh-hk'] = $messages['zh-hant'];
 	$messages['zh-cn'] = $messages['zh-hans'];
