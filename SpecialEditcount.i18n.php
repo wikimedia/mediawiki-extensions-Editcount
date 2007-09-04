@@ -41,6 +41,13 @@ function efSpecialEditcountMessages() {
 	'editcount_total' => 'Total',
 	),
 
+'hsb' => array(
+'editcount' => 'Ličba změnow',
+'editcount_username' => 'Wužiwar:',
+'editcount_submit' => 'Wotesłać',
+'editcount_total' => 'dohromady',
+),
+
 // Indonesian Version by Ivan Lanin
 	'id' => array(
 	'editcount' => 'Jumlah suntingan',
