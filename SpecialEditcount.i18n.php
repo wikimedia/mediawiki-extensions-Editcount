@@ -25,6 +25,13 @@ function efSpecialEditcountMessages() {
 	'editcount_total' => 'الإجمالي',
 	),
 
+'bn' => array(
+'editcount' => 'সম্পাদনা সংখ্যা',
+'editcount_username' => 'ব্যবহারকারী:',
+'editcount_submit' => 'পেশ করো',
+'editcount_total' => 'সর্বমোট',
+),
+
 // German by Leon Weber
 	'de' => array(
 	'editcount' => 'Anzahl der Seitenbearbeitungen',
