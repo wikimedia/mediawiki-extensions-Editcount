@@ -25,6 +25,11 @@ function efSpecialEditcountMessages() {
 	'editcount_total' => 'الإجمالي',
 	),
 
+'bcl' => array(
+'editcount' => 'Hirahón an bilang',
+'editcount_submit' => 'Isumitir',
+),
+
 'bn' => array(
 'editcount' => 'সম্পাদনা সংখ্যা',
 'editcount_username' => 'ব্যবহারকারী:',
