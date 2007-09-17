@@ -37,6 +37,11 @@ function efSpecialEditcountMessages() {
 'editcount_total' => 'সর্বমোট',
 ),
 
+'ca' => array(
+'editcount' => 'Comptador d\'edicions',
+'editcount_username' => 'Usuari:',
+),
+
 // German by Leon Weber
 	'de' => array(
 	'editcount' => 'Anzahl der Seitenbearbeitungen',
