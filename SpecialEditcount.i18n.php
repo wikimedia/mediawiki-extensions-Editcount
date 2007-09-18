@@ -61,7 +61,7 @@ function efSpecialEditcountMessages() {
 'hsb' => array(
 'editcount' => 'Ličba změnow',
 'editcount_username' => 'Wužiwar:',
-'editcount_submit' => 'Wotesłać',
+'editcount_submit' => 'OK',
 'editcount_total' => 'dohromady',
 ),
 
