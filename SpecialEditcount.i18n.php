@@ -37,6 +37,13 @@ function efSpecialEditcountMessages() {
 'editcount_total' => 'সর্বমোট',
 ),
 
+'br' => array(
+'editcount' => 'Sammad degasadennoù',
+'editcount_username' => 'Implijer :',
+'editcount_submit' => 'Kas',
+'editcount_total' => 'Hollad',
+),
+
 'ca' => array(
 'editcount' => 'Comptador d\'edicions',
 'editcount_username' => 'Usuari:',
