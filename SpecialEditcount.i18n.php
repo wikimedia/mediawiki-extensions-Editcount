@@ -88,6 +88,10 @@ function efSpecialEditcountMessages() {
 	'editcount_total' => 'Totale',
 	),
 
+'la' => array(
+'editcount_username' => 'Usor:',
+),
+
 // nld / Dutch version by Siebrand Mazeland
 	'nl' => array(
 	'editcount' => 'Bewerkingsteller',
