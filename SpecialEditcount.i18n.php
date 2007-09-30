@@ -57,6 +57,10 @@ function efSpecialEditcountMessages() {
 	'editcount_total' => 'Gesamt',
 	),
 
+'ext' => array(
+'editcount_username' => 'Usuáriu:',
+),
+
 // French Version by Bertrand Grondin
 	'fr' => array(
 	'editcount' => 'Compteur d’éditions individuel',
