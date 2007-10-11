@@ -27,6 +27,7 @@ function efSpecialEditcountMessages() {
 
 'bcl' => array(
 'editcount' => 'Hirahón an bilang',
+'editcount_username' => 'Parágamit:',
 'editcount_submit' => 'Isumitir',
 ),
 
