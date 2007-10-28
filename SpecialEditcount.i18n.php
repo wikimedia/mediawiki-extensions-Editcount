@@ -120,6 +120,10 @@ function efSpecialEditcountMessages() {
 	'editcount_submit' => 'Sometre',
 	),
 
+'pl' => array(
+'editcount' => 'Licznik edycji',
+),
+
 /* Piedmontese (Bèrto 'd Sèra) */
 	'pms' => array(
 	'editcount' => 'Total dle modìfiche',
