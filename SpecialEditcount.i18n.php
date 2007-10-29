@@ -70,6 +70,13 @@ function efSpecialEditcountMessages() {
 	'editcount_total' => 'Total',
 	),
 
+'gl' => array(
+'editcount' => 'Total de edicións',
+'editcount_username' => 'Usuario:',
+'editcount_submit' => 'Enviar',
+'editcount_total' => 'Total',#identical but defined
+),
+
 'hsb' => array(
 'editcount' => 'Ličba změnow',
 'editcount_username' => 'Wužiwar:',
@@ -122,6 +129,9 @@ function efSpecialEditcountMessages() {
 
 'pl' => array(
 'editcount' => 'Licznik edycji',
+'editcount_username' => 'Użytkownik',
+'editcount_submit' => 'Wyślij',
+'editcount_total' => 'Razem',
 ),
 
 /* Piedmontese (Bèrto 'd Sèra) */
