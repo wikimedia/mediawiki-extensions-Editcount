@@ -84,6 +84,13 @@ function efSpecialEditcountMessages() {
 'editcount_total' => 'dohromady',
 ),
 
+'hy' => array(
+'editcount' => 'Խմբագրումների հաշվում',
+'editcount_username' => 'Մասնակից.',
+'editcount_submit' => 'Հաշվել',
+'editcount_total' => 'Ընդհանուր',
+),
+
 // Indonesian Version by Ivan Lanin
 	'id' => array(
 	'editcount' => 'Jumlah suntingan',
@@ -149,6 +156,10 @@ function efSpecialEditcountMessages() {
 	'editcount_submit' => 'Enviar',
 	'editcount_total' => 'Total',
 	),
+
+'rm' => array(
+'editcount_username' => 'Utilisader:',
+),
 
 // Slovak version by helix84
 	'sk' => array(
