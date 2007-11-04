@@ -10,56 +10,63 @@
 function efSpecialEditcountMessages() {
 	$messages = array(
 // English Version by Rob Church
-	'en' => array(
+'en' => array(
 	'editcount' => 'Edit count',
 	'editcount_username' => 'User:',
 	'editcount_submit' => 'Submit',
 	'editcount_total' => 'Total',
-	),
+),
 
 /* Arabic (Meno25) */
-	'ar' => array(
+'ar' => array(
 	'editcount' => 'عداد المساهمات',
 	'editcount_username' => 'مستخدم:',
 	'editcount_submit' => 'تنفيذ',
 	'editcount_total' => 'الإجمالي',
-	),
+),
 
 'bcl' => array(
-'editcount' => 'Hirahón an bilang',
-'editcount_username' => 'Parágamit:',
-'editcount_submit' => 'Isumitir',
+	'editcount' => 'Hirahón an bilang',
+	'editcount_username' => 'Parágamit:',
+	'editcount_submit' => 'Isumitir',
 ),
 
 'bn' => array(
-'editcount' => 'সম্পাদনা সংখ্যা',
-'editcount_username' => 'ব্যবহারকারী:',
-'editcount_submit' => 'পেশ করো',
-'editcount_total' => 'সর্বমোট',
+	'editcount' => 'সম্পাদনা সংখ্যা',
+	'editcount_username' => 'ব্যবহারকারী:',
+	'editcount_submit' => 'পেশ করো',
+	'editcount_total' => 'সর্বমোট',
 ),
 
 'br' => array(
-'editcount' => 'Sammad degasadennoù',
-'editcount_username' => 'Implijer :',
-'editcount_submit' => 'Kas',
-'editcount_total' => 'Hollad',
+	'editcount' => 'Sammad degasadennoù',
+	'editcount_username' => 'Implijer :',
+	'editcount_submit' => 'Kas',
+	'editcount_total' => 'Hollad',
 ),
 
 'ca' => array(
-'editcount' => 'Comptador d\'edicions',
-'editcount_username' => 'Usuari:',
+	'editcount' => 'Comptador d\'edicions',
+	'editcount_username' => 'Usuari:',
 ),
 
 // German by Leon Weber
-	'de' => array(
+'de' => array(
 	'editcount' => 'Anzahl der Seitenbearbeitungen',
 	'editcount_username' => 'Benutzer:',
 	'editcount_submit' => 'Absenden',
 	'editcount_total' => 'Gesamt',
-	),
+),
+
+'eo' => array(
+	'editcount' => 'Redakta nombro',
+	'editcount_username' => 'Uzanto:',
+	'editcount_submit' => 'Ek',
+	'editcount_total' => 'Tute',
+),
 
 'ext' => array(
-'editcount_username' => 'Usuáriu:',
+	'editcount_username' => 'Usuáriu:',
 ),
 
 // French Version by Bertrand Grondin
@@ -71,151 +78,152 @@ function efSpecialEditcountMessages() {
 	),
 
 'gl' => array(
-'editcount' => 'Total de edicións',
-'editcount_username' => 'Usuario:',
-'editcount_submit' => 'Enviar',
-'editcount_total' => 'Total',#identical but defined
+	'editcount' => 'Total de edicións',
+	'editcount_username' => 'Usuario:',
+	'editcount_submit' => 'Enviar',
+	'editcount_total' => 'Total',#identical but defined
 ),
 
 'hsb' => array(
-'editcount' => 'Ličba změnow',
-'editcount_username' => 'Wužiwar:',
-'editcount_submit' => 'OK',
-'editcount_total' => 'dohromady',
+	'editcount' => 'Ličba změnow',
+	'editcount_username' => 'Wužiwar:',
+	'editcount_submit' => 'OK',
+	'editcount_total' => 'dohromady',
 ),
 
 'hy' => array(
-'editcount' => 'Խմբագրումների հաշվում',
-'editcount_username' => 'Մասնակից.',
-'editcount_submit' => 'Հաշվել',
-'editcount_total' => 'Ընդհանուր',
+	'editcount' => 'Խմբագրումների հաշվում',
+	'editcount_username' => 'Մասնակից.',
+	'editcount_submit' => 'Հաշվել',
+	'editcount_total' => 'Ընդհանուր',
 ),
 
 // Indonesian Version by Ivan Lanin
-	'id' => array(
+'id' => array(
 	'editcount' => 'Jumlah suntingan',
 	'editcount_username' => 'Pengguna:',
 	'editcount_submit' => 'Kirim',
 	'editcount_total' => 'Total',
-	),
+),
 
 // Italian Version by BrokenArrow
-	'it' => array(
+'it' => array(
 	'editcount' => 'Conteggio delle modifiche',
 	'editcount_username' => 'Utente:',
 	'editcount_submit' => 'Invia',
 	'editcount_total' => 'Totale',
-	),
+),
 
 'la' => array(
-'editcount_username' => 'Usor:',
+	'editcount_username' => 'Usor:',
 ),
 
 // nld / Dutch version by Siebrand Mazeland
-	'nl' => array(
+'nl' => array(
 	'editcount' => 'Bewerkingsteller',
 	'editcount_username' => 'Gebruiker:',
 	'editcount_submit' => 'OK',
 	'editcount_total' => 'Totaal',
-	),
+),
 
 // Norwegian (Jon Harald Søby)
 'no' => array(
-'editcount' => 'Redigeringsteller',
-'editcount_username' => 'Bruker:',
-'editcount_submit' => 'OK',
-'editcount_total' => 'Totalt',
+	'editcount' => 'Redigeringsteller',
+	'editcount_username' => 'Bruker:',
+	'editcount_submit' => 'OK',
+	'editcount_total' => 'Totalt',
 ),
 
 // Occitan by Cedric31
-	'oc' => array(
+'oc' => array(
 	'editcount' => 'Comptaire d\'edicions individual',
 	'editcount_username' => 'Utilizaire:',
 	'editcount_submit' => 'Sometre',
-	),
+),
 
 'pl' => array(
-'editcount' => 'Licznik edycji',
-'editcount_username' => 'Użytkownik',
-'editcount_submit' => 'Wyślij',
-'editcount_total' => 'Razem',
+	'editcount' => 'Licznik edycji',
+	'editcount_username' => 'Użytkownik',
+	'editcount_submit' => 'Wyślij',
+	'editcount_total' => 'Razem',
 ),
 
 /* Piedmontese (Bèrto 'd Sèra) */
-	'pms' => array(
+'pms' => array(
 	'editcount' => 'Total dle modìfiche',
 	'editcount_username' => 'Stranòm:',
 	'editcount_submit' => 'Manda',
 	'editcount_total' => 'Total',
-	),
+),
 
 // Portuguese (Lugusto)
-	'pt' => array(
+'pt' => array(
 	'editcount' => 'Contador de edições',
 	'editcount_username' => 'Usuário:',
 	'editcount_submit' => 'Enviar',
 	'editcount_total' => 'Total',
-	),
+),
 
 'rm' => array(
-'editcount_username' => 'Utilisader:',
+	'editcount_username' => 'Utilisader:',
 ),
 
 // Slovak version by helix84
-	'sk' => array(
+'sk' => array(
 	'editcount' => 'Počet príspevkov',
 	'editcount_username' => 'Používateľ:',
 	'editcount_submit' => 'Odoslať',
 	'editcount_total' => 'Celkom',
-	),
+),
 
 // Serbian default version by Sasa Stefanovic
-	'sr' => array(
+'sr' => array(
 	'editcount' => 'Бројач измена',
 	'editcount_username' => 'Корисник:',
 	'editcount_submit' => 'Унеси',
 	'editcount_total' => 'Укупно',
-	),
+),
 
 // Serbian cyrillic version by Sasa Stefanovic
-	'sr-ec' => array(
+'sr-ec' => array(
 	'editcount' => 'Бројач измена',
 	'editcount_username' => 'Корисник:',
 	'editcount_submit' => 'Унеси',
 	'editcount_total' => 'Укупно',
-	),
+),
 
 // Serbian latin version by Sasa Stefanovic
-	'sr-el' => array(
+'sr-el' => array(
 	'editcount' => 'Brojač izmena',
 	'editcount_username' => 'Korisnik:',
 	'editcount_submit' => 'Unesi',
 	'editcount_total' => 'Ukupno',
-	),
+),
 
 // Cantonese Version by Shinjiman
-	'yue' => array(
+'yue' => array(
 	'editcount' => '編輯次數',
 	'editcount_username' => '用戶:',
 	'editcount_submit' => '遞交',
 	'editcount_total' => '總數',
-	),
+),
 
 // Chinese (Simplified) Version by Shinjiman
-	'zh-hans' => array(
+'zh-hans' => array(
 	'editcount' => '编辑次数',
 	'editcount_username' => '用户:',
 	'editcount_submit' => '提交',
 	'editcount_total' => '总数',
-	),
+),
 
 // Chinese (Traditional) Version by Shinjiman
-	'zh-hant' => array(
+'zh-hant' => array(
 	'editcount' => '編輯次數',
 	'editcount_username' => '用戶:',
 	'editcount_submit' => '遞交',
 	'editcount_total' => '總數',
-	),
+),
+
 );
 
 	/* Chinese defaults, fallback to zh-hans or zh-hant */
