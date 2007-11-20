@@ -58,6 +58,10 @@ function efSpecialEditcountMessages() {
 	'editcount_total' => 'Gesamt',
 ),
 
+'el' => array(
+	'editcount_username' => 'Χρήστης:',
+),
+
 'eo' => array(
 	'editcount' => 'Redakta nombro',
 	'editcount_username' => 'Uzanto:',
