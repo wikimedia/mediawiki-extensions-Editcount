@@ -200,6 +200,10 @@ function efSpecialEditcountMessages() {
 	'editcount_total' => 'Ukupno',
 ),
 
+'ss' => array(
+	'editcount_username' => 'Umuntfu:',
+),
+
 // Cantonese Version by Shinjiman
 'yue' => array(
 	'editcount' => '編輯次數',
