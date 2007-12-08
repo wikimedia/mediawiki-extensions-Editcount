@@ -31,6 +31,13 @@ function efSpecialEditcountMessages() {
 	'editcount_submit' => 'Isumitir',
 ),
 
+'bg' => array(
+	'editcount' => 'Броене на редакции',
+	'editcount_username' => 'Потребител:',
+	'editcount_submit' => 'Изпращане',
+	'editcount_total' => 'Общо',
+),
+
 'bn' => array(
 	'editcount' => 'সম্পাদনা সংখ্যা',
 	'editcount_username' => 'ব্যবহারকারী:',
