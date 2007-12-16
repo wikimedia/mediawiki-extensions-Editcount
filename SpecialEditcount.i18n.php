@@ -80,6 +80,16 @@ function efSpecialEditcountMessages() {
 	'editcount_username' => 'Usuáriu:',
 ),
 
+/** Finnish (Suomi)
+ * @author Nike
+ */
+'fi' => array(
+	'editcount'          => 'Muokkausmäärä',
+	'editcount_username' => 'Käyttäjä',
+	'editcount_submit'   => 'Hae',
+	'editcount_total'    => 'Yhteensä',
+),
+
 // French Version by Bertrand Grondin
 	'fr' => array(
 	'editcount' => 'Compteur d’éditions individuel',
