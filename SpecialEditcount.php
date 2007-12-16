@@ -16,8 +16,6 @@ if (!defined('MEDIAWIKI')) die();
 $wgExtensionFunctions[] = 'wfSpecialEditcount';
 $wgExtensionCredits['specialpage'][] = array(
 	'name' => 'Editcount',
-	'version' => '1.1',
-	'url' => 'http://www.mediawiki.org/wiki/Extension:Editcount',
 	'author' => 'Ævar Arnfjörð Bjarmason',
 	'description' => 'Displays [[Special:Editcount|edit count]] of a user',
 );
@@ -28,12 +26,12 @@ function wfSpecialEditcount() {
 	require_once ('SpecialEditcount.i18n.php' );
 	foreach( efSpecialEditcountMessages() as $lang => $messages )
 		$wgMessageCache->addMessages( $messages, $lang );
-
+	
 	$GLOBALS['wgAutoloadClasses']['Editcount'] = dirname( __FILE__ ) .
 		'/SpecialEditcount_body.php';
 
-	$GLOBALS['wgSpecialPages']['editcount'] = array( /*class*/ 'Editcount',
-		/*name*/ 'Editcount', /* permission */'', /*listed*/ true,
+	$GLOBALS['wgSpecialPages']['editcount'] = array( /*class*/ 'Editcount', 
+		/*name*/ 'Editcount', /* permission */'', /*listed*/ true, 
 		/*function*/ false, /*file*/ false );
 
 }
