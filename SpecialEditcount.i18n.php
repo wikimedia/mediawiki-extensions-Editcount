@@ -139,6 +139,16 @@ function efSpecialEditcountMessages() {
 	'editcount_username' => 'Usor:',
 ),
 
+/** Lithuanian (Lietuvių)
+ * @author Matasg
+ */
+'lt' => array(
+	'editcount'          => 'Naudotojo indėlis',
+	'editcount_username' => 'Naudotojas:',
+	'editcount_submit'   => 'Patvirtinti',
+	'editcount_total'    => 'Viso',
+),
+
 // nld / Dutch version by Siebrand Mazeland
 'nl' => array(
 	'editcount' => 'Bewerkingsteller',
