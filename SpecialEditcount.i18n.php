@@ -31,11 +31,15 @@ function efSpecialEditcountMessages() {
 	'editcount_submit' => 'Isumitir',
 ),
 
+/** Bulgarian (Български)
+ * @author Spiritia
+ * @author DCLXVI
+ */
 'bg' => array(
-	'editcount' => 'Броене на редакции',
+	'editcount'          => 'Броене на редакции',
 	'editcount_username' => 'Потребител:',
-	'editcount_submit' => 'Изпращане',
-	'editcount_total' => 'Общо',
+	'editcount_submit'   => 'Проверяване',
+	'editcount_total'    => 'Общо',
 ),
 
 'bn' => array(
@@ -233,6 +237,16 @@ function efSpecialEditcountMessages() {
 
 'ss' => array(
 	'editcount_username' => 'Umuntfu:',
+),
+
+/** Seeltersk (Seeltersk)
+ * @author Pyt
+ */
+'stq' => array(
+	'editcount'          => 'Antoal fon do Siedenbeoarbaidengen',
+	'editcount_username' => 'Benutser:',
+	'editcount_submit'   => 'Ouseende',
+	'editcount_total'    => 'Mädnunner',
 ),
 
 // Cantonese Version by Shinjiman
