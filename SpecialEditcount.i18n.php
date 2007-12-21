@@ -109,6 +109,16 @@ function efSpecialEditcountMessages() {
 	'editcount_total' => 'Total',#identical but defined
 ),
 
+/** Croatian (Hrvatski)
+ * @author Dnik
+ */
+'hr' => array(
+	'editcount'          => 'Broj uređivanja',
+	'editcount_username' => 'Suradnik:',
+	'editcount_submit'   => 'Podnesi',
+	'editcount_total'    => 'Ukupno',
+),
+
 'hsb' => array(
 	'editcount' => 'Ličba změnow',
 	'editcount_username' => 'Wužiwar:',
@@ -201,6 +211,16 @@ function efSpecialEditcountMessages() {
 
 'rm' => array(
 	'editcount_username' => 'Utilisader:',
+),
+
+/** Sassarese (Sassarese)
+ * @author Felis
+ */
+'sdc' => array(
+	'editcount'          => 'Cuntéggiu di li mudìffighi',
+	'editcount_username' => 'Utenti:',
+	'editcount_submit'   => 'Invia',
+	'editcount_total'    => 'Totari',
 ),
 
 // Slovak version by helix84
