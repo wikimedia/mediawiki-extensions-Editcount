@@ -213,6 +213,16 @@ function efSpecialEditcountMessages() {
 	'editcount_username' => 'Utilisader:',
 ),
 
+/** Russian (Русский)
+ * @author VasilievVV
+ */
+'ru' => array(
+	'editcount'          => 'Счётчик правок',
+	'editcount_username' => 'Участник:',
+	'editcount_submit'   => 'Посчитать',
+	'editcount_total'    => 'Всего',
+),
+
 /** Sassarese (Sassarese)
  * @author Felis
  */
