@@ -273,7 +273,7 @@ function efSpecialEditcountMessages() {
  * @author Pyt
  */
 'stq' => array(
-	'editcount'          => 'Antoal fon do Siedenbeoarbaidengen',
+	'editcount'          => 'Antaal fon do Siedenbeoarbaidengen',
 	'editcount_username' => 'Benutser:',
 	'editcount_submit'   => 'Ouseende',
 	'editcount_total'    => 'Mädnunner',
