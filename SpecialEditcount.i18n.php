@@ -153,6 +153,16 @@ function efSpecialEditcountMessages() {
 	'editcount_username' => 'Usor:',
 ),
 
+/** Luxembourgish (Lëtzebuergesch)
+ * @author Robby
+ */
+'lb' => array(
+	'editcount'          => 'Zuel vun de Säitenännerungen',
+	'editcount_username' => 'Benotzer:',
+	'editcount_submit'   => 'Ofschécken',
+	'editcount_total'    => 'Total',
+),
+
 /** Lithuanian (Lietuvių)
  * @author Matasg
  */
