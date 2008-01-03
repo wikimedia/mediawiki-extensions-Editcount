@@ -289,6 +289,14 @@ function efSpecialEditcountMessages() {
 	'editcount_total'    => 'Mädnunner',
 ),
 
+/** Volapük (Volapük)
+ * @author Malafaya
+ */
+'vo' => array(
+	'editcount_username' => 'Geban:',
+	'editcount_total'    => 'Valod',
+),
+
 // Cantonese Version by Shinjiman
 'yue' => array(
 	'editcount' => '編輯次數',
