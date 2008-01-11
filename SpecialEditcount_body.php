@@ -1,25 +1,20 @@
 <?php
 if (!defined('MEDIAWIKI')) die();
 
-class Editcount extends SpecialPage {
+class Editcount extends IncludableSpecialPage {
 	/**
 	 * Constructor
 	 */
-	function Editcount() {
-		SpecialPage::SpecialPage( 'Editcount' );
-		$this->includable( true );
+	public function __construct() {
+		parent::__construct( 'Editcount' );
 	}
 
 	/**
 	 * main()
 	 */
-	function execute( $par = null ) {
-		global $wgVersion, $wgRequest, $wgOut, $wgContLang;
-
-		if ( version_compare( $wgVersion, '1.5beta4', '<' ) ) {
-			$wgOut->versionRequired( '1.5beta4' );
-			return;
-		}
+	public function execute( $par ) {
+		global $wgRequest, $wgOut, $wgContLang;
+		wfLoadExtensionMessages( 'Editcount' );
 
 		$target = isset( $par ) ? $par : $wgRequest->getText( 'username' );
 
@@ -141,7 +136,6 @@ class Editcount extends SpecialPage {
 
 		return $res;
 	}
-
 }
 
 class EditcountHTML extends Editcount {
@@ -237,4 +231,3 @@ class EditcountHTML extends Editcount {
 		return $ret;
 	}
 }
-

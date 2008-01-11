@@ -13,25 +13,15 @@ if (!defined('MEDIAWIKI')) die();
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
 
-$wgExtensionFunctions[] = 'wfSpecialEditcount';
 $wgExtensionCredits['specialpage'][] = array(
 	'name' => 'Editcount',
+	'version' => '2008-01-11',
 	'author' => 'Ævar Arnfjörð Bjarmason',
 	'description' => 'Displays [[Special:Editcount|edit count]] of a user',
+	'url' => 'http://www.mediawiki.org/wiki/Extension:Editcount',
 );
 
-function wfSpecialEditcount() {
-	global $IP, $wgMessageCache;
-
-	require_once ('SpecialEditcount.i18n.php' );
-	foreach( efSpecialEditcountMessages() as $lang => $messages )
-		$wgMessageCache->addMessages( $messages, $lang );
-	
-	$GLOBALS['wgAutoloadClasses']['Editcount'] = dirname( __FILE__ ) .
-		'/SpecialEditcount_body.php';
-
-	$GLOBALS['wgSpecialPages']['editcount'] = array( /*class*/ 'Editcount', 
-		/*name*/ 'Editcount', /* permission */'', /*listed*/ true, 
-		/*function*/ false, /*file*/ false );
-
-}
+$dir = dirname(__FILE__) . '/';
+$wgExtensionMessagesFiles['Editcount'] = $dir .'SpecialEditcount.i18n.php';
+$wgAutoloadClasses['Editcount'] = $dir . 'SpecialEditcount_body.php';
+$wgSpecialPages['Editcount'] = 'Editcount';
