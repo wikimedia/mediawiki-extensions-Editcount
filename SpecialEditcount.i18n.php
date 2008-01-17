@@ -290,6 +290,13 @@ $messages['stq'] = array(
 	'editcount_total'    => 'Mädnunner',
 );
 
+/** Turkish (Türkçe)
+ * @author Karduelis
+ */
+$messages['tr'] = array(
+	'editcount_username' => 'Kullanıcı:',
+);
+
 /** Volapük (Volapük)
  * @author Malafaya
  */
