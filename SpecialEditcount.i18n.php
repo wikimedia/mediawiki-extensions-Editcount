@@ -190,11 +190,14 @@ $messages['no'] = array(
 	'editcount_total' => 'Totalt',
 );
 
-// Occitan by Cedric31
+/** Occitan (Occitan)
+ * @author Cedric31
+ */
 $messages['oc'] = array(
-	'editcount' => 'Comptaire d\'edicions individual',
+	'editcount'          => "Comptaire d'edicions individual",
 	'editcount_username' => 'Utilizaire:',
-	'editcount_submit' => 'Sometre',
+	'editcount_submit'   => 'Sometre',
+	'editcount_total'    => 'Soma',
 );
 
 $messages['pl'] = array(
