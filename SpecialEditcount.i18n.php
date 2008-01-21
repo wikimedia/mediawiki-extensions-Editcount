@@ -298,6 +298,7 @@ $messages['stq'] = array(
  */
 $messages['tr'] = array(
 	'editcount_username' => 'Kullanıcı:',
+	'editcount_total'    => 'Toplam',
 );
 
 /** Volapük (Volapük)
