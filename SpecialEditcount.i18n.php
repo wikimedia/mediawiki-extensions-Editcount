@@ -182,6 +182,16 @@ $messages['nl'] = array(
 	'editcount_total' => 'Totaal',
 );
 
+/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+ * @author Eirik
+ */
+$messages['nn'] = array(
+	'editcount'          => 'Endringsteljar',
+	'editcount_username' => 'Brukar:',
+	'editcount_submit'   => 'OK',
+	'editcount_total'    => 'Totalt',
+);
+
 // Norwegian (Jon Harald Søby)
 $messages['no'] = array(
 	'editcount' => 'Redigeringsteller',
