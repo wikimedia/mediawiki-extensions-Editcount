@@ -127,6 +127,16 @@ $messages['hsb'] = array(
 	'editcount_total' => 'dohromady',
 );
 
+/** Hungarian (Magyar)
+ * @author Bdanee
+ */
+$messages['hu'] = array(
+	'editcount'          => 'Szerkesztések száma',
+	'editcount_username' => 'Szerkesztő:',
+	'editcount_submit'   => 'Elküld',
+	'editcount_total'    => 'Összesen',
+);
+
 $messages['hy'] = array(
 	'editcount' => 'Խմբագրումների հաշվում',
 	'editcount_username' => 'Մասնակից.',
