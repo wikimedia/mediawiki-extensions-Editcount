@@ -19,12 +19,16 @@ $messages['en'] = array(
 	'editcount_total'    => 'Total',
 );
 
-/* Arabic (Meno25) */
+/** Arabic (العربية)
+ * @author Meno25
+ * @author Mimouni
+ */
 $messages['ar'] = array(
-	'editcount' => 'عداد المساهمات',
+	'editcount'          => 'عداد المساهمات',
+	'editcount-desc'     => 'يعرض [[Special:Editcount|عداد المساهمات]] لمستخدم',
 	'editcount_username' => 'مستخدم:',
-	'editcount_submit' => 'تنفيذ',
-	'editcount_total' => 'الإجمالي',
+	'editcount_submit'   => 'تنفيذ',
+	'editcount_total'    => 'الإجمالي',
 );
 
 $messages['bcl'] = array(
@@ -186,12 +190,15 @@ $messages['lt'] = array(
 	'editcount_total'    => 'Viso',
 );
 
-// nld / Dutch version by Siebrand Mazeland
+/** Dutch (Nederlands)
+ * @author Siebrand
+ */
 $messages['nl'] = array(
-	'editcount' => 'Bewerkingsteller',
+	'editcount'          => 'Bewerkingsteller',
+	'editcount-desc'     => 'Toont een [[Special:Editcount|bewerkingsteller]] voor een gebruiker',
 	'editcount_username' => 'Gebruiker:',
-	'editcount_submit' => 'OK',
-	'editcount_total' => 'Totaal',
+	'editcount_submit'   => 'OK',
+	'editcount_total'    => 'Totaal',
 );
 
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
@@ -237,12 +244,14 @@ $messages['pms'] = array(
 	'editcount_total' => 'Total',
 );
 
-// Portuguese (Lugusto)
+/** Portuguese (Português)
+ * @author Malafaya
+ */
 $messages['pt'] = array(
-	'editcount' => 'Contador de edições',
+	'editcount'          => 'Contador de edições',
+	'editcount-desc'     => 'Apresenta [[{{ns:special}}:Editcount|a contagem de edições]] de um utilizador',
 	'editcount_username' => 'Usuário:',
-	'editcount_submit' => 'Enviar',
-	'editcount_total' => 'Total',
+	'editcount_submit'   => 'Enviar',
 );
 
 $messages['rm'] = array(
