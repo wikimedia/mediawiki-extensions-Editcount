@@ -12,10 +12,11 @@ $messages = array();
  * @author Rob Church
  */
 $messages['en'] = array(
-	'editcount' => 'Edit count',
+	'editcount'          => 'Edit count',
+	'editcount-desc'     => 'Displays [[Special:Editcount|edit count]] of a user',
 	'editcount_username' => 'User:',
-	'editcount_submit' => 'Submit',
-	'editcount_total' => 'Total',
+	'editcount_submit'   => 'Submit',
+	'editcount_total'    => 'Total',
 );
 
 /* Arabic (Meno25) */
@@ -97,10 +98,11 @@ $messages['fi'] = array(
 
 // French Version by Bertrand Grondin
 $messages['fr'] = array(
-	'editcount' => 'Compteur d’éditions individuel',
+	'editcount'          => 'Compteur d’éditions individuel',
+	'editcount-desc'     => 'Affiche le [[Special:Editcount|compteur d’édition]] d’un utilisateur.',
 	'editcount_username' => 'Utilisateur :',
-	'editcount_submit' => 'Soumettre',
-	'editcount_total' => 'Total',
+	'editcount_submit'   => 'Soumettre',
+	'editcount_total'    => 'Total',
 );
 
 $messages['gl'] = array(

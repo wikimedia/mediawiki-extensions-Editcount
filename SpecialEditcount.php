@@ -18,6 +18,7 @@ $wgExtensionCredits['specialpage'][] = array(
 	'version' => '2008-01-11',
 	'author' => 'Ævar Arnfjörð Bjarmason',
 	'description' => 'Displays [[Special:Editcount|edit count]] of a user',
+	'descriptionmsg' => 'editcount-desc',
 	'url' => 'http://www.mediawiki.org/wiki/Extension:Editcount',
 );
 
