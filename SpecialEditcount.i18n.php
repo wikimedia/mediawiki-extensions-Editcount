@@ -252,6 +252,7 @@ $messages['pt'] = array(
 	'editcount-desc'     => 'Apresenta [[{{ns:special}}:Editcount|a contagem de edições]] de um utilizador',
 	'editcount_username' => 'Usuário:',
 	'editcount_submit'   => 'Enviar',
+	'editcount_total'    => 'Total',
 );
 
 $messages['rm'] = array(
@@ -278,12 +279,15 @@ $messages['sdc'] = array(
 	'editcount_total'    => 'Totari',
 );
 
-// Slovak version by helix84
+/** Slovak (Slovenčina)
+ * @author Helix84
+ */
 $messages['sk'] = array(
-	'editcount' => 'Počet príspevkov',
+	'editcount'          => 'Počet príspevkov',
+	'editcount-desc'     => 'Zobrazuje [[Special:Editcount|počet úprav]] používateľa',
 	'editcount_username' => 'Používateľ:',
-	'editcount_submit' => 'Odoslať',
-	'editcount_total' => 'Celkom',
+	'editcount_submit'   => 'Odoslať',
+	'editcount_total'    => 'Celkom',
 );
 
 // Serbian default version by Sasa Stefanovic
