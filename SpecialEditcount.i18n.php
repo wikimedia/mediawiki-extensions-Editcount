@@ -126,11 +126,15 @@ $messages['hr'] = array(
 	'editcount_total'    => 'Ukupno',
 );
 
+/** Upper Sorbian (Hornjoserbsce)
+ * @author Michawiki
+ */
 $messages['hsb'] = array(
-	'editcount' => 'Ličba změnow',
+	'editcount'          => 'Ličba změnow',
+	'editcount-desc'     => 'Zwobraznja [[Special:Editcount|ličbu změnow]] wužiwarja',
 	'editcount_username' => 'Wužiwar:',
-	'editcount_submit' => 'OK',
-	'editcount_total' => 'dohromady',
+	'editcount_submit'   => 'OK',
+	'editcount_total'    => 'dohromady',
 );
 
 /** Hungarian (Magyar)
@@ -367,3 +371,4 @@ $messages['zh-hant'] = array(
 	'editcount_submit' => '遞交',
 	'editcount_total' => '總數',
 );
+
