@@ -367,9 +367,3 @@ $messages['zh-hant'] = array(
 	'editcount_submit' => '遞交',
 	'editcount_total' => '總數',
 );
-
-$messages['zh'] = $messages['zh-hans'];
-$messages['zh-cn'] = $messages['zh-hans'];
-$messages['zh-hk'] = $messages['zh-hant'];
-$messages['zh-tw'] = $messages['zh-hant'];
-$messages['zh-yue'] = $messages['yue'];
