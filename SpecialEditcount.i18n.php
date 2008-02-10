@@ -332,6 +332,15 @@ $messages['stq'] = array(
 	'editcount_total'    => 'Mädnunner',
 );
 
+/** Swedish (Svenska)
+ * @author Max sonnelid
+ */
+$messages['sv'] = array(
+	'editcount'          => 'Redigerings räkning',
+	'editcount-desc'     => 'Visar [[Special:Editcount|redigerings räkning]] för en användare',
+	'editcount_username' => 'Användare:',
+);
+
 /** Turkish (Türkçe)
  * @author Karduelis
  */
