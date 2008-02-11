@@ -43,6 +43,7 @@ $messages['bcl'] = array(
  */
 $messages['bg'] = array(
 	'editcount'          => 'Броене на редакции',
+	'editcount-desc'     => 'Показва [[Special:Editcount|броя редакции]] на потребителя',
 	'editcount_username' => 'Потребител:',
 	'editcount_submit'   => 'Проверяване',
 	'editcount_total'    => 'Общо',
@@ -246,6 +247,14 @@ $messages['pms'] = array(
 	'editcount_username' => 'Stranòm:',
 	'editcount_submit' => 'Manda',
 	'editcount_total' => 'Total',
+);
+
+/** Pashto (پښتو)
+ * @author Ahmed-Najib-Biabani-Ibrahimkhel
+ */
+$messages['ps'] = array(
+	'editcount_username' => 'کارونکی:',
+	'editcount_total'    => 'ټولټال',
 );
 
 /** Portuguese (Português)
