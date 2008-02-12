@@ -76,6 +76,13 @@ $messages['de'] = array(
 	'editcount_total' => 'Gesamt',
 );
 
+/** Ewe (Eʋegbe)
+ * @author M.M.S.
+ */
+$messages['ee'] = array(
+	'editcount_username' => 'Ezãla:',
+);
+
 $messages['el'] = array(
 	'editcount_username' => 'Χρήστης:',
 );
@@ -222,6 +229,14 @@ $messages['no'] = array(
 	'editcount_username' => 'Bruker:',
 	'editcount_submit' => 'OK',
 	'editcount_total' => 'Totalt',
+);
+
+/** Northern Sotho (Sesotho sa Leboa)
+ * @author Mohau
+ */
+$messages['nso'] = array(
+	'editcount_username' => 'Mošomiši:',
+	'editcount_total'    => 'Yohle',
 );
 
 /** Occitan (Occitan)
