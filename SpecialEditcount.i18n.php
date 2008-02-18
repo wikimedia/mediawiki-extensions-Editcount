@@ -223,12 +223,15 @@ $messages['nn'] = array(
 	'editcount_total'    => 'Totalt',
 );
 
-// Norwegian (Jon Harald Søby)
+/** Norwegian (‪Norsk (bokmål)‬)
+ * @author Jon Harald Søby
+ */
 $messages['no'] = array(
-	'editcount' => 'Redigeringsteller',
+	'editcount'          => 'Redigeringsteller',
+	'editcount-desc'     => 'Viser [[Special:Editcount|redigeringsteller]] for en bruker',
 	'editcount_username' => 'Bruker:',
-	'editcount_submit' => 'OK',
-	'editcount_total' => 'Totalt',
+	'editcount_submit'   => 'OK',
+	'editcount_total'    => 'Totalt',
 );
 
 /** Northern Sotho (Sesotho sa Leboa)
@@ -359,11 +362,20 @@ $messages['stq'] = array(
 
 /** Swedish (Svenska)
  * @author Max sonnelid
+ * @author M.M.S.
  */
 $messages['sv'] = array(
 	'editcount'          => 'Redigerings räkning',
 	'editcount-desc'     => 'Visar [[Special:Editcount|redigerings räkning]] för en användare',
 	'editcount_username' => 'Användare:',
+	'editcount_total'    => 'Total',
+);
+
+/** Telugu (తెలుగు)
+ * @author Veeven
+ */
+$messages['te'] = array(
+	'editcount_username' => 'వాడుకరి:',
 );
 
 /** Turkish (Türkçe)
