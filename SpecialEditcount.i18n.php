@@ -194,9 +194,11 @@ $messages['lb'] = array(
 
 /** Lithuanian (Lietuvių)
  * @author Matasg
+ * @author Hugo.arg
  */
 $messages['lt'] = array(
 	'editcount'          => 'Naudotojo indėlis',
+	'editcount-desc'     => 'Rodo naudotojo [[Special:Editcount|keitimų skaičių]]',
 	'editcount_username' => 'Naudotojas:',
 	'editcount_submit'   => 'Patvirtinti',
 	'editcount_total'    => 'Viso',
@@ -376,6 +378,7 @@ $messages['sv'] = array(
  */
 $messages['te'] = array(
 	'editcount_username' => 'వాడుకరి:',
+	'editcount_total'    => 'మొత్తం',
 );
 
 /** Turkish (Türkçe)
