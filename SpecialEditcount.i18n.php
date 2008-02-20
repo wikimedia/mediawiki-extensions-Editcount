@@ -117,11 +117,16 @@ $messages['fr'] = array(
 	'editcount_total'    => 'Total',
 );
 
+/** Galician (Galego)
+ * @author Xosé
+ * @author Alma
+ */
 $messages['gl'] = array(
-	'editcount' => 'Total de edicións',
+	'editcount'          => 'Total de edicións',
+	'editcount-desc'     => 'Mostra [[Special:Editcount|a conta de edicións]] dun usuario',
 	'editcount_username' => 'Usuario:',
-	'editcount_submit' => 'Enviar',
-	'editcount_total' => 'Total',#identical but defined
+	'editcount_submit'   => 'Enviar',
+	'editcount_total'    => 'Total',
 );
 
 /** Croatian (Hrvatski)
