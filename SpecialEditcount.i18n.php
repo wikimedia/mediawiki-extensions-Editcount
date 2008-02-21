@@ -8,7 +8,7 @@
 
 $messages = array();
 
-/* English
+/** English
  * @author Rob Church
  */
 $messages['en'] = array(
@@ -68,12 +68,16 @@ $messages['ca'] = array(
 	'editcount_username' => 'Usuari:',
 );
 
-// German by Leon Weber
+/** German (Deutsch)
+  * @author Leon Weber
+  * @author Raimond Spekking
+ */
 $messages['de'] = array(
-	'editcount' => 'Anzahl der Seitenbearbeitungen',
+	'editcount'          => 'Anzahl der Seitenbearbeitungen',
+	'editcount-desc'     => 'Zeigt die [[Special:Editcount|Anzahl der Bearbeitungen]] eines Benutzers',
 	'editcount_username' => 'Benutzer:',
-	'editcount_submit' => 'Absenden',
-	'editcount_total' => 'Gesamt',
+	'editcount_submit'   => 'Absenden',
+	'editcount_total'    => 'Gesamt',
 );
 
 /** Ewe (Eʋegbe)
