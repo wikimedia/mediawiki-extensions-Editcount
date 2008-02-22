@@ -304,9 +304,11 @@ $messages['rm'] = array(
 
 /** Russian (Русский)
  * @author VasilievVV
+ * @author .:Ajvol:.
  */
 $messages['ru'] = array(
 	'editcount'          => 'Счётчик правок',
+	'editcount-desc'     => 'Показывает [[Special:Editcount|количество правок]] участника',
 	'editcount_username' => 'Участник:',
 	'editcount_submit'   => 'Посчитать',
 	'editcount_total'    => 'Всего',
@@ -396,6 +398,17 @@ $messages['te'] = array(
 $messages['tr'] = array(
 	'editcount_username' => 'Kullanıcı:',
 	'editcount_total'    => 'Toplam',
+);
+
+/** Vietnamese (Tiếng Việt)
+ * @author Minh Nguyen
+ */
+$messages['vi'] = array(
+	'editcount'          => 'Số lần sửa đổi',
+	'editcount-desc'     => 'Hiển thị [[Special:Editcount|số lần sửa đổi]] của một người dùng',
+	'editcount_username' => 'Thành viên:',
+	'editcount_submit'   => 'Hiển thị',
+	'editcount_total'    => 'Tổng cộng',
 );
 
 /** Volapük (Volapük)
