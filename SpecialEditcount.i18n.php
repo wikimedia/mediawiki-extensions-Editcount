@@ -187,6 +187,17 @@ $messages['it'] = array(
 	'editcount_total' => 'Totale',
 );
 
+/** Khmer (ភាសាខ្មែរ)
+ * @author Chhorran
+ */
+$messages['km'] = array(
+	'editcount'          => 'របាប់កំណែប្រែ',
+	'editcount-desc'     => 'បង្ហាញ [[Special:Editcount|របាប់កំណែប្រែ]] នៃអ្នកប្រើប្រាស់ ម្នាក់',
+	'editcount_username' => 'អ្នកប្រើប្រាស់ ៖',
+	'editcount_submit'   => 'ដាក់ស្នើ',
+	'editcount_total'    => 'សរុប',
+);
+
 $messages['la'] = array(
 	'editcount_username' => 'Usor:',
 );
@@ -381,6 +392,7 @@ $messages['sv'] = array(
 	'editcount'          => 'Redigerings räkning',
 	'editcount-desc'     => 'Visar [[Special:Editcount|redigerings räkning]] för en användare',
 	'editcount_username' => 'Användare:',
+	'editcount_submit'   => 'Räkna',
 	'editcount_total'    => 'Total',
 );
 
