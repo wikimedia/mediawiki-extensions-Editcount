@@ -179,6 +179,13 @@ $messages['id'] = array(
 	'editcount_total' => 'Total',
 );
 
+/** Icelandic (Íslenska)
+ * @author SPQRobin
+ */
+$messages['is'] = array(
+	'editcount_username' => 'Notandi:',
+);
+
 // Italian Version by BrokenArrow
 $messages['it'] = array(
 	'editcount' => 'Conteggio delle modifiche',
