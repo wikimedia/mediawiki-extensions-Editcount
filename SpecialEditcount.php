@@ -15,7 +15,7 @@ if (!defined('MEDIAWIKI')) die();
 
 $wgExtensionCredits['specialpage'][] = array(
 	'name' => 'Editcount',
-	'version' => '2008-01-11',
+	'version' => preg_replace('/^.* (\d\d\d\d-\d\d-\d\d) .*$/', '\1', '$LastChangedDate$'), #just the date of the last change
 	'author' => 'Ævar Arnfjörð Bjarmason',
 	'description' => 'Displays [[Special:Editcount|edit count]] of a user',
 	'descriptionmsg' => 'editcount-desc',
