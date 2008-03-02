@@ -91,11 +91,16 @@ $messages['el'] = array(
 	'editcount_username' => 'Χρήστης:',
 );
 
+/** Esperanto (Esperanto)
+ * @author Tlustulimu
+ * @author Yekrats
+ */
 $messages['eo'] = array(
-	'editcount' => 'Redakta nombro',
+	'editcount'          => 'Redakta nombro',
+	'editcount-desc'     => 'Montras [[Special:Editcount|nombron de redaktoj]] de uzanto',
 	'editcount_username' => 'Uzanto:',
-	'editcount_submit' => 'Ek',
-	'editcount_total' => 'Tute',
+	'editcount_submit'   => 'Ek',
+	'editcount_total'    => 'Tute',
 );
 
 $messages['ext'] = array(
@@ -192,6 +197,17 @@ $messages['it'] = array(
 	'editcount_username' => 'Utente:',
 	'editcount_submit' => 'Invia',
 	'editcount_total' => 'Totale',
+);
+
+/** Japanese (日本語)
+ * @author JtFuruhata
+ */
+$messages['ja'] = array(
+	'editcount'          => '編集回数',
+	'editcount-desc'     => 'ある利用者の[[Special:Editcount|編集回数]]を表示する',
+	'editcount_username' => '利用者:',
+	'editcount_submit'   => '表示',
+	'editcount_total'    => '合計',
 );
 
 /** Khmer (ភាសាខ្មែរ)
