@@ -423,6 +423,8 @@ $messages['sv'] = array(
  * @author Veeven
  */
 $messages['te'] = array(
+	'editcount'          => 'మార్పుల సంఖ్య',
+	'editcount-desc'     => 'వాడుకరి యొక్క [[Special:Editcount|మార్పుల సంఖ్య]]ని చూపిస్తుంది',
 	'editcount_username' => 'వాడుకరి:',
 	'editcount_total'    => 'మొత్తం',
 );
