@@ -252,7 +252,7 @@ $messages['lt'] = array(
  */
 $messages['nl'] = array(
 	'editcount'          => 'Bewerkingsteller',
-	'editcount-desc'     => 'Toont een [[Special:Editcount|bewerkingsteller]] voor een gebruiker',
+	'editcount-desc'     => 'Geeft een [[Special:Editcount|bewerkingsteller]] weer voor een gebruiker',
 	'editcount_username' => 'Gebruiker:',
 	'editcount_submit'   => 'OK',
 	'editcount_total'    => 'Totaal',
@@ -298,11 +298,16 @@ $messages['oc'] = array(
 	'editcount_total'    => 'Soma',
 );
 
+/** Polish (Polski)
+ * @author Derbeth
+ * @author McMonster
+ */
 $messages['pl'] = array(
-	'editcount' => 'Licznik edycji',
+	'editcount'          => 'Licznik edycji',
+	'editcount-desc'     => 'Wyświetla [[Special:Editcount|liczbę edycji]] użytkownika',
 	'editcount_username' => 'Użytkownik',
-	'editcount_submit' => 'Wyślij',
-	'editcount_total' => 'Razem',
+	'editcount_submit'   => 'Wyślij',
+	'editcount_total'    => 'Razem',
 );
 
 /* Piedmontese (Bèrto 'd Sèra) */
@@ -408,12 +413,12 @@ $messages['stq'] = array(
 );
 
 /** Swedish (Svenska)
- * @author Max sonnelid
  * @author M.M.S.
+ * @author Lejonel
  */
 $messages['sv'] = array(
-	'editcount'          => 'Redigerings räkning',
-	'editcount-desc'     => 'Visar [[Special:Editcount|redigerings räkning]] för en användare',
+	'editcount'          => 'Redigeringsräknare',
+	'editcount-desc'     => 'Visar [[Special:Editcount|antalet redigeringar]] som en användare gjort',
 	'editcount_username' => 'Användare:',
 	'editcount_submit'   => 'Räkna',
 	'editcount_total'    => 'Total',
@@ -426,6 +431,7 @@ $messages['te'] = array(
 	'editcount'          => 'మార్పుల సంఖ్య',
 	'editcount-desc'     => 'వాడుకరి యొక్క [[Special:Editcount|మార్పుల సంఖ్య]]ని చూపిస్తుంది',
 	'editcount_username' => 'వాడుకరి:',
+	'editcount_submit'   => 'దాఖలుచెయ్యి',
 	'editcount_total'    => 'మొత్తం',
 );
 
