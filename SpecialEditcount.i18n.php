@@ -435,6 +435,13 @@ $messages['te'] = array(
 	'editcount_total'    => 'మొత్తం',
 );
 
+/** Tajik (Тоҷикӣ)
+ * @author Ibrahim
+ */
+$messages['tg'] = array(
+	'editcount_username' => 'Корбар:',
+);
+
 /** Turkish (Türkçe)
  * @author Karduelis
  */
