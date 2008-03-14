@@ -212,9 +212,10 @@ $messages['ja'] = array(
 
 /** Khmer (ភាសាខ្មែរ)
  * @author Chhorran
+ * @author Lovekhmer
  */
 $messages['km'] = array(
-	'editcount'          => 'របាប់កំណែប្រែ',
+	'editcount'          => 'ចំនួនកំនែប្រែ',
 	'editcount-desc'     => 'បង្ហាញ [[Special:Editcount|របាប់កំណែប្រែ]] នៃអ្នកប្រើប្រាស់ ម្នាក់',
 	'editcount_username' => 'អ្នកប្រើប្រាស់ ៖',
 	'editcount_submit'   => 'ដាក់ស្នើ',
