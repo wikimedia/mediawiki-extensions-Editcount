@@ -248,6 +248,17 @@ $messages['lt'] = array(
 	'editcount_total'    => 'Viso',
 );
 
+/** Marathi (मराठी)
+ * @author Kaustubh
+ */
+$messages['mr'] = array(
+	'editcount'          => 'संपादन संख्या',
+	'editcount-desc'     => 'एखाद्या सदस्याची [[Special:Editcount|संपादन संख्या]] दर्शविते',
+	'editcount_username' => 'सदस्य:',
+	'editcount_submit'   => 'पाठवा',
+	'editcount_total'    => 'एकूण',
+);
+
 /** Dutch (Nederlands)
  * @author Siebrand
  */
