@@ -232,7 +232,7 @@ $messages['la'] = array(
 $messages['lb'] = array(
 	'editcount'          => 'Zuel vun de Säitenännerungen',
 	'editcount_username' => 'Benotzer:',
-	'editcount_submit'   => 'Ofschécken',
+	'editcount_submit'   => 'Späicheren',
 	'editcount_total'    => 'Total',
 );
 
