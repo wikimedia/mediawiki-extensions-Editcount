@@ -68,6 +68,13 @@ $messages['ca'] = array(
 	'editcount_username' => 'Usuari:',
 );
 
+/** Danish (Dansk)
+ * @author Jon Harald Søby
+ */
+$messages['da'] = array(
+	'editcount_username' => 'Bruger:',
+);
+
 /** German (Deutsch)
   * @author Leon Weber
   * @author Raimond Spekking
