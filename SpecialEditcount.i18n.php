@@ -490,25 +490,26 @@ $messages['vo'] = array(
 
 // Cantonese Version by Shinjiman
 $messages['yue'] = array(
-	'editcount' => '編輯次數',
+	'editcount'          => '編輯次數',
 	'editcount_username' => '用戶:',
-	'editcount_submit' => '遞交',
-	'editcount_total' => '總數',
+	'editcount_submit'   => '遞交',
+	'editcount_total'    => '總數',
 );
 
 // Chinese (Simplified) Version by Shinjiman
 $messages['zh-hans'] = array(
-	'editcount' => '编辑次数',
+	'editcount'          => '编辑次数',
+	'editcount-desc'     => '显示一個用户的[[Special:Editcount|编辑次数]]',
 	'editcount_username' => '用户:',
-	'editcount_submit' => '提交',
-	'editcount_total' => '总数',
+	'editcount_submit'   => '提交',
+	'editcount_total'    => '总数',
 );
 
 // Chinese (Traditional) Version by Shinjiman
 $messages['zh-hant'] = array(
-	'editcount' => '編輯次數',
+	'editcount'          => '編輯次數',
+	'editcount-desc'     => '顯示一個使用者的[[Special:Editcount|編輯次數]]',
 	'editcount_username' => '用戶:',
-	'editcount_submit' => '遞交',
-	'editcount_total' => '總數',
+	'editcount_submit'   => '遞交',
+	'editcount_total'    => '總數',
 );
-
