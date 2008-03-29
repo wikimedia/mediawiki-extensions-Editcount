@@ -238,6 +238,7 @@ $messages['la'] = array(
  */
 $messages['lb'] = array(
 	'editcount'          => 'Zuel vun de Säitenännerungen',
+	'editcount-desc'     => "Weist d'[[Special:Editcount|Zuel vun den Ännerunge]] vun engem Benotzer",
 	'editcount_username' => 'Benotzer:',
 	'editcount_submit'   => 'Späicheren',
 	'editcount_total'    => 'Total',
@@ -253,6 +254,13 @@ $messages['lt'] = array(
 	'editcount_username' => 'Naudotojas:',
 	'editcount_submit'   => 'Patvirtinti',
 	'editcount_total'    => 'Viso',
+);
+
+/** Malayalam (മലയാളം)
+ * @author Shijualex
+ */
+$messages['ml'] = array(
+	'editcount_submit' => 'സമര്‍പ്പിക്കുക',
 );
 
 /** Marathi (मराठी)
@@ -514,3 +522,4 @@ $messages['zh-hant'] = array(
 	'editcount_submit'   => '遞交',
 	'editcount_total'    => '總數',
 );
+
