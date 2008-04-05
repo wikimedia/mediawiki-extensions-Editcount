@@ -19,6 +19,13 @@ $messages['en'] = array(
 	'editcount_total'    => 'Total',
 );
 
+/** Aragonese (Aragonés)
+ * @author Juanpabl
+ */
+$messages['an'] = array(
+	'editcount_submit' => 'Nimbiar',
+);
+
 /** Arabic (العربية)
  * @author Meno25
  * @author Mimouni
