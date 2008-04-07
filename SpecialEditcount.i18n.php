@@ -469,11 +469,12 @@ $messages['te'] = array(
 	'editcount_total'    => 'మొత్తం',
 );
 
-/** Tajik (Тоҷикӣ)
+/** Tajik (Cyrillic) (Тоҷикӣ/tojikī (Cyrillic))
  * @author Ibrahim
  */
 $messages['tg-cyrl'] = array(
 	'editcount_username' => 'Корбар:',
+	'editcount_submit'   => 'Ирсол',
 );
 
 /** Turkish (Türkçe)
