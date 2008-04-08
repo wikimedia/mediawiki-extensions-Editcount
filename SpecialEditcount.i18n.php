@@ -224,6 +224,13 @@ $messages['ja'] = array(
 	'editcount_total'    => '合計',
 );
 
+/** Javanese (Basa Jawa)
+ * @author Meursault2004
+ */
+$messages['jv'] = array(
+	'editcount_submit' => 'Kirim',
+);
+
 /** Khmer (ភាសាខ្មែរ)
  * @author Chhorran
  * @author Lovekhmer
