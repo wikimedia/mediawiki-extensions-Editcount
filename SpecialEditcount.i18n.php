@@ -152,6 +152,17 @@ $messages['gl'] = array(
 	'editcount_total'    => 'Total',
 );
 
+/** Hindi (हिन्दी)
+ * @author Kaustubh
+ */
+$messages['hi'] = array(
+	'editcount'          => 'संपादन संख्या',
+	'editcount-desc'     => 'सदस्यकी [[Special:Editcount|संपादन संख्या]] दर्शाता हैं',
+	'editcount_username' => 'सदस्य:',
+	'editcount_submit'   => 'भेजें',
+	'editcount_total'    => 'कुल',
+);
+
 /** Croatian (Hrvatski)
  * @author Dnik
  */
