@@ -503,6 +503,17 @@ $messages['tr'] = array(
 	'editcount_total'    => 'Toplam',
 );
 
+/** Ukrainian (Українська)
+ * @author Ahonc
+ */
+$messages['uk'] = array(
+	'editcount'          => 'Лічильник редагувань',
+	'editcount-desc'     => 'Показує [[Special:Editcount|кількість редагувань]] користувача',
+	'editcount_username' => 'Користувач:',
+	'editcount_submit'   => 'Порахувати',
+	'editcount_total'    => 'Усього',
+);
+
 /** Vietnamese (Tiếng Việt)
  * @author Minh Nguyen
  */
