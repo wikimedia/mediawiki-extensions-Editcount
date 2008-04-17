@@ -152,6 +152,15 @@ $messages['gl'] = array(
 	'editcount_total'    => 'Total',
 );
 
+/** Manx (Gaelg)
+ * @author MacTire02
+ */
+$messages['gv'] = array(
+	'editcount_username' => 'Ymmydeyr:',
+	'editcount_submit'   => 'Cur roish',
+	'editcount_total'    => 'Yn clane',
+);
+
 /** Hindi (हिन्दी)
  * @author Kaustubh
  */
