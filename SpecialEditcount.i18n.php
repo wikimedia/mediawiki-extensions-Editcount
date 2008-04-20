@@ -251,6 +251,13 @@ $messages['jv'] = array(
 	'editcount_submit' => 'Kirim',
 );
 
+/** Georgian (ქართული)
+ * @author Malafaya
+ */
+$messages['ka'] = array(
+	'editcount_username' => 'მომხმარებელი:',
+);
+
 /** Khmer (ភាសាខ្មែរ)
  * @author Chhorran
  * @author Lovekhmer
@@ -354,7 +361,7 @@ $messages['nso'] = array(
 $messages['oc'] = array(
 	'editcount'          => "Comptaire d'edicions individual",
 	'editcount-desc'     => 'Aficha lo [[Special:Editcount|comptaire d’edicion]] d’un utilizaire.',
-	'editcount_username' => 'Utilizaire:',
+	'editcount_username' => 'Utilizaire :',
 	'editcount_submit'   => 'Sometre',
 	'editcount_total'    => 'Soma',
 );
@@ -393,7 +400,7 @@ $messages['ps'] = array(
 $messages['pt'] = array(
 	'editcount'          => 'Contador de edições',
 	'editcount-desc'     => 'Apresenta [[{{ns:special}}:Editcount|a contagem de edições]] de um utilizador',
-	'editcount_username' => 'Usuário:',
+	'editcount_username' => 'Utilizador:',
 	'editcount_submit'   => 'Enviar',
 	'editcount_total'    => 'Total',
 );
