@@ -38,6 +38,17 @@ $messages['ar'] = array(
 	'editcount_total'    => 'الإجمالي',
 );
 
+/** Kotava (Kotava)
+ * @author Wikimistusik
+ */
+$messages['avk'] = array(
+	'editcount'          => 'Betaksota',
+	'editcount-desc'     => 'Va favesikafa [[Special:Editcount|betaksota]] nedir',
+	'editcount_username' => 'Favesik :',
+	'editcount_submit'   => 'Staksera',
+	'editcount_total'    => 'Itaya',
+);
+
 $messages['bcl'] = array(
 	'editcount' => 'Hirahón an bilang',
 	'editcount_username' => 'Parágamit:',
@@ -301,7 +312,8 @@ $messages['lt'] = array(
  * @author Shijualex
  */
 $messages['ml'] = array(
-	'editcount_submit' => 'സമര്‍പ്പിക്കുക',
+	'editcount_username' => 'ഉപയോക്താവ്:',
+	'editcount_submit'   => 'സമര്‍പ്പിക്കുക',
 );
 
 /** Marathi (मराठी)
@@ -490,6 +502,13 @@ $messages['sv'] = array(
 	'editcount_username' => 'Användare:',
 	'editcount_submit'   => 'Räkna',
 	'editcount_total'    => 'Total',
+);
+
+/** Silesian (Ślůnski)
+ * @author Herr Kriss
+ */
+$messages['szl'] = array(
+	'editcount_total' => 'Do kupy',
 );
 
 /** Telugu (తెలుగు)
