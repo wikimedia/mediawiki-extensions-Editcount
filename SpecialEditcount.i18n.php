@@ -259,7 +259,9 @@ $messages['ja'] = array(
  * @author Meursault2004
  */
 $messages['jv'] = array(
+	'editcount'        => 'Cacahé suntingan',
 	'editcount_submit' => 'Kirim',
+	'editcount_total'  => 'Gunggung',
 );
 
 /** Georgian (ქართული)
