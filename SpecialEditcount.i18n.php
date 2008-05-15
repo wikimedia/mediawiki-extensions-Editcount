@@ -320,6 +320,7 @@ $messages['ml'] = array(
 	'editcount-desc'     => 'ഒരു ഉപയോക്താവിന്റെ [[Special:Editcount|തിരുത്തലുകളുടെ എണ്ണം]] പ്രദര്‍ശിപ്പിക്കുന്നു',
 	'editcount_username' => 'ഉപയോക്താവ്:',
 	'editcount_submit'   => 'സമര്‍പ്പിക്കുക',
+	'editcount_total'    => 'മൊത്തം',
 );
 
 /** Marathi (मराठी)
@@ -553,6 +554,17 @@ $messages['uk'] = array(
 	'editcount_username' => 'Користувач:',
 	'editcount_submit'   => 'Порахувати',
 	'editcount_total'    => 'Усього',
+);
+
+/** Vèneto (Vèneto)
+ * @author Candalua
+ */
+$messages['vec'] = array(
+	'editcount'          => 'Contegio dei contributi',
+	'editcount-desc'     => 'Mostra [[Special:Editcount|el contegio dei contributi]] de un utente',
+	'editcount_username' => 'Utente:',
+	'editcount_submit'   => 'Invia',
+	'editcount_total'    => 'Totale',
 );
 
 /** Vietnamese (Tiếng Việt)
