@@ -19,6 +19,14 @@ $messages['en'] = array(
 	'editcount_total'    => 'Total',
 );
 
+/** Afrikaans (Afrikaans)
+ * @author Arnobarnard
+ */
+$messages['af'] = array(
+	'editcount_username' => 'Gebruiker:',
+	'editcount_total'    => 'Totaal',
+);
+
 /** Aragonese (Aragonés)
  * @author Juanpabl
  */
