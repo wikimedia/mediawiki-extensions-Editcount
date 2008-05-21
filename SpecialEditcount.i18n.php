@@ -438,7 +438,7 @@ $messages['rm'] = array(
 
 /** Russian (Русский)
  * @author VasilievVV
- * @author .:Ajvol:.
+ * @author Александр Сигачёв
  */
 $messages['ru'] = array(
 	'editcount'          => 'Счётчик правок',
