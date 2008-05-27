@@ -293,6 +293,15 @@ $messages['km'] = array(
 	'editcount_total'    => 'សរុប',
 );
 
+/** Ripoarisch (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'editcount_username' => 'Metmaacher Name:',
+	'editcount_submit'   => 'Loß Jonn!',
+	'editcount_total'    => 'Zosamme',
+);
+
 $messages['la'] = array(
 	'editcount_username' => 'Usor:',
 );
