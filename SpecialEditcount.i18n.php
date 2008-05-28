@@ -94,6 +94,13 @@ $messages['ca'] = array(
 	'editcount_username' => 'Usuari:',
 );
 
+/** Church Slavic (Словѣньскъ)
+ * @author ОйЛ
+ */
+$messages['cu'] = array(
+	'editcount_username' => 'по́льꙃєватєл҄ь :',
+);
+
 /** Danish (Dansk)
  * @author Jon Harald Søby
  */
