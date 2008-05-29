@@ -402,8 +402,8 @@ $messages['nso'] = array(
  * @author Cedric31
  */
 $messages['oc'] = array(
-	'editcount'          => "Comptaire d'edicions individual",
-	'editcount-desc'     => 'Aficha lo [[Special:Editcount|comptaire d’edicion]] d’un utilizaire.',
+	'editcount'          => "Comptador d'edicions individual",
+	'editcount-desc'     => 'Aficha lo [[Special:Editcount|comptador d’edicion]] d’un utilizaire.',
 	'editcount_username' => 'Utilizaire :',
 	'editcount_submit'   => 'Sometre',
 	'editcount_total'    => 'Soma',
