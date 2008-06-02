@@ -358,6 +358,13 @@ $messages['mr'] = array(
 	'editcount_total'    => 'एकूण',
 );
 
+/** Low German (Plattdüütsch)
+ * @author Slomox
+ */
+$messages['nds'] = array(
+	'editcount_username' => 'Bruker:',
+);
+
 /** Dutch (Nederlands)
  * @author Siebrand
  */
@@ -521,6 +528,17 @@ $messages['stq'] = array(
 	'editcount_username' => 'Benutser:',
 	'editcount_submit'   => 'Ouseende',
 	'editcount_total'    => 'Mädnunner',
+);
+
+/** Sundanese (Basa Sunda)
+ * @author Irwangatot
+ */
+$messages['su'] = array(
+	'editcount'          => 'Jumlah Éditan',
+	'editcount-desc'     => 'Tembongkeun [[Special:Editcount|jumlah éditan]] pamaké',
+	'editcount_username' => 'Pamaké:',
+	'editcount_submit'   => 'Kintun',
+	'editcount_total'    => 'Total',
 );
 
 /** Swedish (Svenska)
