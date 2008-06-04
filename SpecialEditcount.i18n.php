@@ -358,6 +358,13 @@ $messages['mr'] = array(
 	'editcount_total'    => 'एकूण',
 );
 
+/** Malay (Bahasa Melayu)
+ * @author Aurora
+ */
+$messages['ms'] = array(
+	'editcount_username' => 'Pengguna:',
+);
+
 /** Low German (Plattdüütsch)
  * @author Slomox
  */
