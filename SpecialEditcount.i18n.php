@@ -94,7 +94,7 @@ $messages['ca'] = array(
 	'editcount_username' => 'Usuari:',
 );
 
-/** Church Slavic (Словѣньскъ)
+/** Church Slavic (Словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
  * @author ОйЛ
  */
 $messages['cu'] = array(
