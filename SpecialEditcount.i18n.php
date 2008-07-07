@@ -120,6 +120,17 @@ $messages['de'] = array(
 	'editcount_total'    => 'Gesamt',
 );
 
+/** Lower Sorbian (Dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'editcount'          => 'Licba změnow',
+	'editcount-desc'     => 'Pokazujo [[Special:Editcount|licbu změnow]] wužywarja',
+	'editcount_username' => 'Wužywaŕ:',
+	'editcount_submit'   => 'Wótpósłaś',
+	'editcount_total'    => 'Dogromady',
+);
+
 /** Ewe (Eʋegbe)
  * @author M.M.S.
  */
