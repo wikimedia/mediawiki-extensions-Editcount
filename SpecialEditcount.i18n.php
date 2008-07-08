@@ -168,13 +168,15 @@ $messages['fi'] = array(
 	'editcount_total'    => 'Yhteensä',
 );
 
-// French Version by Bertrand Grondin
+/** French (Français)
+ * @author Louperivois
+ * @author Bertrand Grondin
+ */
 $messages['fr'] = array(
 	'editcount'          => 'Compteur d’éditions individuel',
-	'editcount-desc'     => 'Affiche le [[Special:Editcount|compteur d’édition]] d’un utilisateur.',
+	'editcount-desc'     => 'Affiche le [[Special:Editcount|compteur d’édition]] d’un utilisateur',
 	'editcount_username' => 'Utilisateur :',
 	'editcount_submit'   => 'Soumettre',
-	'editcount_total'    => 'Total',
 );
 
 /** Galician (Galego)
