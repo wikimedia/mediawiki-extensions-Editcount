@@ -38,7 +38,7 @@ $aliases['fr'] = array(
  * @author Rotem Liss
  */
 $aliases['he'] = array(
-    'Editcount' => array( 'מספר_עריכות' ),
+	'Editcount' => array( 'מספר_עריכות' ),
 );
 
 /** Croatian (Hrvatski) */
@@ -66,11 +66,11 @@ $aliases['nl'] = array(
 	'Editcount' => array( 'Bewerkingsteller' ),
 );
 
-/** Norwegian (Norsk (bokmål))
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
  * @author Jon Harald Søby
  */
 $aliases['no'] = array(
-    'Editcount' => array( 'Redigeringsteller' ),
+	'Editcount' => array( 'Redigeringsteller' ),
 );
 
 /** Swedish (Svenska) */
