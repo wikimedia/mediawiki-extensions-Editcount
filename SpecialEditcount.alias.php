@@ -56,6 +56,11 @@ $aliases['hu'] = array(
 	'Editcount' => array( 'Szerkesztések száma' ),
 );
 
+/** Luxembourgish (Lëtzebuergesch) */
+$aliases['lb'] = array(
+	'Editcount' => array( 'ännerungen zielen' ),
+);
+
 /** Malay (Bahasa Melayu) */
 $aliases['ms'] = array(
 	'Editcount' => array( 'Jumlah_suntingan' ),
