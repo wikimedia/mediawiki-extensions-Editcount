@@ -34,6 +34,11 @@ $aliases['fr'] = array(
 	'Editcount' => array( 'CompteurÉdition', 'CompteurEdition' ),
 );
 
+/** Galician (Galego) */
+$aliases['gl'] = array(
+	'Editcount' => array( 'Contador de edicións' ),
+);
+
 /** Hebrew (עברית)
  * @author Rotem Liss
  */
