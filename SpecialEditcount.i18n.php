@@ -500,7 +500,7 @@ $messages['ps'] = array(
  */
 $messages['pt'] = array(
 	'editcount'          => 'Contador de edições',
-	'editcount-desc'     => 'Apresenta [[{{ns:special}}:Editcount|a contagem de edições]] de um utilizador',
+	'editcount-desc'     => 'Apresenta [[Special:Editcount|a contagem de edições]] de um utilizador',
 	'editcount_username' => 'Utilizador:',
 	'editcount_submit'   => 'Enviar',
 	'editcount_total'    => 'Total',
