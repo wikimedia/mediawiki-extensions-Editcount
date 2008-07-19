@@ -290,9 +290,11 @@ $messages['is'] = array(
 
 /** Italian (Italiano)
  * @author BrokenArrow
+ * @author Darth Kule
  */
 $messages['it'] = array(
 	'editcount'          => 'Conteggio delle modifiche',
+	'editcount-desc'     => 'Mostra il [[Special:Editcount|conteggio dei contributi]] di un utente',
 	'editcount_username' => 'Utente:',
 	'editcount_submit'   => 'Invia',
 	'editcount_total'    => 'Totale',
@@ -405,6 +407,17 @@ $messages['mr'] = array(
  */
 $messages['ms'] = array(
 	'editcount_username' => 'Pengguna:',
+);
+
+/** Maltese (Malti)
+ * @author Chrisportelli
+ */
+$messages['mt'] = array(
+	'editcount'          => 'Kont tal-modifiki',
+	'editcount-desc'     => "Juri l-[[Special:Editcount|kont tal-modifiki]] ta' utent",
+	'editcount_username' => 'Utent:',
+	'editcount_submit'   => 'Ibgħat',
+	'editcount_total'    => 'Total',
 );
 
 /** Low German (Plattdüütsch)
