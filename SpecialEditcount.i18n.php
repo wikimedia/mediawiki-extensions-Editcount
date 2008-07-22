@@ -420,6 +420,13 @@ $messages['mt'] = array(
 	'editcount_total'    => 'Total',
 );
 
+/** Nahuatl (Nahuatl)
+ * @author Fluence
+ */
+$messages['nah'] = array(
+	'editcount_username' => 'Tlatēquitiltilīlli:',
+);
+
 /** Low German (Plattdüütsch)
  * @author Slomox
  */
@@ -524,6 +531,14 @@ $messages['pt'] = array(
  */
 $messages['rm'] = array(
 	'editcount_username' => 'Utilisader:',
+);
+
+/** Romanian (Română)
+ * @author KlaudiuMihaila
+ */
+$messages['ro'] = array(
+	'editcount_username' => 'Utilizator:',
+	'editcount_total'    => 'Total',
 );
 
 /** Russian (Русский)
