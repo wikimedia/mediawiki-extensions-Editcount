@@ -71,6 +71,11 @@ $aliases['ms'] = array(
 	'Editcount' => array( 'Jumlah_suntingan' ),
 );
 
+/** Nahuatl (Nahuatl) */
+$aliases['nah'] = array(
+	'Editcount' => array( 'TlapatlaliztliTlapōhualiztli' ),
+);
+
 /** Dutch (Nederlands) */
 $aliases['nl'] = array(
 	'Editcount' => array( 'Bewerkingsteller' ),
@@ -81,6 +86,16 @@ $aliases['nl'] = array(
  */
 $aliases['no'] = array(
 	'Editcount' => array( 'Redigeringsteller' ),
+);
+
+/** Portuguese (Português) */
+$aliases['pt'] = array(
+	'Editcount' => array( 'Contador de edições' ),
+);
+
+/** Brazilian Portuguese (Português do Brasil) */
+$aliases['pt-br'] = array(
+	'Editcount' => array( 'Contador de edições' ),
 );
 
 /** Swedish (Svenska) */
