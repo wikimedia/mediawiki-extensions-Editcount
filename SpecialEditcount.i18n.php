@@ -424,7 +424,11 @@ $messages['mt'] = array(
  * @author Fluence
  */
 $messages['nah'] = array(
+	'editcount'          => 'Tlapatlaliztli tlapōhualli',
+	'editcount-desc'     => 'Quinēxtīz cē tlatēquitiltilīlli [[Special:Editcount|ītlapatlaliz tlapōhualli]]',
 	'editcount_username' => 'Tlatēquitiltilīlli:',
+	'editcount_submit'   => 'Tiquihuāz',
+	'editcount_total'    => 'Mochīntīn',
 );
 
 /** Low German (Plattdüütsch)
