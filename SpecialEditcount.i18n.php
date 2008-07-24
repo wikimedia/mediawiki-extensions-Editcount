@@ -425,8 +425,8 @@ $messages['mt'] = array(
  */
 $messages['nah'] = array(
 	'editcount'          => 'Tlapatlaliztli tlapōhualli',
-	'editcount-desc'     => 'Quinēxtīz cē tlatēquitiltilīlli [[Special:Editcount|ītlapatlaliz tlapōhualli]]',
-	'editcount_username' => 'Tlatēquitiltilīlli:',
+	'editcount-desc'     => 'Quinēxtīz cē tlatequitiltilīlli [[Special:Editcount|ītlapatlaliz tlapōhualli]]',
+	'editcount_username' => 'Tlatequitiltilīlli:',
 	'editcount_submit'   => 'Tiquihuāz',
 	'editcount_total'    => 'Mochīntīn',
 );
