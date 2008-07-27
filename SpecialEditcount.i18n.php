@@ -21,9 +21,11 @@ $messages['en'] = array(
 
 /** Afrikaans (Afrikaans)
  * @author Arnobarnard
+ * @author Naudefj
  */
 $messages['af'] = array(
 	'editcount_username' => 'Gebruiker:',
+	'editcount_submit'   => 'OK',
 	'editcount_total'    => 'Totaal',
 );
 
