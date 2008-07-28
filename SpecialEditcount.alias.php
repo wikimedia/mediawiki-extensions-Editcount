@@ -73,7 +73,7 @@ $aliases['ms'] = array(
 
 /** Nahuatl (Nahuatl) */
 $aliases['nah'] = array(
-	'Editcount' => array( 'TlapatlaliztliTlapōhualiztli' ),
+	'Editcount' => array( 'TlapatlaliztliTlapōhualiztli', 'Ediciones' ),
 );
 
 /** Dutch (Nederlands) */
