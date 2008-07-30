@@ -491,6 +491,14 @@ $messages['oc'] = array(
 	'editcount_total'    => 'Soma',
 );
 
+/** Punjabi (ਪੰਜਾਬੀ)
+ * @author Gman124
+ */
+$messages['pa'] = array(
+	'editcount_username' => 'ਮੈਂਬਰ:',
+	'editcount_total'    => 'ਕੁਲ',
+);
+
 /** Polish (Polski)
  * @author Derbeth
  * @author McMonster
