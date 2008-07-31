@@ -222,6 +222,17 @@ $messages['gv'] = array(
 	'editcount_total'    => 'Yn clane',
 );
 
+/** Hebrew (עברית)
+ * @author Agbad
+ */
+$messages['he'] = array(
+	'editcount'          => 'מונה עריכות',
+	'editcount-desc'     => 'הצגת [[Special:Editcount|מונה עריכות]] למשתמש',
+	'editcount_username' => 'משתמש:',
+	'editcount_submit'   => 'שליחה',
+	'editcount_total'    => 'סך הכל',
+);
+
 /** Hindi (हिन्दी)
  * @author Kaustubh
  */
