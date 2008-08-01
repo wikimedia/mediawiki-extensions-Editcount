@@ -224,10 +224,11 @@ $messages['gv'] = array(
 
 /** Hebrew (עברית)
  * @author Agbad
+ * @author Rotemliss
  */
 $messages['he'] = array(
 	'editcount'          => 'מונה עריכות',
-	'editcount-desc'     => 'הצגת [[Special:Editcount|מונה עריכות]] למשתמש',
+	'editcount-desc'     => 'הצגת [[Special:Editcount|מונה עריכות]] של משתמש',
 	'editcount_username' => 'משתמש:',
 	'editcount_submit'   => 'שליחה',
 	'editcount_total'    => 'סך הכל',
