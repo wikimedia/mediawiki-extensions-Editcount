@@ -16,12 +16,12 @@ $aliases['en'] = array(
 
 /** Arabic (العربية) */
 $aliases['ar'] = array(
-	'Editcount' => array( 'عدد التعديلات' ),
+	'Editcount' => array( 'عدد_التعديلات' ),
 );
 
 /** Egyptian Spoken Arabic (مصرى) */
 $aliases['arz'] = array(
-	'Editcount' => array( 'عدد التعديلات' ),
+	'Editcount' => array( 'عدد_التعديلات' ),
 );
 
 /** Finnish (Suomi) */
