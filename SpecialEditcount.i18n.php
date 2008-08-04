@@ -180,9 +180,11 @@ $messages['ext'] = array(
 
 /** Finnish (Suomi)
  * @author Nike
+ * @author Jaakonam
  */
 $messages['fi'] = array(
 	'editcount'          => 'Muokkausmäärä',
+	'editcount-desc'     => 'Näyttää käyttäjän [[Special:Editcount|muokkauslaskurin]]',
 	'editcount_username' => 'Käyttäjä',
 	'editcount_submit'   => 'Hae',
 	'editcount_total'    => 'Yhteensä',
