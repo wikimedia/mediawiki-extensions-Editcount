@@ -14,12 +14,16 @@ $aliases['en'] = array(
     'Editcount' => array( 'Editcount' ),
 );
 
-/** Arabic (العربية) */
+/** Arabic (العربية)
+ * @author Meno25
+ */
 $aliases['ar'] = array(
 	'Editcount' => array( 'عدد_التعديلات' ),
 );
 
-/** Egyptian Spoken Arabic (مصرى) */
+/** Egyptian Spoken Arabic (مصرى)
+ * @author Meno25
+ */
 $aliases['arz'] = array(
 	'Editcount' => array( 'عدد_التعديلات' ),
 );
