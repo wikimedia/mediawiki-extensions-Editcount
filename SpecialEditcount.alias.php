@@ -11,7 +11,7 @@ $aliases = array();
  * @author Jon Harald Søby
  */
 $aliases['en'] = array(
-    'Editcount' => array( 'Editcount' ),
+	'Editcount' => array( 'Editcount' ),
 );
 
 /** Arabic (العربية)
@@ -106,4 +106,3 @@ $aliases['pt-br'] = array(
 $aliases['sv'] = array(
 	'Editcount' => array( 'Redigeringsräknare' ),
 );
-
