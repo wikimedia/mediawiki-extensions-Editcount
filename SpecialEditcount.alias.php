@@ -75,7 +75,7 @@ $aliases['ms'] = array(
 	'Editcount' => array( 'Jumlah_suntingan' ),
 );
 
-/** Nahuatl (Nahuatl) */
+/** Nahuatl (Nāhuatl) */
 $aliases['nah'] = array(
 	'Editcount' => array( 'TlapatlaliztliTlapōhualiztli', 'Ediciones' ),
 );
@@ -106,3 +106,4 @@ $aliases['pt-br'] = array(
 $aliases['sv'] = array(
 	'Editcount' => array( 'Redigeringsräknare' ),
 );
+
