@@ -19,7 +19,9 @@ $messages['en'] = array(
 	'editcount_total'    => 'Total',
 );
 
-/** Message documentation (Message documentation) */
+/** Message documentation (Message documentation)
+ * @author Jon Harald Søby
+ */
 $messages['qqq'] = array(
 	'editcount_username' => '{{Identical|User}}',
 	'editcount_submit' => '{{Identical|Submit}}',
@@ -291,6 +293,16 @@ $messages['hy'] = array(
 	'editcount_username' => 'Մասնակից.',
 	'editcount_submit' => 'Հաշվել',
 	'editcount_total' => 'Ընդհանուր',
+);
+
+/** Interlingua (Interlingua)
+ * @author McDutchie
+ */
+$messages['ia'] = array(
+	'editcount-desc' => 'Monstra le [[Special:Editcount|computo de modificationes]] de un usator',
+	'editcount_username' => 'Usator:',
+	'editcount_submit' => 'Submitter',
+	'editcount_total' => 'Total',
 );
 
 /** Indonesian (Bahasa Indonesia)
