@@ -21,8 +21,10 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author Jon Harald Søby
+ * @author Purodha
  */
 $messages['qqq'] = array(
+	'editcount-desc' => 'Extension description displayed on [[Special:Version]].',
 	'editcount_username' => '{{Identical|User}}',
 	'editcount_submit' => '{{Identical|Submit}}',
 	'editcount_total' => '{{Identical|Total}}',
