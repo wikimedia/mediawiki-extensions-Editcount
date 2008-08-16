@@ -24,7 +24,7 @@ $messages['en'] = array(
  * @author Purodha
  */
 $messages['qqq'] = array(
-	'editcount-desc' => 'Extension description displayed on [[Special:Version]].',
+	'editcount-desc' => 'Short description of this extension, shown on [[Special:Version]]. Do not translate or change links.',
 	'editcount_username' => '{{Identical|User}}',
 	'editcount_submit' => '{{Identical|Submit}}',
 	'editcount_total' => '{{Identical|Total}}',
@@ -529,6 +529,13 @@ $messages['oc'] = array(
 $messages['pa'] = array(
 	'editcount_username' => 'ਮੈਂਬਰ:',
 	'editcount_total' => 'ਕੁਲ',
+);
+
+/** Plautdietsch (Plautdietsch)
+ * @author Slomox
+ */
+$messages['pdt'] = array(
+	'editcount_username' => 'Brucker:',
 );
 
 /** Polish (Polski)
