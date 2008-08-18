@@ -257,10 +257,12 @@ $messages['hi'] = array(
 );
 
 /** Croatian (Hrvatski)
+ * @author Dalibor Bosits
  * @author Dnik
  */
 $messages['hr'] = array(
 	'editcount' => 'Broj uređivanja',
+	'editcount-desc' => 'Pokazuje [[Special:Editcount|brojač izmjena]] za suradnika',
 	'editcount_username' => 'Suradnik:',
 	'editcount_submit' => 'Podnesi',
 	'editcount_total' => 'Ukupno',
