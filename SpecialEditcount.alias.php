@@ -28,6 +28,11 @@ $aliases['arz'] = array(
 	'Editcount' => array( 'عدد_التعديلات' ),
 );
 
+/** German (Deutsch) */
+$aliases['de'] = array(
+	'Editcount' => array( 'Beitragszähler' ),
+);
+
 /** Finnish (Suomi) */
 $aliases['fi'] = array(
 	'Editcount' => array( 'Muokkauslaskuri' ),
@@ -78,6 +83,11 @@ $aliases['ms'] = array(
 /** Nahuatl (Nāhuatl) */
 $aliases['nah'] = array(
 	'Editcount' => array( 'TlapatlaliztliTlapōhualiztli', 'Ediciones' ),
+);
+
+/** Nedersaksisch (Nedersaksisch) */
+$aliases['nds-nl'] = array(
+	'Editcount' => array( 'Bewarksteller' ),
 );
 
 /** Dutch (Nederlands) */
