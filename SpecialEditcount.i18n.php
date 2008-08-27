@@ -119,6 +119,11 @@ $messages['ca'] = array(
 	'editcount_username' => 'Usuari:',
 );
 
+/** Corsican (Corsu) */
+$messages['co'] = array(
+	'editcount_username' => 'Utilizatore:',
+);
+
 /** Church Slavic (Словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
  * @author ОйЛ
  */

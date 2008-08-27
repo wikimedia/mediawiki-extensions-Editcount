@@ -80,6 +80,11 @@ $aliases['ms'] = array(
 	'Editcount' => array( 'Jumlah_suntingan' ),
 );
 
+/** Erzya (Эрзянь) */
+$aliases['myv'] = array(
+	'Editcount' => array( 'ВитнеманьПетнеманьЦёт' ),
+);
+
 /** Nahuatl (Nāhuatl) */
 $aliases['nah'] = array(
 	'Editcount' => array( 'TlapatlaliztliTlapōhualiztli', 'Ediciones' ),
