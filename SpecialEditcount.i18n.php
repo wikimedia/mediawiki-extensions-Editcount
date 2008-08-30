@@ -228,6 +228,13 @@ $messages['fr'] = array(
 	'editcount_total' => 'Total',
 );
 
+/** Western Frisian (Frysk)
+ * @author Snakesteuben
+ */
+$messages['fy'] = array(
+	'editcount_username' => 'Meidogger:',
+);
+
 /** Galician (Galego)
  * @author Alma
  * @author Xosé
