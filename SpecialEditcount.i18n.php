@@ -192,6 +192,17 @@ $messages['ext'] = array(
 	'editcount_username' => 'Usuáriu:',
 );
 
+/** Persian (فارسی)
+ * @author Huji
+ */
+$messages['fa'] = array(
+	'editcount' => 'شمارش ویرایش‌ها',
+	'editcount-desc' => '[[Special:Editcount|تعداد ویرایش‌های]] یک کاربر را نشان می‌دهد',
+	'editcount_username' => 'کاربر:',
+	'editcount_submit' => 'ارسال',
+	'editcount_total' => 'کل',
+);
+
 /** Finnish (Suomi)
  * @author Jaakonam
  * @author Nike

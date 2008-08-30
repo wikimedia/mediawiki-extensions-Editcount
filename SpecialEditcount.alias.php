@@ -70,6 +70,16 @@ $aliases['hu'] = array(
 	'Editcount' => array( 'Szerkesztések száma' ),
 );
 
+/** Indonesian (Bahasa Indonesia) */
+$aliases['id'] = array(
+	'Editcount' => array( 'Jumlah suntingan' ),
+);
+
+/** Khmer (ភាសាខ្មែរ) */
+$aliases['km'] = array(
+	'Editcount' => array( 'ការរាប់កំនែប្រែ' ),
+);
+
 /** Luxembourgish (Lëtzebuergesch) */
 $aliases['lb'] = array(
 	'Editcount' => array( 'ännerungen zielen' ),
