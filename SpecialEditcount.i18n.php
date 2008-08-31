@@ -124,6 +124,17 @@ $messages['co'] = array(
 	'editcount_username' => 'Utilizatore:',
 );
 
+/** Czech (Česky)
+ * @author Matěj Grabovský
+ */
+$messages['cs'] = array(
+	'editcount' => 'Počet příspěvků',
+	'editcount-desc' => 'Zobrazuje [[Special:Editcount|počet editací]] uživatele',
+	'editcount_username' => 'Uživatel:',
+	'editcount_submit' => 'Odeslat',
+	'editcount_total' => 'Celkem',
+);
+
 /** Church Slavic (Словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
  * @author ОйЛ
  */
