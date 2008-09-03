@@ -490,6 +490,13 @@ $messages['mt'] = array(
 	'editcount_total' => 'Total',
 );
 
+/** Erzya (Эрзянь)
+ * @author Botuzhaleny-sodamo
+ */
+$messages['myv'] = array(
+	'editcount_username' => 'Теицясь:',
+);
+
 /** Nahuatl (Nāhuatl)
  * @author Fluence
  */
