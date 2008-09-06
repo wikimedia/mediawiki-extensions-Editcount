@@ -59,6 +59,17 @@ $messages['ar'] = array(
 	'editcount_total' => 'الإجمالي',
 );
 
+/** Egyptian Spoken Arabic (مصرى)
+ * @author Meno25
+ */
+$messages['arz'] = array(
+	'editcount' => 'عداد المساهمات',
+	'editcount-desc' => 'يعرض [[Special:Editcount|عداد المساهمات]] لمستخدم',
+	'editcount_username' => 'مستخدم:',
+	'editcount_submit' => 'تنفيذ',
+	'editcount_total' => 'الإجمالي',
+);
+
 /** Kotava (Kotava)
  * @author Wikimistusik
  */
