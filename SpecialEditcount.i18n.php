@@ -449,6 +449,15 @@ $messages['lb'] = array(
 	'editcount_total' => 'Total',
 );
 
+/** Lumbaart (Lumbaart)
+ * @author Sprüngli
+ */
+$messages['lmo'] = array(
+	'editcount' => 'Cunt de li edizion',
+	'editcount-desc' => "Al fa vider [[Special:Editcount|el cunt de li edizion]] d'un dovratt",
+	'editcount_username' => 'Dovratt:',
+);
+
 /** Lithuanian (Lietuvių)
  * @author Hugo.arg
  * @author Matasg
