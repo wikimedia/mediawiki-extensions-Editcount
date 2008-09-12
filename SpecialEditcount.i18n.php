@@ -655,6 +655,13 @@ $messages['ro'] = array(
 	'editcount_total' => 'Total',
 );
 
+/** Tarandíne (Tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'editcount_username' => 'Utende:',
+);
+
 /** Russian (Русский)
  * @author VasilievVV
  * @author Александр Сигачёв
