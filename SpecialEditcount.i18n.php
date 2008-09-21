@@ -737,6 +737,7 @@ $messages['ss'] = array(
  */
 $messages['stq'] = array(
 	'editcount' => 'Antaal fon do Siedenbeoarbaidengen',
+	'editcount-desc' => 'Wiest ju [[Special:Editcount|Antaal fon do Beoarbaidengen]] fon n Benutser',
 	'editcount_username' => 'Benutser:',
 	'editcount_submit' => 'Ouseende',
 	'editcount_total' => 'Mädnunner',
