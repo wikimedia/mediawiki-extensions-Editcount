@@ -30,6 +30,13 @@ $messages['qqq'] = array(
 	'editcount_total' => '{{Identical|Total}}',
 );
 
+/** Eastern Mari (Олык Марий)
+ * @author Сай
+ */
+$messages['mhr'] = array(
+	'editcount_username' => 'Пайдаланыше:',
+);
+
 /** Afrikaans (Afrikaans)
  * @author Arnobarnard
  * @author Naudefj
@@ -68,6 +75,15 @@ $messages['arz'] = array(
 	'editcount_username' => 'مستخدم:',
 	'editcount_submit' => 'تنفيذ',
 	'editcount_total' => 'الإجمالي',
+);
+
+/** Assamese (অসমীয়া)
+ * @author Chaipau
+ */
+$messages['as'] = array(
+	'editcount' => 'সম্পাদনা লেখ',
+	'editcount_submit' => 'দাখিল',
+	'editcount_total' => 'মূঠ',
 );
 
 /** Kotava (Kotava)
@@ -426,6 +442,8 @@ $messages['km'] = array(
  * @author Purodha
  */
 $messages['ksh'] = array(
+	'editcount' => 'Aanzahl Änderunge',
+	'editcount-desc' => 'Zeisch enem Metmaacher sing [[Special:Editcount|Aanzahl Änderunge]] aan Sigge em Wiki.',
 	'editcount_username' => 'Metmaacher Name:',
 	'editcount_submit' => 'Loß Jonn!',
 	'editcount_total' => 'Zosamme',
