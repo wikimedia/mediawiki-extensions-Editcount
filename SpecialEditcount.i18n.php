@@ -216,11 +216,11 @@ $messages['el'] = array(
  * @author Yekrats
  */
 $messages['eo'] = array(
-	'editcount' => 'Redakta nombro',
+	'editcount' => 'Nombro de redaktoj de uzanto',
 	'editcount-desc' => 'Montras [[Special:Editcount|nombron de redaktoj]] de uzanto',
 	'editcount_username' => 'Uzanto:',
 	'editcount_submit' => 'Ek',
-	'editcount_total' => 'Tute',
+	'editcount_total' => 'Tuto',
 );
 
 /** Extremaduran (Estremeñu)
