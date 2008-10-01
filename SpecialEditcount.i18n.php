@@ -364,8 +364,8 @@ $messages['hy'] = array(
  * @author McDutchie
  */
 $messages['ia'] = array(
-	'editcount' => 'Computo de modificationes',
-	'editcount-desc' => 'Monstra le [[Special:Editcount|computo de modificationes]] de un usator',
+	'editcount' => 'Contator de modificationes',
+	'editcount-desc' => 'Monstra le [[Special:Editcount|contator de modificationes]] de un usator',
 	'editcount_username' => 'Usator:',
 	'editcount_submit' => 'Submitter',
 	'editcount_total' => 'Total',
