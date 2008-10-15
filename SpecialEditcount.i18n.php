@@ -373,11 +373,14 @@ $messages['ia'] = array(
 
 /** Indonesian (Bahasa Indonesia)
  * @author Ivan Lanin
+ * @author Rex
  */
 $messages['id'] = array(
 	'editcount' => 'Jumlah suntingan',
+	'editcount-desc' => 'Menampilkan [[Special:Editcount|jumlah suntingan]] pengguna',
 	'editcount_username' => 'Pengguna:',
 	'editcount_submit' => 'Kirim',
+	'editcount_total' => 'Total',
 );
 
 /** Icelandic (Íslenska) */
@@ -512,9 +515,14 @@ $messages['mr'] = array(
 
 /** Malay (Bahasa Melayu)
  * @author Aurora
+ * @author Aviator
  */
 $messages['ms'] = array(
+	'editcount' => 'Jumlah suntingan',
+	'editcount-desc' => 'Memaparkan [[Special:Editcount|jumlah suntingan]] bagi pengguna',
 	'editcount_username' => 'Pengguna:',
+	'editcount_submit' => 'Serah',
+	'editcount_total' => 'Jumlah',
 );
 
 /** Maltese (Malti)
@@ -533,6 +541,7 @@ $messages['mt'] = array(
  */
 $messages['myv'] = array(
 	'editcount_username' => 'Теицясь:',
+	'editcount_total' => 'Весемезэ',
 );
 
 /** Nahuatl (Nāhuatl)
