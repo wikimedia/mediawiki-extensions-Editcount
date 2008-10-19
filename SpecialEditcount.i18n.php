@@ -30,13 +30,6 @@ $messages['qqq'] = array(
 	'editcount_total' => '{{Identical|Total}}',
 );
 
-/** Eastern Mari (Олык Марий)
- * @author Сай
- */
-$messages['mhr'] = array(
-	'editcount_username' => 'Пайдаланыше:',
-);
-
 /** Afrikaans (Afrikaans)
  * @author Arnobarnard
  * @author Naudefj
@@ -285,6 +278,16 @@ $messages['gl'] = array(
 	'editcount_total' => 'Total',
 );
 
+/** Ancient Greek (Ἀρχαία ἑλληνικὴ)
+ * @author Omnipaedista
+ */
+$messages['grc'] = array(
+	'editcount' => 'Μεταγράφειν τὴν καταμέτρησιν',
+	'editcount_username' => 'Χρώμενος:',
+	'editcount_submit' => 'Ὑποβάλλειν',
+	'editcount_total' => 'Συνολικόν',
+);
+
 /** Manx (Gaelg)
  * @author MacTire02
  */
@@ -489,6 +492,13 @@ $messages['lt'] = array(
 	'editcount_username' => 'Naudotojas:',
 	'editcount_submit' => 'Patvirtinti',
 	'editcount_total' => 'Viso',
+);
+
+/** Eastern Mari (Олык Марий)
+ * @author Сай
+ */
+$messages['mhr'] = array(
+	'editcount_username' => 'Пайдаланыше:',
 );
 
 /** Malayalam (മലയാളം)
