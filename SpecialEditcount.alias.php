@@ -33,6 +33,11 @@ $aliases['de'] = array(
 	'Editcount' => array( 'Beitragszähler' ),
 );
 
+/** Persian (فارسی) */
+$aliases['fa'] = array(
+	'Editcount' => array( 'شمار_ویرایش‌ها' ),
+);
+
 /** Finnish (Suomi) */
 $aliases['fi'] = array(
 	'Editcount' => array( 'Muokkauslaskuri' ),
@@ -85,6 +90,11 @@ $aliases['lb'] = array(
 	'Editcount' => array( 'ännerungen zielen' ),
 );
 
+/** Macedonian (Македонски) */
+$aliases['mk'] = array(
+	'Editcount' => array( 'БројНаУредувања' ),
+);
+
 /** Malay (Bahasa Melayu) */
 $aliases['ms'] = array(
 	'Editcount' => array( 'Jumlah_suntingan' ),
@@ -115,6 +125,11 @@ $aliases['nl'] = array(
  */
 $aliases['no'] = array(
 	'Editcount' => array( 'Redigeringsteller' ),
+);
+
+/** Occitan (Occitan) */
+$aliases['oc'] = array(
+	'Editcount' => array( 'ComptadorEdicion' ),
 );
 
 /** Portuguese (Português) */
