@@ -33,6 +33,11 @@ $aliases['de'] = array(
 	'Editcount' => array( 'Beitragszähler' ),
 );
 
+/** Spanish (Español) */
+$aliases['es'] = array(
+	'Editcount' => array( 'Contador_de_Ediciones' ),
+);
+
 /** Persian (فارسی) */
 $aliases['fa'] = array(
 	'Editcount' => array( 'شمار_ویرایش‌ها' ),
@@ -87,7 +92,7 @@ $aliases['km'] = array(
 
 /** Luxembourgish (Lëtzebuergesch) */
 $aliases['lb'] = array(
-	'Editcount' => array( 'ännerungen zielen' ),
+	'Editcount' => array( 'Compteur vun den Ännerungen' ),
 );
 
 /** Macedonian (Македонски) */
