@@ -97,7 +97,7 @@ $aliases['mk'] = array(
 
 /** Malay (Bahasa Melayu) */
 $aliases['ms'] = array(
-	'Editcount' => array( 'Jumlah_suntingan' ),
+	'Editcount' => array( 'Jumlah suntingan' ),
 );
 
 /** Erzya (Эрзянь) */
