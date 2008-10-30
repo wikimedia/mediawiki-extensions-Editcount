@@ -35,7 +35,7 @@ $aliases['de'] = array(
 
 /** Spanish (Español) */
 $aliases['es'] = array(
-	'Editcount' => array( 'Contador_de_Ediciones' ),
+	'Editcount' => array( 'Ediciones_de_Usuario' ),
 );
 
 /** Persian (فارسی) */
