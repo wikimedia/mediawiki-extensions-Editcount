@@ -608,7 +608,10 @@ $messages['no'] = array(
  * @author Mohau
  */
 $messages['nso'] = array(
+	'editcount' => 'Palo ya diphetogo',
+	'editcount-desc' => 'Botsha [[Special:Editcount|palo ya diphetogo]]  tša mošumiši',
 	'editcount_username' => 'Mošomiši:',
+	'editcount_submit' => 'Romela',
 	'editcount_total' => 'Yohle',
 );
 
