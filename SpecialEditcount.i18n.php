@@ -47,6 +47,16 @@ $messages['an'] = array(
 	'editcount_submit' => 'Nimbiar',
 );
 
+/** Old English (Anglo-Saxon)
+ * @author Wōdenhelm
+ */
+$messages['ang'] = array(
+	'editcount' => 'Ādihtungtelle',
+	'editcount-desc' => 'Ætīeƿþ [[Special:Editcount|ādihtungtelle]] brūcendes',
+	'editcount_username' => 'Brūcend:',
+	'editcount_submit' => 'Sendan',
+);
+
 /** Arabic (العربية)
  * @author Meno25
  * @author Mimouni
