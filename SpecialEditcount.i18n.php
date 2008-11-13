@@ -595,9 +595,11 @@ $messages['nl'] = array(
 
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
  * @author Eirik
+ * @author Frokor
  */
 $messages['nn'] = array(
 	'editcount' => 'Endringsteljar',
+	'editcount-desc' => 'Viser [[Special:Editcount|redigeringsteljar]] for ein brukar',
 	'editcount_username' => 'Brukar:',
 	'editcount_submit' => 'OK',
 	'editcount_total' => 'Totalt',
