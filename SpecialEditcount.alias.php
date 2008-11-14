@@ -28,6 +28,11 @@ $aliases['arz'] = array(
 	'Editcount' => array( 'عدد_التعديلات' ),
 );
 
+/** Bosnian (Bosanski) */
+$aliases['bs'] = array(
+	'Editcount' => array( 'BrojacIzmjena' ),
+);
+
 /** German (Deutsch) */
 $aliases['de'] = array(
 	'Editcount' => array( 'Beitragszähler' ),
