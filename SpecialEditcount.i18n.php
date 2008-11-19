@@ -141,6 +141,14 @@ $messages['br'] = array(
 	'editcount_total' => 'Hollad',
 );
 
+/** Bosnian (Bosanski)
+ * @author CERminator
+ */
+$messages['bs'] = array(
+	'editcount_username' => 'Korisnik:',
+	'editcount_submit' => 'Pošalji',
+);
+
 /** Catalan (Català)
  * @author SMP
  */
