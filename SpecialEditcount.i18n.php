@@ -363,9 +363,11 @@ $messages['hsb'] = array(
 
 /** Hungarian (Magyar)
  * @author Dani
+ * @author Glanthor Reviol
  */
 $messages['hu'] = array(
 	'editcount' => 'Szerkesztések száma',
+	'editcount-desc' => 'Megjeleníti egy szerkesztő [[Special:Editcount|szerekesztésszámát]]',
 	'editcount_username' => 'Szerkesztő:',
 	'editcount_submit' => 'Elküld',
 	'editcount_total' => 'Összesen',

@@ -152,6 +152,11 @@ $aliases['pt-br'] = array(
 	'Editcount' => array( 'Contador de edições' ),
 );
 
+/** Quechua (Runa Simi) */
+$aliases['qu'] = array(
+	'Editcount' => array( 'RuraqpaLlamkapusqankuna' ),
+);
+
 /** Swedish (Svenska) */
 $aliases['sv'] = array(
 	'Editcount' => array( 'Redigeringsräknare' ),
