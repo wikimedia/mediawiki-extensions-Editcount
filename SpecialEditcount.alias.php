@@ -162,3 +162,8 @@ $aliases['sv'] = array(
 	'Editcount' => array( 'Redigeringsräknare' ),
 );
 
+/** Swahili (Kiswahili) */
+$aliases['sw'] = array(
+	'Editcount' => array( 'Idadiyakuhariri' ),
+);
+
