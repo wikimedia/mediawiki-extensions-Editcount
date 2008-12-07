@@ -92,7 +92,7 @@ $aliases['id'] = array(
 
 /** Khmer (ភាសាខ្មែរ) */
 $aliases['km'] = array(
-	'Editcount' => array( 'ការរាប់កំនែប្រែ' ),
+	'Editcount' => array( 'ការរាប់កំណែប្រែ' ),
 );
 
 /** Luxembourgish (Lëtzebuergesch) */

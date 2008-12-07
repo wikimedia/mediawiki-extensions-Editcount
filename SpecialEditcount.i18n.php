@@ -145,8 +145,11 @@ $messages['br'] = array(
  * @author CERminator
  */
 $messages['bs'] = array(
+	'editcount' => 'Brojač izmjena',
+	'editcount-desc' => 'Prikazuje [[Special:Editcount|brojač izmjena]] korisnika',
 	'editcount_username' => 'Korisnik:',
 	'editcount_submit' => 'Pošalji',
+	'editcount_total' => 'Ukupno',
 );
 
 /** Catalan (Català)
@@ -571,6 +574,7 @@ $messages['mt'] = array(
  */
 $messages['myv'] = array(
 	'editcount_username' => 'Теицясь:',
+	'editcount_submit' => 'Максомс',
 	'editcount_total' => 'Весемезэ',
 );
 
