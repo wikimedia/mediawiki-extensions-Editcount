@@ -458,9 +458,10 @@ $messages['ka'] = array(
 /** Khmer (ភាសាខ្មែរ)
  * @author Chhorran
  * @author Lovekhmer
+ * @author Thearith
  */
 $messages['km'] = array(
-	'editcount' => 'ចំនួនកំនែប្រែ',
+	'editcount' => 'ចំនួនកំណែប្រែ',
 	'editcount-desc' => 'បង្ហាញ [[Special:Editcount|របាប់កំណែប្រែ]] នៃអ្នកប្រើប្រាស់ ម្នាក់',
 	'editcount_username' => 'អ្នកប្រើប្រាស់ ៖',
 	'editcount_submit' => 'ដាក់ស្នើ',
@@ -522,6 +523,17 @@ $messages['lt'] = array(
  */
 $messages['mhr'] = array(
 	'editcount_username' => 'Пайдаланыше:',
+);
+
+/** Macedonian (Македонски)
+ * @author Brest
+ */
+$messages['mk'] = array(
+	'editcount' => 'Број на уредувања',
+	'editcount-desc' => 'Прикажува [[Special:Editcount|број на уредувања]] на корисник',
+	'editcount_username' => 'Корисник:',
+	'editcount_submit' => 'Потврди',
+	'editcount_total' => 'Вкупно',
 );
 
 /** Malayalam (മലയാളം)
