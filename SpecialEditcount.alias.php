@@ -63,6 +63,11 @@ $aliases['gl'] = array(
 	'Editcount' => array( 'Contador de edicións' ),
 );
 
+/** Swiss German (Alemannisch) */
+$aliases['gsw'] = array(
+	'Editcount' => array( 'Byytragszeller' ),
+);
+
 /** Hebrew (עברית)
  * @author Rotem Liss
  */

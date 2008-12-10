@@ -427,11 +427,12 @@ $messages['it'] = array(
 );
 
 /** Japanese (日本語)
+ * @author Aotake
  * @author JtFuruhata
  */
 $messages['ja'] = array(
 	'editcount' => '編集回数',
-	'editcount-desc' => 'ある利用者の[[Special:Editcount|編集回数]]を表示する',
+	'editcount-desc' => '利用者の[[Special:Editcount|編集回数]]を表示する',
 	'editcount_username' => '利用者:',
 	'editcount_submit' => '表示',
 	'editcount_total' => '合計',
