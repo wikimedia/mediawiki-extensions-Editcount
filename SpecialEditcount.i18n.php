@@ -738,7 +738,11 @@ $messages['ro'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'editcount' => 'Conde le cangiaminde',
+	'editcount-desc' => "Fà vedè [[Special:Editcount|conde le cangiaminde]] de 'n'utende",
 	'editcount_username' => 'Utende:',
+	'editcount_submit' => 'Conferme',
+	'editcount_total' => 'Totele',
 );
 
 /** Russian (Русский)
