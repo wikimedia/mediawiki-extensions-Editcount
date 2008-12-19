@@ -304,6 +304,7 @@ $messages['gl'] = array(
  */
 $messages['grc'] = array(
 	'editcount' => 'Μεταγράφειν τὴν καταμέτρησιν',
+	'editcount-desc' => 'Δεικνύει [[Special:Editcount|μέτρησιν μεταγραφῶν]] χρωμένου τινός',
 	'editcount_username' => 'Χρώμενος:',
 	'editcount_submit' => 'Ὑποβάλλειν',
 	'editcount_total' => 'Συνολικόν',
