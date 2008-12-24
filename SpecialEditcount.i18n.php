@@ -237,6 +237,13 @@ $messages['eo'] = array(
 	'editcount_total' => 'Tuto',
 );
 
+/** Spanish (Español)
+ * @author Sanbec
+ */
+$messages['es'] = array(
+	'editcount_submit' => 'Enviar',
+);
+
 /** Extremaduran (Estremeñu)
  * @author Better
  */
