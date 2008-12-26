@@ -478,6 +478,15 @@ $messages['km'] = array(
 	'editcount_total' => 'សរុប',
 );
 
+/** Korean (한국어)
+ * @author Kwj2772
+ */
+$messages['ko'] = array(
+	'editcount' => '편집 횟수',
+	'editcount_username' => '사용자:',
+	'editcount_total' => '합계',
+);
+
 /** Ripoarisch (Ripoarisch)
  * @author Purodha
  */
