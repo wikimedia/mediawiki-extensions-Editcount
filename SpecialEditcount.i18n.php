@@ -70,12 +70,13 @@ $messages['ar'] = array(
 );
 
 /** Egyptian Spoken Arabic (مصرى)
+ * @author Ghaly
  * @author Meno25
  */
 $messages['arz'] = array(
 	'editcount' => 'عداد المساهمات',
-	'editcount-desc' => 'يعرض [[Special:Editcount|عداد المساهمات]] لمستخدم',
-	'editcount_username' => 'مستخدم:',
+	'editcount-desc' => 'يعرض [[Special:Editcount|عداد المساهمات]] ليوزر',
+	'editcount_username' => 'يوزر:',
 	'editcount_submit' => 'تنفيذ',
 	'editcount_total' => 'الإجمالي',
 );
