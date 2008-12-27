@@ -239,9 +239,11 @@ $messages['eo'] = array(
 );
 
 /** Spanish (Español)
+ * @author Imre
  * @author Sanbec
  */
 $messages['es'] = array(
+	'editcount_username' => 'Usuario:',
 	'editcount_submit' => 'Enviar',
 );
 
