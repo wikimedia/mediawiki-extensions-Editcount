@@ -777,6 +777,17 @@ $messages['ru'] = array(
 	'editcount_total' => 'Всего',
 );
 
+/** Sicilian (Sicilianu)
+ * @author Santu
+ */
+$messages['scn'] = array(
+	'editcount' => 'Cuntu dî mudìfichi',
+	'editcount-desc' => "Ammustra lu [[Special:Editcount|cuntu dî cuntribbuti]] di n'utenti",
+	'editcount_username' => 'Utenti:',
+	'editcount_submit' => 'Manna',
+	'editcount_total' => 'Tutali',
+);
+
 /** Sassaresu (Sassaresu)
  * @author Felis
  */
