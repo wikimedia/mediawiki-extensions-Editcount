@@ -906,6 +906,17 @@ $messages['tg-cyrl'] = array(
 	'editcount_submit' => 'Ирсол',
 );
 
+/** Tagalog (Tagalog)
+ * @author AnakngAraw
+ */
+$messages['tl'] = array(
+	'editcount' => 'Bilang ng pagbabago (pamamatnugot)',
+	'editcount-desc' => 'Nagpapakita (nagpapalitaw) ng [[Special:Editcount|bilang ng pagbabago (pamamatnugot)]] ng isang tagagamit',
+	'editcount_username' => 'Tagagamit:',
+	'editcount_submit' => 'Ipasa',
+	'editcount_total' => 'Kabuoan',
+);
+
 /** Turkish (Türkçe)
  * @author Karduelis
  */
