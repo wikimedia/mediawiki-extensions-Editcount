@@ -960,9 +960,13 @@ $messages['vi'] = array(
 
 /** Volapük (Volapük)
  * @author Malafaya
+ * @author Smeira
  */
 $messages['vo'] = array(
+	'editcount' => 'Redakamanum',
+	'editcount-desc' => 'Jonon [[Special:Editcount|redakamanumi]] gebana',
 	'editcount_username' => 'Geban:',
+	'editcount_submit' => 'Sedön',
 	'editcount_total' => 'Valod',
 );
 
