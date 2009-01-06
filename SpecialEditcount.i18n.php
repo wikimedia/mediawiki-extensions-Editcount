@@ -247,6 +247,16 @@ $messages['es'] = array(
 	'editcount_submit' => 'Enviar',
 );
 
+/** Basque (Euskara)
+ * @author Kobazulo
+ */
+$messages['eu'] = array(
+	'editcount' => 'Edizio kontagailua',
+	'editcount_username' => 'Erabiltzailea:',
+	'editcount_submit' => 'Bidali',
+	'editcount_total' => 'Guztira',
+);
+
 /** Extremaduran (Estremeñu)
  * @author Better
  */
