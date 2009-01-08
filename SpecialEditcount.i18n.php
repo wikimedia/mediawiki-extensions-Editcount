@@ -239,12 +239,16 @@ $messages['eo'] = array(
 );
 
 /** Spanish (Español)
+ * @author Crazymadlover
  * @author Imre
  * @author Sanbec
  */
 $messages['es'] = array(
+	'editcount' => 'Conteo de ediciones',
+	'editcount-desc' => 'Mostrar [[Special:Editcount|Conteo de ediciones]] de un usuario',
 	'editcount_username' => 'Usuario:',
 	'editcount_submit' => 'Enviar',
+	'editcount_total' => 'Total',
 );
 
 /** Basque (Euskara)
