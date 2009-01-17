@@ -334,6 +334,17 @@ $messages['grc'] = array(
 	'editcount_total' => 'Συνολικόν',
 );
 
+/** Swiss German (Alemannisch)
+ * @author Als-Holder
+ */
+$messages['gsw'] = array(
+	'editcount' => 'Aazahl vu Sytebearbeitige',
+	'editcount-desc' => 'Zeigt d [[Special:Editcount|Aazahl vu Bearbeitige]] vun eme Benutzer',
+	'editcount_username' => 'Benutzer:',
+	'editcount_submit' => 'Abschicke',
+	'editcount_total' => 'Gsamt',
+);
+
 /** Manx (Gaelg)
  * @author MacTire02
  */
@@ -697,6 +708,13 @@ $messages['oc'] = array(
 	'editcount_username' => 'Utilizaire :',
 	'editcount_submit' => 'Sometre',
 	'editcount_total' => 'Soma',
+);
+
+/** Ossetic (Иронау)
+ * @author Amikeco
+ */
+$messages['os'] = array(
+	'editcount_username' => 'Архайæг:',
 );
 
 /** Punjabi (ਪੰਜਾਬੀ)
