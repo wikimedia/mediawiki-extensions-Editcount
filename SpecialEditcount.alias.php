@@ -95,6 +95,11 @@ $aliases['id'] = array(
 	'Editcount' => array( 'Jumlah suntingan' ),
 );
 
+/** Japanese (日本語) */
+$aliases['ja'] = array(
+	'Editcount' => array( '編集回数' ),
+);
+
 /** Khmer (ភាសាខ្មែរ) */
 $aliases['km'] = array(
 	'Editcount' => array( 'ការរាប់កំណែប្រែ' ),
@@ -160,6 +165,11 @@ $aliases['pt-br'] = array(
 /** Quechua (Runa Simi) */
 $aliases['qu'] = array(
 	'Editcount' => array( 'RuraqpaLlamkapusqankuna' ),
+);
+
+/** Sanskrit (संस्कृत) */
+$aliases['sa'] = array(
+	'Editcount' => array( 'गणनसम्पादन्‌' ),
 );
 
 /** Swedish (Svenska) */
