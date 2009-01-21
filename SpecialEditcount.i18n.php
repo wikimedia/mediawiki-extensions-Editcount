@@ -510,7 +510,9 @@ $messages['km'] = array(
  */
 $messages['ko'] = array(
 	'editcount' => '편집 횟수',
+	'editcount-desc' => '사용자의 [[Special:Editcount|총편집횟수]]를 보여 줌',
 	'editcount_username' => '사용자:',
+	'editcount_submit' => '확인',
 	'editcount_total' => '합계',
 );
 
