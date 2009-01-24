@@ -110,6 +110,13 @@ $messages['bcl'] = array(
 	'editcount_submit' => 'Isumitir',
 );
 
+/** Belarusian (Taraškievica orthography) (Беларуская (тарашкевіца))
+ * @author EugeneZelenko
+ */
+$messages['be-tarask'] = array(
+	'editcount_username' => 'Удзельнік:',
+);
+
 /** Bulgarian (Български)
  * @author DCLXVI
  * @author Spiritia
