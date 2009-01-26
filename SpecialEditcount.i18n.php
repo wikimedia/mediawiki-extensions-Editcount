@@ -259,10 +259,12 @@ $messages['es'] = array(
 );
 
 /** Basque (Euskara)
+ * @author An13sa
  * @author Kobazulo
  */
 $messages['eu'] = array(
 	'editcount' => 'Edizio kontagailua',
+	'editcount-desc' => 'Lankide baten [[Special:Editcount|kontu aldaketa]] bistaratzen du',
 	'editcount_username' => 'Erabiltzailea:',
 	'editcount_submit' => 'Bidali',
 	'editcount_total' => 'Guztira',
