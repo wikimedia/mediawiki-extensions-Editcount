@@ -38,6 +38,11 @@ $aliases['de'] = array(
 	'Editcount' => array( 'Beitragszähler' ),
 );
 
+/** Lower Sorbian (Dolnoserbski) */
+$aliases['dsb'] = array(
+	'Editcount' => array( 'Licak změnow' ),
+);
+
 /** Spanish (Español) */
 $aliases['es'] = array(
 	'Editcount' => array( 'Ediciones_de_Usuario' ),
@@ -78,6 +83,11 @@ $aliases['he'] = array(
 /** Croatian (Hrvatski) */
 $aliases['hr'] = array(
 	'Editcount' => array( 'Brojač_izmjena' ),
+);
+
+/** Upper Sorbian (Hornjoserbsce) */
+$aliases['hsb'] = array(
+	'Editcount' => array( 'Ličak změnow' ),
 );
 
 /** Haitian (Kreyòl ayisyen) */
