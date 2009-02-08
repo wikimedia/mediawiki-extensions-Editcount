@@ -784,6 +784,17 @@ $messages['pt'] = array(
 	'editcount_total' => 'Total',
 );
 
+/** Brazilian Portuguese (Português do Brasil)
+ * @author Eduardo.mps
+ */
+$messages['pt-br'] = array(
+	'editcount' => 'Contador de edições',
+	'editcount-desc' => 'Apresenta [[Special:Editcount|a contagem de edições]] de um utilizador',
+	'editcount_username' => 'Utilizador:',
+	'editcount_submit' => 'Enviar',
+	'editcount_total' => 'Total',
+);
+
 /** Rhaeto-Romance (Rumantsch) */
 $messages['rm'] = array(
 	'editcount_username' => 'Utilisader:',
