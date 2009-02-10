@@ -165,7 +165,10 @@ $messages['bs'] = array(
  */
 $messages['ca'] = array(
 	'editcount' => "Comptador d'edicions",
+	'editcount-desc' => "Mostra el [[Special:Editcount|recompte d'edicions]] d'un usuari",
 	'editcount_username' => 'Usuari:',
+	'editcount_submit' => 'Tramet',
+	'editcount_total' => 'Total',
 );
 
 /** Corsican (Corsu) */
