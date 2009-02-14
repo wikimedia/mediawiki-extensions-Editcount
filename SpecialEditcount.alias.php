@@ -162,6 +162,11 @@ $aliases['oc'] = array(
 	'Editcount' => array( 'ComptadorEdicion' ),
 );
 
+/** Polish (Polski) */
+$aliases['pl'] = array(
+	'Editcount' => array( 'Licznik edycji' ),
+);
+
 /** Portuguese (Português) */
 $aliases['pt'] = array(
 	'Editcount' => array( 'Contador de edições' ),
