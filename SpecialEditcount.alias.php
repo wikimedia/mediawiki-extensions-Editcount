@@ -100,6 +100,11 @@ $aliases['hu'] = array(
 	'Editcount' => array( 'Szerkesztések száma' ),
 );
 
+/** Interlingua (Interlingua) */
+$aliases['ia'] = array(
+	'Editcount' => array( 'NumeroDeModificationes' ),
+);
+
 /** Indonesian (Bahasa Indonesia) */
 $aliases['id'] = array(
 	'Editcount' => array( 'Jumlah suntingan' ),
@@ -195,5 +200,10 @@ $aliases['sv'] = array(
 /** Swahili (Kiswahili) */
 $aliases['sw'] = array(
 	'Editcount' => array( 'Idadiyakuhariri' ),
+);
+
+/** Tagalog (Tagalog) */
+$aliases['tl'] = array(
+	'Editcount' => array( 'Bilang ng pamamatnugot' ),
 );
 
