@@ -102,7 +102,7 @@ $aliases['hu'] = array(
 
 /** Interlingua (Interlingua) */
 $aliases['ia'] = array(
-	'Editcount' => array( 'NumeroDeModificationes' ),
+	'Editcount' => array( 'Numero de modificationes' ),
 );
 
 /** Indonesian (Bahasa Indonesia) */
