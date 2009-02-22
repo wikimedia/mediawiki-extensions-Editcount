@@ -975,10 +975,14 @@ $messages['tl'] = array(
 );
 
 /** Turkish (Türkçe)
+ * @author Joseph
  * @author Karduelis
  */
 $messages['tr'] = array(
+	'editcount' => 'Değişiklik sayısı',
+	'editcount-desc' => 'Bir kullanıcının [[Special:Editcount|değişiklik sayısını]] görüntüler',
 	'editcount_username' => 'Kullanıcı:',
+	'editcount_submit' => 'Gönder',
 	'editcount_total' => 'Toplam',
 );
 
