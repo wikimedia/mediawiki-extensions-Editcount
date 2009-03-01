@@ -557,6 +557,17 @@ $messages['lb'] = array(
 	'editcount_total' => 'Total',
 );
 
+/** Limburgish (Limburgs)
+ * @author Ooswesthoesbes
+ */
+$messages['li'] = array(
+	'editcount' => 'Bewèrkingstèller',
+	'editcount-desc' => "Guuef 'ne [[Special:Editcount|bewèrkingstèller]] veur 'ne gebroeker",
+	'editcount_username' => 'Gebroeker:',
+	'editcount_submit' => 'Gaon',
+	'editcount_total' => 'Totaal',
+);
+
 /** Lumbaart (Lumbaart)
  * @author Sprüngli
  */
