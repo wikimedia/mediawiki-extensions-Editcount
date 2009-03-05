@@ -115,6 +115,7 @@ $messages['bcl'] = array(
  */
 $messages['be-tarask'] = array(
 	'editcount_username' => 'Удзельнік:',
+	'editcount_total' => 'Усяго',
 );
 
 /** Bulgarian (Български)
