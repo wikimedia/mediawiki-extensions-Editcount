@@ -60,7 +60,7 @@ $aliases['fi'] = array(
 
 /** French (Français) */
 $aliases['fr'] = array(
-	'Editcount' => array( 'CompteurÉdition', 'CompteurEdition' ),
+	'Editcount' => array( 'Compteur de modifications', 'CompteurModifications', 'CompteurEditions', 'CompteurÉditions', "Compteur d'éditions", 'CompteurÉdition', 'CompteurEdition' ),
 );
 
 /** Galician (Galego) */
