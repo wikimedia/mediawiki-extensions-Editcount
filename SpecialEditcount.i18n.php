@@ -540,6 +540,13 @@ $messages['ksh'] = array(
 	'editcount_total' => 'Zosamme',
 );
 
+/** Cornish (Kernewek)
+ * @author Kw-Moon
+ */
+$messages['kw'] = array(
+	'editcount_username' => 'Devnydhyer:',
+);
+
 /** Latin (Latina)
  * @author SPQRobin
  */
