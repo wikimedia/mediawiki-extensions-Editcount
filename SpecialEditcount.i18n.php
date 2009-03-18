@@ -225,9 +225,12 @@ $messages['dsb'] = array(
 	'editcount_total' => 'Dogromady',
 );
 
-/** Ewe (Eʋegbe) */
+/** Ewe (Eʋegbe)
+ * @author Natsubee
+ */
 $messages['ee'] = array(
 	'editcount_username' => 'Ezãla:',
+	'editcount_submit' => 'Ɖoe ɖa',
 );
 
 /** Greek (Ελληνικά)
