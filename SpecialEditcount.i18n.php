@@ -864,6 +864,13 @@ $messages['ru'] = array(
 	'editcount_total' => 'Всего',
 );
 
+/** Sardinian (Sardu)
+ * @author Marzedu
+ */
+$messages['sc'] = array(
+	'editcount_username' => 'Usuàriu:',
+);
+
 /** Sicilian (Sicilianu)
  * @author Santu
  */
