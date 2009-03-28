@@ -30,14 +30,6 @@ $messages['qqq'] = array(
 	'editcount_total' => '{{Identical|Total}}',
 );
 
-/** Veps (Vepsan kel')
- * @author Игорь Бродский
- */
-$messages['vep'] = array(
-	'editcount_username' => 'Kävutai:',
-	'editcount_submit' => 'Oigeta',
-);
-
 /** Afrikaans (Afrikaans)
  * @author Arnobarnard
  * @author Naudefj
@@ -869,6 +861,7 @@ $messages['ru'] = array(
  */
 $messages['sc'] = array(
 	'editcount_username' => 'Usuàriu:',
+	'editcount_total' => 'Totale',
 );
 
 /** Sicilian (Sicilianu)
@@ -1043,6 +1036,14 @@ $messages['vec'] = array(
 	'editcount_username' => 'Utente:',
 	'editcount_submit' => 'Invia',
 	'editcount_total' => 'Totale',
+);
+
+/** Veps (Vepsan kel')
+ * @author Игорь Бродский
+ */
+$messages['vep'] = array(
+	'editcount_username' => 'Kävutai:',
+	'editcount_submit' => 'Oigeta',
 );
 
 /** Vietnamese (Tiếng Việt)
