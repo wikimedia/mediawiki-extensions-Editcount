@@ -1042,6 +1042,7 @@ $messages['vec'] = array(
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
+	'editcount' => 'Redakcijoiden lugim',
 	'editcount_username' => 'Kävutai:',
 	'editcount_submit' => 'Oigeta',
 );
