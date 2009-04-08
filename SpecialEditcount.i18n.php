@@ -993,6 +993,17 @@ $messages['tg-cyrl'] = array(
 	'editcount_submit' => 'Ирсол',
 );
 
+/** Thai (ไทย)
+ * @author Passawuth
+ */
+$messages['th'] = array(
+	'editcount' => 'จำนวนการแก้ไข',
+	'editcount-desc' => 'แสดง [[Special:Editcount|จำนวนการแก้ไข]] ของผู้ใช้',
+	'editcount_username' => 'ผู้ใช้:',
+	'editcount_submit' => 'ตกลง',
+	'editcount_total' => 'รวม',
+);
+
 /** Tagalog (Tagalog)
  * @author AnakngAraw
  */
