@@ -163,11 +163,11 @@ class EditcountHTML extends Editcount {
 		$this->nscount = $nscount;
 		$this->total = $total;
 
-		global $wgTitle, $wgOut, $wgLang;
+		global $wgOut, $wgLang;
 
 		$this->setHeaders();
 
-		$action = $wgTitle->escapeLocalUrl();
+		$action = $this->getTitle()->escapeLocalUrl();
 		$user = wfMsgHtml( 'editcount_username' );
 		$submit = wfMsgHtml( 'editcount_submit' );
 		$out = "
