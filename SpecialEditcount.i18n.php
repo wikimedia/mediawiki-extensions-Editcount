@@ -908,9 +908,11 @@ $messages['sr'] = array(
 
 /** Serbian Cyrillic ekavian (ћирилица)
  * @author Sasa Stefanovic
+ * @author Михајло Анђелковић
  */
 $messages['sr-ec'] = array(
 	'editcount' => 'Бројач измена',
+	'editcount-desc' => 'Приказује [[Special:Editcount|бројач измена]] корисника',
 	'editcount_username' => 'Корисник:',
 	'editcount_submit' => 'Унеси',
 	'editcount_total' => 'Укупно',
