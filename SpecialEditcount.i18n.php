@@ -235,9 +235,11 @@ $messages['ee'] = array(
 
 /** Greek (Ελληνικά)
  * @author Consta
+ * @author Crazymadlover
  */
 $messages['el'] = array(
 	'editcount_username' => 'Χρήστης:',
+	'editcount_submit' => 'Υποβολή',
 );
 
 /** Esperanto (Esperanto)
