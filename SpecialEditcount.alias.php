@@ -63,6 +63,11 @@ $aliases['fr'] = array(
 	'Editcount' => array( 'Compteur de modifications', 'CompteurModifications', 'CompteurEditions', 'CompteurÉditions', "Compteur d'éditions", 'CompteurÉdition', 'CompteurEdition' ),
 );
 
+/** Franco-Provençal (Arpetan) */
+$aliases['frp'] = array(
+	'Editcount' => array( 'Comptor de changements', 'ComptorDeChangements' ),
+);
+
 /** Galician (Galego) */
 $aliases['gl'] = array(
 	'Editcount' => array( 'Contador de edicións' ),
