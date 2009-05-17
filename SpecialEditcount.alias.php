@@ -78,6 +78,11 @@ $aliases['gsw'] = array(
 	'Editcount' => array( 'Byytragszeller' ),
 );
 
+/** Gujarati (ગુજરાતી) */
+$aliases['gu'] = array(
+	'Editcount' => array( 'ફેરફારગણત્રી' ),
+);
+
 /** Hebrew (עברית)
  * @author Rotem Liss
  */
