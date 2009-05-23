@@ -130,6 +130,11 @@ $aliases['km'] = array(
 	'Editcount' => array( 'ការរាប់កំណែប្រែ' ),
 );
 
+/** Ripoarisch (Ripoarisch) */
+$aliases['ksh'] = array(
+	'Editcount' => array( 'Änderunge_Zälle', 'ÄnderungeZälle' ),
+);
+
 /** Luxembourgish (Lëtzebuergesch) */
 $aliases['lb'] = array(
 	'Editcount' => array( 'Compteur vun den Ännerungen' ),
