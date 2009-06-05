@@ -887,6 +887,13 @@ $messages['sdc'] = array(
 	'editcount_total' => 'Totari',
 );
 
+/** Serbo-Croatian (Srpskohrvatski / Српскохрватски)
+ * @author OC Ripper
+ */
+$messages['sh'] = array(
+	'editcount_submit' => 'Unesi',
+);
+
 /** Slovak (Slovenčina)
  * @author Helix84
  */
