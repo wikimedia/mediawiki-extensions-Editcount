@@ -112,9 +112,13 @@ $messages['bcl'] = array(
 
 /** Belarusian (Taraškievica orthography) (Беларуская (тарашкевіца))
  * @author EugeneZelenko
+ * @author Jim-by
  */
 $messages['be-tarask'] = array(
+	'editcount' => 'Лічыльнік рэдагаваньняў',
+	'editcount-desc' => 'Адлюстроўвае [[Special:Editcount|колькасьць рэдагаваньняў]] удзельніка',
 	'editcount_username' => 'Удзельнік:',
+	'editcount_submit' => 'Захаваць',
 	'editcount_total' => 'Усяго',
 );
 
