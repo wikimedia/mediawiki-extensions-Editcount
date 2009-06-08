@@ -145,6 +145,11 @@ $aliases['mk'] = array(
 	'Editcount' => array( 'БројНаУредувања' ),
 );
 
+/** Marathi (मराठी) */
+$aliases['mr'] = array(
+	'Editcount' => array( 'संपादनसंख्या' ),
+);
+
 /** Malay (Bahasa Melayu) */
 $aliases['ms'] = array(
 	'Editcount' => array( 'Jumlah suntingan' ),

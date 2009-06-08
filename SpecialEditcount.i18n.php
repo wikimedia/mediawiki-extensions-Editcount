@@ -116,9 +116,9 @@ $messages['bcl'] = array(
  */
 $messages['be-tarask'] = array(
 	'editcount' => 'Лічыльнік рэдагаваньняў',
-	'editcount-desc' => 'Адлюстроўвае [[Special:Editcount|колькасьць рэдагаваньняў]] удзельніка',
+	'editcount-desc' => 'Паказвае [[Special:Editcount|колькасьць рэдагаваньняў]] удзельніка',
 	'editcount_username' => 'Удзельнік:',
-	'editcount_submit' => 'Захаваць',
+	'editcount_submit' => 'Падлічыць',
 	'editcount_total' => 'Усяго',
 );
 
