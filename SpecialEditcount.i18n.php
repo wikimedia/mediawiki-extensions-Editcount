@@ -233,17 +233,23 @@ $messages['dsb'] = array(
  * @author Natsubee
  */
 $messages['ee'] = array(
+	'editcount' => 'Tɔtrɔwo ƒe xexlẽme',
+	'editcount-desc' => 'Efiana nuŋlɔlaa ƒe [[Special:Editcount|tɔtrɔwo ƒe xexlẽme]]',
 	'editcount_username' => 'Ezãla:',
 	'editcount_submit' => 'Ɖoe ɖa',
+	'editcount_total' => 'Ƒuƒoƒo',
 );
 
 /** Greek (Ελληνικά)
  * @author Consta
  * @author Crazymadlover
+ * @author Omnipaedista
  */
 $messages['el'] = array(
+	'editcount' => 'Καταμέτρηση επεξεργασιών',
 	'editcount_username' => 'Χρήστης:',
 	'editcount_submit' => 'Υποβολή',
+	'editcount_total' => 'Συνολικά',
 );
 
 /** Esperanto (Esperanto)
