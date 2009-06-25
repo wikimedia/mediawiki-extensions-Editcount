@@ -184,7 +184,7 @@ $aliases['no'] = array(
 
 /** Occitan (Occitan) */
 $aliases['oc'] = array(
-	'Editcount' => array( 'ComptadorEdicion' ),
+	'Editcount' => array( 'ComptadorEdicion', "Comptador d'edicions" ),
 );
 
 /** Polish (Polski) */
