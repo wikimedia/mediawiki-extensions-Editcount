@@ -117,7 +117,7 @@ $aliases['ia'] = array(
 
 /** Indonesian (Bahasa Indonesia) */
 $aliases['id'] = array(
-	'Editcount' => array( 'Jumlah suntingan' ),
+	'Editcount' => array( 'Jumlah suntingan', 'JumlahSuntingan' ),
 );
 
 /** Japanese (日本語) */
