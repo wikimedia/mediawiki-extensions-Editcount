@@ -130,6 +130,11 @@ $aliases['km'] = array(
 	'Editcount' => array( 'ការរាប់កំណែប្រែ' ),
 );
 
+/** Korean (한국어) */
+$aliases['ko'] = array(
+	'Editcount' => array( '기여횟수' ),
+);
+
 /** Ripoarisch (Ripoarisch) */
 $aliases['ksh'] = array(
 	'Editcount' => array( 'Änderunge_Zälle', 'ÄnderungeZälle' ),
