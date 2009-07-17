@@ -794,9 +794,11 @@ $messages['pl'] = array(
 
 /** Piedmontese (Piemontèis)
  * @author Bèrto 'd Sèra
+ * @author Dragonòt
  */
 $messages['pms'] = array(
 	'editcount' => 'Total dle modìfiche',
+	'editcount-desc' => "A visualisa ël [[Special:Editcount|contator ëd le modìfiche]] ëd n'utent",
 	'editcount_username' => 'Stranòm:',
 	'editcount_submit' => 'Manda',
 	'editcount_total' => 'Total',
