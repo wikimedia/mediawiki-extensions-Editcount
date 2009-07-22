@@ -222,6 +222,11 @@ $aliases['sa'] = array(
 	'Editcount' => array( 'गणनसम्पादन्‌' ),
 );
 
+/** Slovak (Slovenčina) */
+$aliases['sk'] = array(
+	'Editcount' => array( 'PočetPríspevkov' ),
+);
+
 /** Swedish (Svenska) */
 $aliases['sv'] = array(
 	'Editcount' => array( 'Redigeringsräknare' ),

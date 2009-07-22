@@ -199,6 +199,17 @@ $messages['cu'] = array(
 	'editcount_username' => 'по́льꙃєватєл҄ь :',
 );
 
+/** Welsh (Cymraeg)
+ * @author Lloffiwr
+ */
+$messages['cy'] = array(
+	'editcount' => 'Nifer y golygiadau',
+	'editcount-desc' => 'Yn dangos [[Special:Editcount|nifer golygiadau]] rhyw ddefnyddiwr',
+	'editcount_username' => 'Defnyddiwr:',
+	'editcount_submit' => 'Holi',
+	'editcount_total' => 'Cyfanswm',
+);
+
 /** Danish (Dansk)
  * @author Jon Harald Søby
  */
