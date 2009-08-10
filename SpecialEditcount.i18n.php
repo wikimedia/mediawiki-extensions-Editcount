@@ -851,10 +851,12 @@ $messages['rm'] = array(
 );
 
 /** Romanian (Română)
+ * @author Firilacroco
  * @author KlaudiuMihaila
  */
 $messages['ro'] = array(
 	'editcount_username' => 'Utilizator:',
+	'editcount_submit' => 'Trimite',
 	'editcount_total' => 'Total',
 );
 
@@ -951,10 +953,12 @@ $messages['sr-ec'] = array(
 );
 
 /** latinica (latinica)
+ * @author Michaello
  * @author Sasa Stefanovic
  */
 $messages['sr-el'] = array(
 	'editcount' => 'Brojač izmena',
+	'editcount-desc' => 'Prikazuje [[Special:Editcount|brojač izmena]] korisnika',
 	'editcount_username' => 'Korisnik:',
 	'editcount_submit' => 'Unesi',
 	'editcount_total' => 'Ukupno',
