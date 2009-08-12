@@ -343,6 +343,15 @@ $messages['fr'] = array(
 	'editcount_total' => 'Total',
 );
 
+/** Franco-Provençal (Arpetan)
+ * @author Cedric31
+ */
+$messages['frp'] = array(
+	'editcount_username' => 'Utilisator :',
+	'editcount_submit' => 'Sometre',
+	'editcount_total' => 'Soma',
+);
+
 /** Western Frisian (Frysk)
  * @author Snakesteuben
  */
