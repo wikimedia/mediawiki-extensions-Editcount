@@ -1074,6 +1074,17 @@ $messages['tr'] = array(
 	'editcount_total' => 'Toplam',
 );
 
+/** Tatar (Cyrillic) (Татарча/Tatarça (Cyrillic))
+ * @author Yildiz
+ */
+$messages['tt-cyrl'] = array(
+	'editcount' => 'Төзәтмәләр статистикасы',
+	'editcount-desc' => 'Катнашучының [[Special:Editcount|төзәтмәләр санын]] күрсәтә',
+	'editcount_username' => 'Катнашучы:',
+	'editcount_submit' => 'Санарга',
+	'editcount_total' => 'Тулысынча',
+);
+
 /** Ukrainian (Українська)
  * @author Ahonc
  */
