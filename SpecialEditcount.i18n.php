@@ -949,7 +949,7 @@ $messages['sr'] = array(
 	'editcount_total' => 'Укупно',
 );
 
-/** Serbian Cyrillic ekavian (ћирилица)
+/** Serbian Cyrillic ekavian (Српски (ћирилица))
  * @author Sasa Stefanovic
  * @author Михајло Анђелковић
  */
@@ -961,7 +961,7 @@ $messages['sr-ec'] = array(
 	'editcount_total' => 'Укупно',
 );
 
-/** latinica (latinica)
+/** Serbian Latin ekavian (Srpski (latinica))
  * @author Michaello
  * @author Sasa Stefanovic
  */
