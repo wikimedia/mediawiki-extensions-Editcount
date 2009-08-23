@@ -149,6 +149,7 @@ $messages['bn'] = array(
  */
 $messages['br'] = array(
 	'editcount' => 'Sammad degasadennoù',
+	'editcount-desc' => 'Diskwel a ra [[Special:Editcount|konter degasadennoù]] un implijer',
 	'editcount_username' => 'Implijer :',
 	'editcount_submit' => 'Kas',
 	'editcount_total' => 'Hollad',
