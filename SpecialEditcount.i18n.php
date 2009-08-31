@@ -335,10 +335,11 @@ $messages['fi'] = array(
  * @author Bertrand Grondin
  * @author Grondin
  * @author Louperivois
+ * @author Verdy p
  */
 $messages['fr'] = array(
-	'editcount' => 'Compteur d’éditions individuel',
-	'editcount-desc' => 'Affiche le [[Special:Editcount|compteur d’édition]] d’un utilisateur',
+	'editcount' => 'Compteur individuel de modifications',
+	'editcount-desc' => 'Affiche le [[Special:Editcount|compteur de modifications]] d’un utilisateur',
 	'editcount_username' => 'Utilisateur :',
 	'editcount_submit' => 'Soumettre',
 	'editcount_total' => 'Total',
