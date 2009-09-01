@@ -256,9 +256,11 @@ $messages['ee'] = array(
  * @author Consta
  * @author Crazymadlover
  * @author Omnipaedista
+ * @author ZaDiak
  */
 $messages['el'] = array(
 	'editcount' => 'Καταμέτρηση επεξεργασιών',
+	'editcount-desc' => 'Δείχνει μια [[Special:Editcount|καταμέτρηση επεξεργασιών]] από ένα χρήστη',
 	'editcount_username' => 'Χρήστης:',
 	'editcount_submit' => 'Υποβολή',
 	'editcount_total' => 'Συνολικά',
