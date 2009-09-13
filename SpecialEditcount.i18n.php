@@ -1116,8 +1116,10 @@ $messages['vec'] = array(
  */
 $messages['vep'] = array(
 	'editcount' => 'Redakcijoiden lugim',
+	'editcount-desc' => 'Ozutab kävatajan [[Special:Editcount|redakcijoiden lugu]]',
 	'editcount_username' => 'Kävutai:',
 	'editcount_submit' => 'Oigeta',
+	'editcount_total' => 'Ühtes',
 );
 
 /** Vietnamese (Tiếng Việt)
