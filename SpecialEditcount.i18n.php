@@ -636,6 +636,17 @@ $messages['lt'] = array(
 	'editcount_total' => 'Viso',
 );
 
+/** Malagasy (Malagasy)
+ * @author Jagwar
+ */
+$messages['mg'] = array(
+	'editcount' => 'Mpikaonty ny fanovana',
+	'editcount-desc' => "Mampiseho ny [[Special:Editcount|Mpanisa fanovan']]ny mpikambana iray",
+	'editcount_username' => 'Mpikambana:',
+	'editcount_submit' => 'Alefa',
+	'editcount_total' => 'Tontaly',
+);
+
 /** Eastern Mari (Олык Марий)
  * @author Сай
  */
