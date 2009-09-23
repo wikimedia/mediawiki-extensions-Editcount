@@ -1156,6 +1156,13 @@ $messages['vo'] = array(
 	'editcount_total' => 'Valod',
 );
 
+/** Yiddish (ייִדיש)
+ * @author פוילישער
+ */
+$messages['yi'] = array(
+	'editcount_username' => 'באַניצער:',
+);
+
 /** Yue (粵語)
  * @author Shinjiman
  */
