@@ -580,7 +580,7 @@ $messages['ksh'] = array(
 	'editcount_total' => 'Zosamme',
 );
 
-/** Cornish (Kernewek)
+/** Cornish (Kernowek)
  * @author Kw-Moon
  */
 $messages['kw'] = array(
@@ -1091,7 +1091,7 @@ $messages['tr'] = array(
 );
 
 /** Tatar (Cyrillic) (Татарча/Tatarça (Cyrillic))
- * @author Yildiz
+ * @author Рашат Якупов
  */
 $messages['tt-cyrl'] = array(
 	'editcount' => 'Төзәтмәләр статистикасы',
