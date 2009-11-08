@@ -878,8 +878,11 @@ $messages['rm'] = array(
 /** Romanian (Română)
  * @author Firilacroco
  * @author KlaudiuMihaila
+ * @author Minisarm
  */
 $messages['ro'] = array(
+	'editcount' => 'Contribuţii',
+	'editcount-desc' => 'Afişează [[Special:Editcount|contribuţiile]] unui utilizator',
 	'editcount_username' => 'Utilizator:',
 	'editcount_submit' => 'Trimite',
 	'editcount_total' => 'Total',
