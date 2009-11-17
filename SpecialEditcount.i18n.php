@@ -947,6 +947,13 @@ $messages['sh'] = array(
 	'editcount_submit' => 'Unesi',
 );
 
+/** Sinhala (සිංහල)
+ * @author චතුනි අලහප්පෙරුම
+ */
+$messages['si'] = array(
+	'editcount' => 'සංස්කරණ ගණනය',
+);
+
 /** Slovak (Slovenčina)
  * @author Helix84
  */
