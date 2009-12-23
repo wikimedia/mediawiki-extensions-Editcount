@@ -292,6 +292,13 @@ $messages['es'] = array(
 	'editcount_total' => 'Total',
 );
 
+/** Estonian (Eesti)
+ * @author Avjoska
+ */
+$messages['et'] = array(
+	'editcount_username' => 'Kasutaja:',
+);
+
 /** Basque (Euskara)
  * @author An13sa
  * @author Kobazulo
