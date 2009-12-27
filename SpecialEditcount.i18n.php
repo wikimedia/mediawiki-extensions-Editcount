@@ -1073,6 +1073,14 @@ $messages['tg-cyrl'] = array(
 	'editcount_submit' => 'Ирсол',
 );
 
+/** Tajik (Latin) (Тоҷикӣ (Latin))
+ * @author Liangent
+ */
+$messages['tg-latn'] = array(
+	'editcount_username' => 'Korbar:',
+	'editcount_submit' => 'Irsol',
+);
+
 /** Thai (ไทย)
  * @author Passawuth
  */
