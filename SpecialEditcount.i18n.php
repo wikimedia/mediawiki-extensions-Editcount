@@ -1092,6 +1092,14 @@ $messages['th'] = array(
 	'editcount_total' => 'รวม',
 );
 
+/** Turkmen (Türkmençe)
+ * @author Hanberke
+ */
+$messages['tk'] = array(
+	'editcount_username' => 'Ulanyjy:',
+	'editcount_submit' => 'Tabşyr',
+);
+
 /** Tagalog (Tagalog)
  * @author AnakngAraw
  */
