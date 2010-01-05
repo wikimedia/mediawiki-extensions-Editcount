@@ -35,6 +35,7 @@ $messages['qqq'] = array(
  * @author Naudefj
  */
 $messages['af'] = array(
+	'editcount' => 'Aantal wysigings',
 	'editcount_username' => 'Gebruiker:',
 	'editcount_submit' => 'OK',
 	'editcount_total' => 'Totaal',
