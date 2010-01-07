@@ -869,11 +869,12 @@ $messages['pt'] = array(
 
 /** Brazilian Portuguese (Português do Brasil)
  * @author Eduardo.mps
+ * @author Jesielt
  */
 $messages['pt-br'] = array(
 	'editcount' => 'Contador de edições',
-	'editcount-desc' => 'Apresenta [[Special:Editcount|a contagem de edições]] de um utilizador',
-	'editcount_username' => 'Utilizador:',
+	'editcount-desc' => 'Apresenta [[Special:Editcount|a contagem de edições]] de um usuário',
+	'editcount_username' => 'Usuário:',
 	'editcount_submit' => 'Enviar',
 	'editcount_total' => 'Total',
 );
