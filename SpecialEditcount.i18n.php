@@ -36,6 +36,7 @@ $messages['qqq'] = array(
  */
 $messages['af'] = array(
 	'editcount' => 'Aantal wysigings',
+	'editcount-desc' => "Vertoon 'n [[Special:Editcount|telling van wysigings]] vir 'n gebruiker",
 	'editcount_username' => 'Gebruiker:',
 	'editcount_submit' => 'OK',
 	'editcount_total' => 'Totaal',
