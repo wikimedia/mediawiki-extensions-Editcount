@@ -853,7 +853,7 @@ $messages['pms'] = array(
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */
 $messages['ps'] = array(
-	'editcount_username' => 'کارونکی:',
+	'editcount_username' => 'کارن:',
 	'editcount_total' => 'ټولټال',
 );
 
