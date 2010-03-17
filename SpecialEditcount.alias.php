@@ -129,7 +129,7 @@ $aliases['ko'] = array(
 	'Editcount' => array( '기여횟수' ),
 );
 
-/** Ripoarisch (Ripoarisch) */
+/** Colognian (Ripoarisch) */
 $aliases['ksh'] = array(
 	'Editcount' => array( 'Änderunge_Zälle', 'ÄnderungeZälle' ),
 );
