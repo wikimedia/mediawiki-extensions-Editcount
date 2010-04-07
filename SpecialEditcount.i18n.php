@@ -680,9 +680,9 @@ $messages['mk'] = array(
  */
 $messages['ml'] = array(
 	'editcount' => 'തിരുത്തലുകളുടെ എണ്ണം',
-	'editcount-desc' => 'ഒരു ഉപയോക്താവിന്റെ [[Special:Editcount|തിരുത്തലുകളുടെ എണ്ണം]] പ്രദര്‍ശിപ്പിക്കുന്നു',
+	'editcount-desc' => 'ഒരു ഉപയോക്താവിന്റെ [[Special:Editcount|തിരുത്തലുകളുടെ എണ്ണം]] പ്രദർശിപ്പിക്കുന്നു',
 	'editcount_username' => 'ഉപയോക്താവ്:',
-	'editcount_submit' => 'സമര്‍പ്പിക്കുക',
+	'editcount_submit' => 'സമർപ്പിക്കുക',
 	'editcount_total' => 'മൊത്തം',
 );
 
