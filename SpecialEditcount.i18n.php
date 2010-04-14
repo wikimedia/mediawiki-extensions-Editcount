@@ -53,10 +53,11 @@ $messages['an'] = array(
  * @author Wōdenhelm
  */
 $messages['ang'] = array(
-	'editcount' => 'Ādihtungtelle',
-	'editcount-desc' => 'Ætīeƿþ [[Special:Editcount|ādihtungtelle]] brūcendes',
+	'editcount' => 'Ādihttæl',
+	'editcount-desc' => 'Ætīeƿþ [[Special:Editcount|ādihttæl]] brūcendes',
 	'editcount_username' => 'Brūcend:',
 	'editcount_submit' => 'Sendan',
+	'editcount_total' => 'Eall',
 );
 
 /** Arabic (العربية)
