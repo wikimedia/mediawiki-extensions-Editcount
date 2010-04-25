@@ -49,7 +49,7 @@ $messages['an'] = array(
 	'editcount_submit' => 'Nimbiar',
 );
 
-/** Old English (Anglo-Saxon)
+/** Old English (Ænglisc)
  * @author Wōdenhelm
  */
 $messages['ang'] = array(
@@ -579,7 +579,7 @@ $messages['ko'] = array(
 	'editcount_total' => '합계',
 );
 
-/** Ripoarisch (Ripoarisch)
+/** Colognian (Ripoarisch)
  * @author Purodha
  */
 $messages['ksh'] = array(
@@ -590,7 +590,7 @@ $messages['ksh'] = array(
 	'editcount_total' => 'Zosamme',
 );
 
-/** Cornish (Kernowek)
+/** Cornish (Kernewek)
  * @author Kw-Moon
  */
 $messages['kw'] = array(
@@ -881,7 +881,7 @@ $messages['pt-br'] = array(
 	'editcount_total' => 'Total',
 );
 
-/** Rhaeto-Romance (Rumantsch) */
+/** Romansh (Rumantsch) */
 $messages['rm'] = array(
 	'editcount_username' => 'Utilisader:',
 );
@@ -1201,7 +1201,7 @@ $messages['yi'] = array(
 	'editcount_username' => 'באַניצער:',
 );
 
-/** Yue (粵語)
+/** Cantonese (粵語)
  * @author Shinjiman
  */
 $messages['yue'] = array(
