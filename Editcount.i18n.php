@@ -568,6 +568,13 @@ $messages['km'] = array(
 	'editcount_total' => 'សរុប',
 );
 
+/** Kannada (ಕನ್ನಡ)
+ * @author Nayvik
+ */
+$messages['kn'] = array(
+	'editcount_total' => 'ಒಟ್ಟು',
+);
+
 /** Korean (한국어)
  * @author Kwj2772
  */
