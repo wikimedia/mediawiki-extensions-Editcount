@@ -861,7 +861,10 @@ $messages['pms'] = array(
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */
 $messages['ps'] = array(
+	'editcount' => 'د سمونونو شمېر',
+	'editcount-desc' => 'د يوه کارن [[Special:Editcount|د سمونونو شمېر]] ښکاره کوي',
 	'editcount_username' => 'کارن:',
+	'editcount_submit' => 'سپارل',
 	'editcount_total' => 'ټولټال',
 );
 
