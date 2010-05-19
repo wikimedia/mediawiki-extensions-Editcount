@@ -902,8 +902,8 @@ $messages['rm'] = array(
  * @author Minisarm
  */
 $messages['ro'] = array(
-	'editcount' => 'Contribuţii',
-	'editcount-desc' => 'Afişează [[Special:Editcount|contribuţiile]] unui utilizator',
+	'editcount' => 'Contribuții',
+	'editcount-desc' => 'Afișează [[Special:Editcount|contribuțiile]] unui utilizator',
 	'editcount_username' => 'Utilizator:',
 	'editcount_submit' => 'Trimite',
 	'editcount_total' => 'Total',
