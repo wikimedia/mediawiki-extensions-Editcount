@@ -182,9 +182,9 @@ class EditcountHTML extends Editcount {
 			$editcounttable = $this->makeTable();
 			$out .= "
 				<tr>
-					<td>&nbsp;</td>
+					<td>&#160;</td>
 					<td>$editcounttable</td>
-					<td>&nbsp;</td>
+					<td>&#160;</td>
 				</tr>";
 		}
 		$out .="
