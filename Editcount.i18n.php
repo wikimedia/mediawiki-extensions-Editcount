@@ -46,7 +46,7 @@ $messages['af'] = array(
  * @author Juanpabl
  */
 $messages['an'] = array(
-	'editcount_submit' => 'Nimbiar',
+	'editcount_submit' => 'Ninviar',
 );
 
 /** Old English (Ænglisc)
