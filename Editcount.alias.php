@@ -2,7 +2,8 @@
 /**
  * Aliases for Special:Editcount
  *
- * @addtogroup Extensions
+ * @file
+ * @ingroup Extensions
  */
 
 $aliases = array();

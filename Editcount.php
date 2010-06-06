@@ -6,8 +6,8 @@ if (!defined('MEDIAWIKI')) die();
  * This page can be accessed from Special:Editcount[/user] as well as being
  * included like {{Special:Editcount/user[/namespace]}}
  *
- * @addtogroup Extensions
- *
+ * @file
+ * @ingroup Extensions
  * @author Ævar Arnfjörð Bjarmason <avarab@gmail.com>
  * @copyright Copyright © 2005, Ævar Arnfjörð Bjarmason
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
