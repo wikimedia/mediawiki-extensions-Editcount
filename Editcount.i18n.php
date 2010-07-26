@@ -509,6 +509,15 @@ $messages['id'] = array(
 	'editcount_total' => 'Total',
 );
 
+/** Igbo (Igbo)
+ * @author Ukabia
+ */
+$messages['ig'] = array(
+	'editcount' => 'Ngụkọta orü',
+	'editcount_username' => 'Onye nbanife:',
+	'editcount_total' => 'Ọnụ ogụ nílé',
+);
+
 /** Icelandic (Íslenska) */
 $messages['is'] = array(
 	'editcount_username' => 'Notandi:',
