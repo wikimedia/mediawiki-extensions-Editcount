@@ -515,7 +515,7 @@ $messages['id'] = array(
 $messages['ig'] = array(
 	'editcount' => 'Ngụkọta orü',
 	'editcount_username' => "Ọ'bànifé:",
-	'editcount_total' => 'Ọnụ ogụ nílé',
+	'editcount_total' => 'Òlé níle',
 );
 
 /** Icelandic (Íslenska) */
