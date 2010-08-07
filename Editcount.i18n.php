@@ -182,6 +182,12 @@ $messages['ca'] = array(
 	'editcount_total' => 'Total',
 );
 
+/** Sorani (کوردی) */
+$messages['ckb'] = array(
+	'editcount_username' => 'بەکارهێنەر:',
+	'editcount_submit' => 'ناردن',
+);
+
 /** Corsican (Corsu) */
 $messages['co'] = array(
 	'editcount_username' => 'Utilizatore:',
