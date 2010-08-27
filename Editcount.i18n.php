@@ -987,9 +987,13 @@ $messages['sh'] = array(
 
 /** Sinhala (සිංහල)
  * @author චතුනි අලහප්පෙරුම
+ * @author බිඟුවා
  */
 $messages['si'] = array(
 	'editcount' => 'සංස්කරණ ගණනය',
+	'editcount_username' => 'පරිශීලකයා:',
+	'editcount_submit' => 'යොමුකරන්න',
+	'editcount_total' => 'සියල්ල',
 );
 
 /** Slovak (Slovenčina)
