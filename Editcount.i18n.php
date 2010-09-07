@@ -1082,6 +1082,12 @@ $messages['sv'] = array(
 	'editcount_total' => 'Total',
 );
 
+/** Swahili (Kiswahili) */
+$messages['sw'] = array(
+	'editcount_username' => 'Mtumiaji:',
+	'editcount_submit' => 'Wasilisha',
+);
+
 /** Silesian (Ślůnski)
  * @author Herr Kriss
  */
