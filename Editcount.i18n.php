@@ -1095,6 +1095,16 @@ $messages['szl'] = array(
 	'editcount_total' => 'Do kupy',
 );
 
+/** Tamil (தமிழ்)
+ * @author TRYPPN
+ */
+$messages['ta'] = array(
+	'editcount' => 'தொகுப்புக்களின் எண்ணிக்கை',
+	'editcount_username' => 'பயனர்:',
+	'editcount_submit' => 'சமர்ப்பி',
+	'editcount_total' => 'மொத்தம்',
+);
+
 /** Telugu (తెలుగు)
  * @author Veeven
  */
