@@ -1097,9 +1097,11 @@ $messages['szl'] = array(
 
 /** Tamil (தமிழ்)
  * @author TRYPPN
+ * @author செல்வா
  */
 $messages['ta'] = array(
 	'editcount' => 'தொகுப்புக்களின் எண்ணிக்கை',
+	'editcount-desc' => 'ஒரு பயனரின் [[Special:Editcount|தொகுப்புக் கணக்கை] க் காட்டுகின்றது',
 	'editcount_username' => 'பயனர்:',
 	'editcount_submit' => 'சமர்ப்பி',
 	'editcount_total' => 'மொத்தம்',
