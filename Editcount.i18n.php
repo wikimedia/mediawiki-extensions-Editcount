@@ -949,6 +949,17 @@ $messages['ru'] = array(
 	'editcount_total' => 'Всего',
 );
 
+/** Yakut (Саха тыла)
+ * @author HalanTul
+ */
+$messages['sah'] = array(
+	'editcount' => 'Көннөрүүлэр ахсааннара',
+	'editcount-desc' => 'Кыттааччы [[Special:Editcount|көннөрүүтүн ахсаанын]] көрдөрөр',
+	'editcount_username' => 'Кыттааччы:',
+	'editcount_submit' => 'Ааҕарга',
+	'editcount_total' => 'Барыта',
+);
+
 /** Sardinian (Sardu)
  * @author Marzedu
  */
@@ -1101,7 +1112,7 @@ $messages['szl'] = array(
  */
 $messages['ta'] = array(
 	'editcount' => 'தொகுப்புக்களின் எண்ணிக்கை',
-	'editcount-desc' => 'ஒரு பயனரின் [[Special:Editcount|தொகுப்புக் கணக்கை] க் காட்டுகின்றது',
+	'editcount-desc' => 'ஒரு பயனரின் [[Special:Editcount|தொகுப்புக்களின் எண்ணிக்கையைக்]] காட்டுகின்றது',
 	'editcount_username' => 'பயனர்:',
 	'editcount_submit' => 'சமர்ப்பி',
 	'editcount_total' => 'மொத்தம்',
