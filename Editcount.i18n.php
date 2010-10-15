@@ -949,6 +949,16 @@ $messages['ru'] = array(
 	'editcount_total' => 'Всего',
 );
 
+/** Rusyn (Русиньскый)
+ * @author Gazeb
+ */
+$messages['rue'] = array(
+	'editcount' => 'Чісло едітовань',
+	'editcount_username' => 'Хоснователь:',
+	'editcount_submit' => 'Одослати',
+	'editcount_total' => 'Цілком',
+);
+
 /** Yakut (Саха тыла)
  * @author HalanTul
  */
