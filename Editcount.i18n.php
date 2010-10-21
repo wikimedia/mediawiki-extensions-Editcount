@@ -1028,6 +1028,13 @@ $messages['sk'] = array(
 	'editcount_total' => 'Celkom',
 );
 
+/** Slovenian (Slovenščina)
+ * @author Dbc334
+ */
+$messages['sl'] = array(
+	'editcount_username' => 'Uporabnik:',
+);
+
 /** Serbian (Српски / Srpski)
  * @author Sasa Stefanovic
  */
