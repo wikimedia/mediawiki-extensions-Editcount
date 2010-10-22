@@ -74,6 +74,14 @@ $messages['ar'] = array(
 	'editcount_total' => 'الإجمالي',
 );
 
+/** Aramaic (ܐܪܡܝܐ)
+ * @author Basharh
+ */
+$messages['arc'] = array(
+	'editcount_username' => 'ܡܬܚܫܚܢܐ:',
+	'editcount_submit' => 'ܫܕܪ',
+);
+
 /** Egyptian Spoken Arabic (مصرى)
  * @author Ghaly
  * @author Meno25
