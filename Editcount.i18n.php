@@ -719,6 +719,13 @@ $messages['ml'] = array(
 	'editcount_total' => 'മൊത്തം',
 );
 
+/** Mongolian (Монгол)
+ * @author Chinneeb
+ */
+$messages['mn'] = array(
+	'editcount_submit' => 'Явуулах',
+);
+
 /** Marathi (मराठी)
  * @author Kaustubh
  */
