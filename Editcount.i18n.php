@@ -1047,7 +1047,11 @@ $messages['sk'] = array(
  * @author Dbc334
  */
 $messages['sl'] = array(
+	'editcount' => 'Število prispevkov',
+	'editcount-desc' => 'Prikaže [[Special:Editcount|števec urejanj]] uporabnika',
 	'editcount_username' => 'Uporabnik:',
+	'editcount_submit' => 'Pošlji',
+	'editcount_total' => 'Skupaj',
 );
 
 /** Serbian (Српски / Srpski)
