@@ -1018,7 +1018,11 @@ $messages['sdc'] = array(
  * @author OC Ripper
  */
 $messages['sh'] = array(
+	'editcount' => 'Brojač izmjena',
+	'editcount-desc' => 'Prikazuje [[Special:Editcount|brojač izmjena]] korisnika',
+	'editcount_username' => 'Korisnik:',
 	'editcount_submit' => 'Unesi',
+	'editcount_total' => 'Ukupno',
 );
 
 /** Sinhala (සිංහල)
