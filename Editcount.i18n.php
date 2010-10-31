@@ -75,10 +75,11 @@ $messages['ar'] = array(
 );
 
 /** Aramaic (ܐܪܡܝܐ)
+ * @author 334a
  * @author Basharh
  */
 $messages['arc'] = array(
-	'editcount_username' => 'ܡܬܚܫܚܢܐ:',
+	'editcount_username' => 'ܡܦܠܚܢܐ:',
 	'editcount_submit' => 'ܫܕܪ',
 );
 
