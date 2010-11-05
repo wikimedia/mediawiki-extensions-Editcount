@@ -14,6 +14,7 @@ class Editcount extends IncludableSpecialPage {
 	 */
 	public function execute( $par ) {
 		global $wgRequest, $wgOut, $wgContLang;
+		wfLoadExtensionMessages( 'Editcount' );
 
 		$target = isset( $par ) ? $par : $wgRequest->getText( 'username' );
 
