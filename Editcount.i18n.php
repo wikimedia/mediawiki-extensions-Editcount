@@ -710,6 +710,7 @@ $messages['mk'] = array(
 );
 
 /** Malayalam (മലയാളം)
+ * @author Praveenp
  * @author Shijualex
  */
 $messages['ml'] = array(
@@ -717,7 +718,7 @@ $messages['ml'] = array(
 	'editcount-desc' => 'ഒരു ഉപയോക്താവിന്റെ [[Special:Editcount|തിരുത്തലുകളുടെ എണ്ണം]] പ്രദർശിപ്പിക്കുന്നു',
 	'editcount_username' => 'ഉപയോക്താവ്:',
 	'editcount_submit' => 'സമർപ്പിക്കുക',
-	'editcount_total' => 'മൊത്തം',
+	'editcount_total' => 'ആകെ',
 );
 
 /** Mongolian (Монгол)
