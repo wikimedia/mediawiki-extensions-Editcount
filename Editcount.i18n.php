@@ -1139,6 +1139,8 @@ $messages['sv'] = array(
  * @author Lloffiwr
  */
 $messages['sw'] = array(
+	'editcount' => 'Idadi ya maharirio',
+	'editcount-desc' => 'Inonyesha [[Special:Editcount|idadi ya maharirio]] ya mtumiaji',
 	'editcount_username' => 'Mtumiaji:',
 	'editcount_submit' => 'Wasilisha',
 	'editcount_total' => 'Jumla',
