@@ -194,6 +194,13 @@ $messages['ca'] = array(
 	'editcount_total' => 'Total',
 );
 
+/** Chechen (Нохчийн)
+ * @author Sasan700
+ */
+$messages['ce'] = array(
+	'editcount_username' => 'Декъашхо:',
+);
+
 /** Sorani (کوردی) */
 $messages['ckb'] = array(
 	'editcount_username' => 'بەکارهێنەر:',
