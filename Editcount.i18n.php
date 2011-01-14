@@ -1135,13 +1135,14 @@ $messages['su'] = array(
 /** Swedish (Svenska)
  * @author Lejonel
  * @author M.M.S.
+ * @author Tobulos1
  */
 $messages['sv'] = array(
 	'editcount' => 'Redigeringsräknare',
 	'editcount-desc' => 'Visar [[Special:Editcount|antalet redigeringar]] som en användare gjort',
 	'editcount_username' => 'Användare:',
 	'editcount_submit' => 'Räkna',
-	'editcount_total' => 'Total',
+	'editcount_total' => 'Totalt',
 );
 
 /** Swahili (Kiswahili)
