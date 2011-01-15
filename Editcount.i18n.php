@@ -1079,7 +1079,8 @@ $messages['sr'] = array(
 	'editcount_total' => 'Укупно',
 );
 
-/** Serbian Cyrillic ekavian (Српски (ћирилица))
+/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+ * @author Rancher
  * @author Sasa Stefanovic
  * @author Михајло Анђелковић
  */
@@ -1087,7 +1088,7 @@ $messages['sr-ec'] = array(
 	'editcount' => 'Бројач измена',
 	'editcount-desc' => 'Приказује [[Special:Editcount|бројач измена]] корисника',
 	'editcount_username' => 'Корисник:',
-	'editcount_submit' => 'Унеси',
+	'editcount_submit' => 'Пошаљи',
 	'editcount_total' => 'Укупно',
 );
 
@@ -1342,12 +1343,13 @@ $messages['zh-hans'] = array(
 );
 
 /** Traditional Chinese (‪中文(繁體)‬)
+ * @author Mark85296341
  * @author Shinjiman
  */
 $messages['zh-hant'] = array(
 	'editcount' => '編輯次數',
 	'editcount-desc' => '顯示一個使用者的[[Special:Editcount|編輯次數]]',
-	'editcount_username' => '用戶:',
+	'editcount_username' => '用戶：',
 	'editcount_submit' => '遞交',
 	'editcount_total' => '總數',
 );
