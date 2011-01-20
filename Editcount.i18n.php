@@ -632,6 +632,14 @@ $messages['ksh'] = array(
 	'editcount_total' => 'Zosamme',
 );
 
+/** Kurdish (Latin) (Kurdî (Latin))
+ * @author George Animal
+ */
+$messages['ku-latn'] = array(
+	'editcount_username' => 'Bikarhêner:',
+	'editcount_total' => 'Hemû',
+);
+
 /** Cornish (Kernewek)
  * @author Kw-Moon
  */
