@@ -126,7 +126,7 @@ $messages['bcl'] = array(
 	'editcount_submit' => 'Isumitir',
 );
 
-/** Belarusian (Taraškievica orthography) (Беларуская (тарашкевіца))
+/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -640,7 +640,7 @@ $messages['ku-latn'] = array(
 	'editcount_total' => 'Hemû',
 );
 
-/** Cornish (Kernewek)
+/** Cornish (Kernowek)
  * @author Kw-Moon
  */
 $messages['kw'] = array(
@@ -1100,7 +1100,7 @@ $messages['sr-ec'] = array(
 	'editcount_total' => 'Укупно',
 );
 
-/** Serbian Latin ekavian (Srpski (latinica))
+/** Serbian Latin ekavian (‪Srpski (latinica)‬)
  * @author Michaello
  * @author Sasa Stefanovic
  */
