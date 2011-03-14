@@ -249,12 +249,13 @@ $messages['da'] = array(
 );
 
 /** German (Deutsch)
+ * @author Kghbln
  * @author Leon Weber
  * @author Raimond Spekking
  */
 $messages['de'] = array(
-	'editcount' => 'Anzahl der Seitenbearbeitungen',
-	'editcount-desc' => 'Zeigt die [[Special:Editcount|Anzahl der Bearbeitungen]] eines Benutzers',
+	'editcount' => 'Bearbeitungszähler',
+	'editcount-desc' => 'Ergänzt eine [[Special:Editcount|Spezialseite]] zur Anzeige der Anzahl an Bearbeitungen eines Benutzers',
 	'editcount_username' => 'Benutzer:',
 	'editcount_submit' => 'Absenden',
 	'editcount_total' => 'Gesamt',
