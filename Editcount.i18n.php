@@ -758,6 +758,7 @@ $messages['mr'] = array(
 );
 
 /** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
  * @author Aurora
  * @author Aviator
  */
@@ -765,7 +766,7 @@ $messages['ms'] = array(
 	'editcount' => 'Jumlah suntingan',
 	'editcount-desc' => 'Memaparkan [[Special:Editcount|jumlah suntingan]] bagi pengguna',
 	'editcount_username' => 'Pengguna:',
-	'editcount_submit' => 'Serah',
+	'editcount_submit' => 'Hantar',
 	'editcount_total' => 'Jumlah',
 );
 
