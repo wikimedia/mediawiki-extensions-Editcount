@@ -629,7 +629,7 @@ $messages['ksh'] = array(
 	'editcount' => 'Aanzahl Änderunge',
 	'editcount-desc' => 'Zeisch enem Metmaacher sing [[Special:Editcount|Aanzahl Änderunge]] aan Sigge em Wiki.',
 	'editcount_username' => 'Metmaacher Name:',
-	'editcount_submit' => 'Loß Jonn!',
+	'editcount_submit' => 'Lohß Jonn!',
 	'editcount_total' => 'Zosamme',
 );
 
