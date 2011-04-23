@@ -65,12 +65,13 @@ $messages['ang'] = array(
 /** Arabic (العربية)
  * @author Meno25
  * @author Mimouni
+ * @author OsamaK
  */
 $messages['ar'] = array(
 	'editcount' => 'عداد المساهمات',
 	'editcount-desc' => 'يعرض [[Special:Editcount|عداد المساهمات]] لمستخدم',
 	'editcount_username' => 'مستخدم:',
-	'editcount_submit' => 'تنفيذ',
+	'editcount_submit' => 'أرسل',
 	'editcount_total' => 'الإجمالي',
 );
 
