@@ -699,6 +699,17 @@ $messages['lt'] = array(
 	'editcount_total' => 'Viso',
 );
 
+/** Latvian (Latviešu)
+ * @author GreenZeb
+ */
+$messages['lv'] = array(
+	'editcount' => 'Labojumu skaits',
+	'editcount-desc' => 'Parāda lietotāja [[Special:Editcount|labojumu skaitu]]',
+	'editcount_username' => 'Lietotājs:',
+	'editcount_submit' => 'Iesniegt',
+	'editcount_total' => 'Kopā',
+);
+
 /** Malagasy (Malagasy)
  * @author Jagwar
  */
