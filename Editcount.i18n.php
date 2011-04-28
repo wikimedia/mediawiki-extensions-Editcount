@@ -118,6 +118,15 @@ $messages['avk'] = array(
 	'editcount_total' => 'Itaya',
 );
 
+/** Azerbaijani (Azərbaycanca)
+ * @author Cekli829
+ */
+$messages['az'] = array(
+	'editcount_username' => 'İstifadəçi:',
+	'editcount_submit' => 'Yolla',
+	'editcount_total' => 'Ümumi',
+);
+
 /** Bikol Central (Bikol Central)
  * @author Filipinayzd
  */
