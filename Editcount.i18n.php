@@ -397,8 +397,10 @@ $messages['fr'] = array(
 
 /** Franco-Provençal (Arpetan)
  * @author Cedric31
+ * @author ChrisPtDe
  */
 $messages['frp'] = array(
+	'editcount' => 'Comptor de changements',
 	'editcount_username' => 'Utilisator :',
 	'editcount_submit' => 'Sometre',
 	'editcount_total' => 'Soma',
