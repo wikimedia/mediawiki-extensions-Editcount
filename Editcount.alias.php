@@ -8,9 +8,7 @@
 
 $specialPageAliases = array();
 
-/** English
- * @author Jon Harald Søby
- */
+/** English (English) */
 $specialPageAliases['en'] = array(
 	'Editcount' => array( 'Editcount' ),
 );
@@ -72,7 +70,7 @@ $specialPageAliases['frp'] = array(
 
 /** Galician (Galego) */
 $specialPageAliases['gl'] = array(
-	'Editcount' => array( 'Contador de edicións' ),
+	'Editcount' => array( 'Contador_de_edicións' ),
 );
 
 /** Swiss German (Alemannisch) */
@@ -102,7 +100,7 @@ $specialPageAliases['hsb'] = array(
 
 /** Haitian (Kreyòl ayisyen) */
 $specialPageAliases['ht'] = array(
-	'Editcount' => array( 'KonteEdit' ),
+	'Editcount' => array( 'KontModifikasyon' ),
 );
 
 /** Hungarian (Magyar) */
@@ -207,7 +205,7 @@ $specialPageAliases['oc'] = array(
 
 /** Polish (Polski) */
 $specialPageAliases['pl'] = array(
-	'Editcount' => array( 'Licznik_edycji' ),
+	'Editcount' => array( 'Liczba_edycji' ),
 );
 
 /** Portuguese (Português) */
@@ -245,6 +243,11 @@ $specialPageAliases['sk'] = array(
 	'Editcount' => array( 'PočetPríspevkov' ),
 );
 
+/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬) */
+$specialPageAliases['sr-ec'] = array(
+	'Editcount' => array( 'Уреди_број' ),
+);
+
 /** Swedish (Svenska) */
 $specialPageAliases['sv'] = array(
 	'Editcount' => array( 'Redigeringsräknare' ),
@@ -262,7 +265,17 @@ $specialPageAliases['tl'] = array(
 
 /** Turkish (Türkçe) */
 $specialPageAliases['tr'] = array(
-	'Editcount' => array( 'DeğişiklikSayacı' ),
+	'Editcount' => array( 'DeğişiklikSayacı', 'DüzenlemeSayacı' ),
+);
+
+/** Vietnamese (Tiếng Việt) */
+$specialPageAliases['vi'] = array(
+	'Editcount' => array( 'Số_sửa_đổi' ),
+);
+
+/** Simplified Chinese (‪中文(简体)‬) */
+$specialPageAliases['zh-hans'] = array(
+	'Editcount' => array( '编辑计数' ),
 );
 
 /** Traditional Chinese (‪中文(繁體)‬) */
