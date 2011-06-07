@@ -661,10 +661,13 @@ $messages['kw'] = array(
 );
 
 /** Latin (Latina)
+ * @author MissPetticoats
  * @author SPQRobin
  */
 $messages['la'] = array(
 	'editcount_username' => 'Usor:',
+	'editcount_submit' => 'Submittere',
+	'editcount_total' => 'Summa',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
