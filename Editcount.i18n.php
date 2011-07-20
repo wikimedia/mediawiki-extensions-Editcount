@@ -547,6 +547,17 @@ $messages['id'] = array(
 	'editcount_total' => 'Total',
 );
 
+/** Interlingue (Interlingue)
+ * @author Renan
+ */
+$messages['ie'] = array(
+	'editcount' => 'Contator de redactiones',
+	'editcount-desc' => 'Monstra li [[Special:Editcount|contator de redactiones]] de un usator',
+	'editcount_username' => 'Usator:',
+	'editcount_submit' => 'Prevision',
+	'editcount_total' => 'Total',
+);
+
 /** Igbo (Igbo)
  * @author Ukabia
  */
