@@ -1116,16 +1116,6 @@ $messages['sl'] = array(
 	'editcount_total' => 'Skupaj',
 );
 
-/** Serbian (Српски / Srpski)
- * @author Sasa Stefanovic
- */
-$messages['sr'] = array(
-	'editcount' => 'Бројач измена',
-	'editcount_username' => 'Корисник:',
-	'editcount_submit' => 'Унеси',
-	'editcount_total' => 'Укупно',
-);
-
 /** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
  * @author Rancher
  * @author Sasa Stefanovic
