@@ -901,7 +901,7 @@ $messages['oc'] = array(
 	'editcount_total' => 'Soma',
 );
 
-/** Ossetic (Иронау)
+/** Ossetic (Ирон)
  * @author Amikeco
  */
 $messages['os'] = array(
@@ -1032,7 +1032,7 @@ $messages['rue'] = array(
 	'editcount_total' => 'Цілком',
 );
 
-/** Yakut (Саха тыла)
+/** Sakha (Саха тыла)
  * @author HalanTul
  */
 $messages['sah'] = array(
