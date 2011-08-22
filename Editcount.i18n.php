@@ -120,10 +120,11 @@ $messages['avk'] = array(
 
 /** Azerbaijani (Azərbaycanca)
  * @author Cekli829
+ * @author Wertuose
  */
 $messages['az'] = array(
 	'editcount_username' => 'İstifadəçi:',
-	'editcount_submit' => 'Yolla',
+	'editcount_submit' => 'Hesabla',
 	'editcount_total' => 'Ümumi',
 );
 
