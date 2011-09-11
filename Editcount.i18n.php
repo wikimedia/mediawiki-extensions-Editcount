@@ -107,6 +107,17 @@ $messages['as'] = array(
 	'editcount_total' => 'মূঠ',
 );
 
+/** Asturian (Asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'editcount' => "Contador d'ediciones",
+	'editcount-desc' => "Amuesa [[Special:Editcount|la cuenta d'ediciones]] d'un usuariu",
+	'editcount_username' => 'Usuariu:',
+	'editcount_submit' => 'Unviar',
+	'editcount_total' => 'Total',
+);
+
 /** Kotava (Kotava)
  * @author Wikimistusik
  */
