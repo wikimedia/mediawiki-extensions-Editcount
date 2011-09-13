@@ -179,7 +179,7 @@ $messages['bn'] = array(
 	'editcount' => 'সম্পাদনা সংখ্যা',
 	'editcount-desc' => 'ব্যবহারকারীর [[Special:Editcount|সম্পাদনা সংখ্যা]] দেখাও',
 	'editcount_username' => 'ব্যবহারকারী:',
-	'editcount_submit' => 'পেশ করো',
+	'editcount_submit' => 'জমা দাও',
 	'editcount_total' => 'সর্বমোট',
 );
 
