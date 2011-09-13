@@ -243,7 +243,7 @@ $specialPageAliases['sk'] = array(
 	'Editcount' => array( 'PočetPríspevkov' ),
 );
 
-/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬) */
+/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬) */
 $specialPageAliases['sr-ec'] = array(
 	'Editcount' => array( 'Уреди_број' ),
 );
