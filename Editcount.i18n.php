@@ -928,6 +928,13 @@ $messages['pa'] = array(
 	'editcount_total' => 'ਕੁਲ',
 );
 
+/** Deitsch (Deitsch)
+ * @author Xqt
+ */
+$messages['pdc'] = array(
+	'editcount_username' => 'Yuuser:',
+);
+
 /** Plautdietsch (Plautdietsch)
  * @author Slomox
  */
