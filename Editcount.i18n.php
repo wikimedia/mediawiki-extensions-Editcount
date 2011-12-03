@@ -413,7 +413,7 @@ $messages['fr'] = array(
  */
 $messages['frp'] = array(
 	'editcount' => 'Comptor de changements',
-	'editcount_username' => 'Utilisator :',
+	'editcount_username' => 'Usanciér :',
 	'editcount_submit' => 'Sometre',
 	'editcount_total' => 'Soma',
 );
