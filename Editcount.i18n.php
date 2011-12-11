@@ -280,7 +280,7 @@ $messages['de'] = array(
 	'editcount-desc' => 'Ergänzt eine [[Special:Editcount|Spezialseite]] zur Anzeige der Anzahl an Bearbeitungen eines Benutzers',
 	'editcount_username' => 'Benutzer:',
 	'editcount_submit' => 'Absenden',
-	'editcount_total' => 'Gesamt',
+	'editcount_total' => 'Insgesamt',
 );
 
 /** Lower Sorbian (Dolnoserbski)
