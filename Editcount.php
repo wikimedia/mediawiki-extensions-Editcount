@@ -18,7 +18,7 @@ $wgExtensionCredits['specialpage'][] = array(
 	'name' => 'Editcount',
 	'author' => 'Ævar Arnfjörð Bjarmason',
 	'descriptionmsg' => 'editcount-desc',
-	'url' => 'http://www.mediawiki.org/wiki/Extension:Editcount',
+	'url' => 'https://www.mediawiki.org/wiki/Extension:Editcount',
 );
 
 $dir = dirname(__FILE__) . '/';
