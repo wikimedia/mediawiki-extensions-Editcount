@@ -884,7 +884,7 @@ $messages['nn'] = array(
 /** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
  * @author Jon Harald Søby
  */
-$messages['no'] = array(
+$messages['nb'] = array(
 	'editcount' => 'Redigeringsteller',
 	'editcount-desc' => 'Viser [[Special:Editcount|redigeringsteller]] for en bruker',
 	'editcount_username' => 'Bruker:',
