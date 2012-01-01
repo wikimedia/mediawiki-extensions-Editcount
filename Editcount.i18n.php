@@ -851,6 +851,17 @@ $messages['nah'] = array(
 	'editcount_total' => 'Mochīntīn',
 );
 
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+ * @author Jon Harald Søby
+ */
+$messages['nb'] = array(
+	'editcount' => 'Redigeringsteller',
+	'editcount-desc' => 'Viser [[Special:Editcount|redigeringsteller]] for en bruker',
+	'editcount_username' => 'Bruker:',
+	'editcount_submit' => 'OK',
+	'editcount_total' => 'Totalt',
+);
+
 /** Low German (Plattdüütsch)
  * @author Slomox
  */
@@ -877,17 +888,6 @@ $messages['nn'] = array(
 	'editcount' => 'Endringsteljar',
 	'editcount-desc' => 'Viser [[Special:Editcount|redigeringsteljar]] for ein brukar',
 	'editcount_username' => 'Brukar:',
-	'editcount_submit' => 'OK',
-	'editcount_total' => 'Totalt',
-);
-
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
- */
-$messages['nb'] = array(
-	'editcount' => 'Redigeringsteller',
-	'editcount-desc' => 'Viser [[Special:Editcount|redigeringsteller]] for en bruker',
-	'editcount_username' => 'Bruker:',
 	'editcount_submit' => 'OK',
 	'editcount_total' => 'Totalt',
 );
@@ -1231,6 +1231,16 @@ $messages['ta'] = array(
 	'editcount_username' => 'பயனர்:',
 	'editcount_submit' => 'சமர்ப்பி',
 	'editcount_total' => 'மொத்தம்',
+);
+
+/** Tulu (ತುಳು)
+ * @author VASANTH S.N.
+ */
+$messages['tcy'] = array(
+	'editcount-desc' => 'ಬಳಕೆದಾರೆರ್ನ [[Special:Editcount|edit count]] ತೋಜಾಲೆ',
+	'editcount_username' => 'ಬಳಕೆದಾರೆರ್',
+	'editcount_submit' => 'ಒಪ್ಪಿಸಾಲೆ',
+	'editcount_total' => 'ಮೊತ್ತ',
 );
 
 /** Telugu (తెలుగు)
