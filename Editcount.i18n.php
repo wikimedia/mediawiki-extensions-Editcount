@@ -1384,6 +1384,7 @@ $messages['vo'] = array(
  */
 $messages['yi'] = array(
 	'editcount_username' => 'באַניצער:',
+	'editcount_submit' => 'אײַנגעבן',
 );
 
 /** Cantonese (粵語)
