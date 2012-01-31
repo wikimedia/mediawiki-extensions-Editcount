@@ -748,6 +748,17 @@ $messages['lv'] = array(
 	'editcount_total' => 'Kopā',
 );
 
+/** Basa Banyumasan (Basa Banyumasan)
+ * @author StefanusRA
+ */
+$messages['map-bms'] = array(
+	'editcount' => 'Jumlah suntingan',
+	'editcount-desc' => 'Tidokna [[Special:Editcount|jumlah suntingan]]e panganggo',
+	'editcount_username' => 'Panganggo:',
+	'editcount_submit' => 'Kirim',
+	'editcount_total' => 'Total',
+);
+
 /** Malagasy (Malagasy)
  * @author Jagwar
  */
