@@ -737,6 +737,17 @@ $messages['lt'] = array(
 	'editcount_total' => 'Viso',
 );
 
+/** Lushai (Mizo ţawng)
+ * @author RMizo
+ */
+$messages['lus'] = array(
+	'editcount' => 'Siamṭhat zât',
+	'editcount-desc' => 'Hmangtu [[Special:Editcount|siamṭhat zât]] pholanna.',
+	'editcount_username' => 'Hmangtu:',
+	'editcount_submit' => 'Thehluhna',
+	'editcount_total' => 'Avaiin',
+);
+
 /** Latvian (Latviešu)
  * @author GreenZeb
  */
