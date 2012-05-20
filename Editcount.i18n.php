@@ -283,6 +283,17 @@ $messages['de'] = array(
 	'editcount_total' => 'Insgesamt',
 );
 
+/** Zazaki (Zazaki)
+ * @author Erdemaslancan
+ */
+$messages['diq'] = array(
+	'editcount' => 'Amarê vurnayîşî',
+	'editcount-desc' => '[[Special:Editcount|Amariya vurnayışan]] de karberi mocneno',
+	'editcount_username' => 'Karber:',
+	'editcount_submit' => 'Bırşê',
+	'editcount_total' => 'Pêro piya',
+);
+
 /** Lower Sorbian (Dolnoserbski)
  * @author Michawiki
  */
