@@ -23,6 +23,11 @@ $specialPageAliases['arz'] = array(
 	'Editcount' => array( 'عدد_التعديلات' ),
 );
 
+/** Banjar (Bahasa Banjar) */
+$specialPageAliases['bjn'] = array(
+	'Editcount' => array( 'Jumlah_babakan' ),
+);
+
 /** Bosnian (Bosanski) */
 $specialPageAliases['bs'] = array(
 	'Editcount' => array( 'BrojacIzmjena' ),
