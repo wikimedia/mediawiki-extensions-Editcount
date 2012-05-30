@@ -1239,10 +1239,11 @@ $messages['sv'] = array(
 
 /** Swahili (Kiswahili)
  * @author Lloffiwr
+ * @author Stephenwanjau
  */
 $messages['sw'] = array(
-	'editcount' => 'Idadi ya maharirio',
-	'editcount-desc' => 'Inonyesha [[Special:Editcount|idadi ya maharirio]] ya mtumiaji',
+	'editcount' => 'Idadi ya mahariri',
+	'editcount-desc' => 'Inonyesha [[Special:Editcount|idadi ya mahariri]] ya mtumiaji',
 	'editcount_username' => 'Mtumiaji:',
 	'editcount_submit' => 'Wasilisha',
 	'editcount_total' => 'Jumla',
