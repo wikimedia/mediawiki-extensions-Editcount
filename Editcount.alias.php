@@ -28,7 +28,7 @@ $specialPageAliases['bjn'] = array(
 	'Editcount' => array( 'Jumlah_babakan' ),
 );
 
-/** Bosnian (Bosanski) */
+/** Bosnian (bosanski) */
 $specialPageAliases['bs'] = array(
 	'Editcount' => array( 'BrojacIzmjena' ),
 );
@@ -36,6 +36,11 @@ $specialPageAliases['bs'] = array(
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'Editcount' => array( 'Beitragszähler' ),
+);
+
+/** Zazaki (Zazaki) */
+$specialPageAliases['diq'] = array(
+	'Editcount' => array( 'AmargeyaVurnayışan' ),
 );
 
 /** Lower Sorbian (Dolnoserbski) */
@@ -48,7 +53,7 @@ $specialPageAliases['eo'] = array(
 	'Editcount' => array( 'Redaktkontilo' ),
 );
 
-/** Spanish (Español) */
+/** Spanish (español) */
 $specialPageAliases['es'] = array(
 	'Editcount' => array( 'Ediciones_de_Usuario' ),
 );
@@ -58,17 +63,17 @@ $specialPageAliases['fa'] = array(
 	'Editcount' => array( 'شمار_ویرایش‌ها' ),
 );
 
-/** Finnish (Suomi) */
+/** Finnish (suomi) */
 $specialPageAliases['fi'] = array(
 	'Editcount' => array( 'Muokkauslaskuri' ),
 );
 
-/** French (Français) */
+/** French (français) */
 $specialPageAliases['fr'] = array(
 	'Editcount' => array( 'Compteur_de_modifications', 'CompteurModifications', 'CompteurEditions', 'CompteurÉditions', 'Compteur_d\'éditions', 'CompteurÉdition', 'CompteurEdition' ),
 );
 
-/** Franco-Provençal (Arpetan) */
+/** Franco-Provençal (arpetan) */
 $specialPageAliases['frp'] = array(
 	'Editcount' => array( 'Comptor_de_changements', 'ComptorDeChangements' ),
 );
@@ -93,7 +98,7 @@ $specialPageAliases['he'] = array(
 	'Editcount' => array( 'מספר_עריכות' ),
 );
 
-/** Croatian (Hrvatski) */
+/** Croatian (hrvatski) */
 $specialPageAliases['hr'] = array(
 	'Editcount' => array( 'Brojač_izmjena' ),
 );
@@ -108,12 +113,12 @@ $specialPageAliases['ht'] = array(
 	'Editcount' => array( 'KontModifikasyon' ),
 );
 
-/** Hungarian (Magyar) */
+/** Hungarian (magyar) */
 $specialPageAliases['hu'] = array(
 	'Editcount' => array( 'Szerkesztések_száma' ),
 );
 
-/** Interlingua (Interlingua) */
+/** Interlingua (interlingua) */
 $specialPageAliases['ia'] = array(
 	'Editcount' => array( 'Numero_de_modificationes' ),
 );
@@ -158,7 +163,7 @@ $specialPageAliases['lb'] = array(
 	'Editcount' => array( 'Compteur_vun_den_Ännerungen' ),
 );
 
-/** Macedonian (Македонски) */
+/** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'Editcount' => array( 'БројНаУредувања' ),
 );
@@ -188,7 +193,7 @@ $specialPageAliases['nah'] = array(
 	'Editcount' => array( 'TlapatlaliztliTlapōhualiztli', 'Ediciones' ),
 );
 
-/** Norwegian Bokmål (‪Norsk (bokmål)‬) */
+/** Norwegian Bokmål (‪norsk (bokmål)‬) */
 $specialPageAliases['nb'] = array(
 	'Editcount' => array( 'Redigeringsteller' ),
 );
@@ -203,22 +208,22 @@ $specialPageAliases['nl'] = array(
 	'Editcount' => array( 'Bewerkingsteller' ),
 );
 
-/** Occitan (Occitan) */
+/** Occitan (occitan) */
 $specialPageAliases['oc'] = array(
 	'Editcount' => array( 'ComptadorEdicion' ),
 );
 
-/** Polish (Polski) */
+/** Polish (polski) */
 $specialPageAliases['pl'] = array(
 	'Editcount' => array( 'Liczba_edycji' ),
 );
 
-/** Portuguese (Português) */
+/** Portuguese (português) */
 $specialPageAliases['pt'] = array(
 	'Editcount' => array( 'Contador_de_edições' ),
 );
 
-/** Brazilian Portuguese (Português do Brasil) */
+/** Brazilian Portuguese (português do Brasil) */
 $specialPageAliases['pt-br'] = array(
 	'Editcount' => array( 'Contador_de_edições' ),
 );
@@ -228,7 +233,7 @@ $specialPageAliases['qu'] = array(
 	'Editcount' => array( 'RuraqpaLlamkapusqankuna' ),
 );
 
-/** Romanian (Română) */
+/** Romanian (română) */
 $specialPageAliases['ro'] = array(
 	'Editcount' => array( 'Numărătoare_modificare' ),
 );
@@ -243,17 +248,17 @@ $specialPageAliases['si'] = array(
 	'Editcount' => array( 'සංස්කරණ_ගණන' ),
 );
 
-/** Slovak (Slovenčina) */
+/** Slovak (slovenčina) */
 $specialPageAliases['sk'] = array(
 	'Editcount' => array( 'PočetPríspevkov' ),
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬) */
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬) */
 $specialPageAliases['sr-ec'] = array(
 	'Editcount' => array( 'Уреди_број' ),
 );
 
-/** Swedish (Svenska) */
+/** Swedish (svenska) */
 $specialPageAliases['sv'] = array(
 	'Editcount' => array( 'Redigeringsräknare' ),
 );
@@ -278,12 +283,12 @@ $specialPageAliases['vi'] = array(
 	'Editcount' => array( 'Số_sửa_đổi' ),
 );
 
-/** Simplified Chinese (‪中文(简体)‬) */
+/** Simplified Chinese (‪中文（简体）‬) */
 $specialPageAliases['zh-hans'] = array(
 	'Editcount' => array( '编辑计数' ),
 );
 
-/** Traditional Chinese (‪中文(繁體)‬) */
+/** Traditional Chinese (‪中文（繁體）‬) */
 $specialPageAliases['zh-hant'] = array(
 	'Editcount' => array( '編輯數統計' ),
 );
