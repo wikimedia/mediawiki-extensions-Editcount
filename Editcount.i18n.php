@@ -107,7 +107,7 @@ $messages['as'] = array(
 	'editcount_total' => 'মূঠ',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -129,7 +129,7 @@ $messages['avk'] = array(
 	'editcount_total' => 'Itaya',
 );
 
-/** Azerbaijani (Azərbaycanca)
+/** Azerbaijani (azərbaycanca)
  * @author Cekli829
  * @author Wertuose
  */
@@ -160,7 +160,7 @@ $messages['be-tarask'] = array(
 	'editcount_total' => 'Усяго',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  * @author Spiritia
  */
@@ -183,7 +183,7 @@ $messages['bn'] = array(
 	'editcount_total' => 'সর্বমোট',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  */
 $messages['br'] = array(
@@ -194,7 +194,7 @@ $messages['br'] = array(
 	'editcount_total' => 'Hollad',
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
@@ -205,7 +205,7 @@ $messages['bs'] = array(
 	'editcount_total' => 'Ukupno',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author SMP
  */
 $messages['ca'] = array(
@@ -223,18 +223,18 @@ $messages['ce'] = array(
 	'editcount_username' => 'Декъашхо:',
 );
 
-/** Sorani (کوردی) */
+/** Sorani Kurdish (کوردی) */
 $messages['ckb'] = array(
 	'editcount_username' => 'بەکارهێنەر:',
 	'editcount_submit' => 'ناردن',
 );
 
-/** Corsican (Corsu) */
+/** Corsican (corsu) */
 $messages['co'] = array(
 	'editcount_username' => 'Utilizatore:',
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Matěj Grabovský
  */
 $messages['cs'] = array(
@@ -263,7 +263,7 @@ $messages['cy'] = array(
 	'editcount_total' => 'Cyfanswm',
 );
 
-/** Danish (Dansk)
+/** Danish (dansk)
  * @author Jon Harald Søby
  */
 $messages['da'] = array(
@@ -305,7 +305,7 @@ $messages['dsb'] = array(
 	'editcount_total' => 'Dogromady',
 );
 
-/** Ewe (Eʋegbe)
+/** Ewe (eʋegbe)
  * @author Natsubee
  */
 $messages['ee'] = array(
@@ -342,7 +342,7 @@ $messages['eo'] = array(
 	'editcount_total' => 'Tuto',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Crazymadlover
  * @author Fitoschido
  * @author Imre
@@ -356,14 +356,14 @@ $messages['es'] = array(
 	'editcount_total' => 'Total',
 );
 
-/** Estonian (Eesti)
+/** Estonian (eesti)
  * @author Avjoska
  */
 $messages['et'] = array(
 	'editcount_username' => 'Kasutaja:',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author An13sa
  * @author Kobazulo
  */
@@ -375,7 +375,7 @@ $messages['eu'] = array(
 	'editcount_total' => 'Guztira',
 );
 
-/** Extremaduran (Estremeñu)
+/** Extremaduran (estremeñu)
  * @author Better
  */
 $messages['ext'] = array(
@@ -393,7 +393,7 @@ $messages['fa'] = array(
 	'editcount_total' => 'کل',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Jaakonam
  * @author Nike
  */
@@ -405,7 +405,7 @@ $messages['fi'] = array(
 	'editcount_total' => 'Yhteensä',
 );
 
-/** French (Français)
+/** French (français)
  * @author Bertrand Grondin
  * @author Grondin
  * @author Louperivois
@@ -419,7 +419,7 @@ $messages['fr'] = array(
 	'editcount_total' => 'Total',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author Cedric31
  * @author ChrisPtDe
  */
@@ -503,7 +503,7 @@ $messages['hi'] = array(
 	'editcount_total' => 'कुल',
 );
 
-/** Croatian (Hrvatski)
+/** Croatian (hrvatski)
  * @author Dalibor Bosits
  * @author Dnik
  */
@@ -526,7 +526,7 @@ $messages['hsb'] = array(
 	'editcount_total' => 'dohromady',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dani
  * @author Glanthor Reviol
  */
@@ -548,7 +548,7 @@ $messages['hy'] = array(
 	'editcount_total' => 'Ընդհանուր',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -591,12 +591,12 @@ $messages['ig'] = array(
 	'editcount_total' => 'Òlé níle',
 );
 
-/** Icelandic (Íslenska) */
+/** Icelandic (íslenska) */
 $messages['is'] = array(
 	'editcount_username' => 'Notandi:',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author BrokenArrow
  * @author Darth Kule
  */
@@ -689,7 +689,7 @@ $messages['ku-latn'] = array(
 	'editcount_total' => 'Hemû',
 );
 
-/** Cornish (Kernowek)
+/** Cornish (kernowek)
  * @author Kw-Moon
  */
 $messages['kw'] = array(
@@ -728,7 +728,7 @@ $messages['li'] = array(
 	'editcount_total' => 'Totaal',
 );
 
-/** Lumbaart (Lumbaart)
+/** lumbaart (lumbaart)
  * @author Sprüngli
  */
 $messages['lmo'] = array(
@@ -737,7 +737,7 @@ $messages['lmo'] = array(
 	'editcount_username' => 'Dovratt:',
 );
 
-/** Lithuanian (Lietuvių)
+/** Lithuanian (lietuvių)
  * @author Hugo.arg
  * @author Matasg
  */
@@ -760,7 +760,7 @@ $messages['lus'] = array(
 	'editcount_total' => 'Avaiin',
 );
 
-/** Latvian (Latviešu)
+/** Latvian (latviešu)
  * @author GreenZeb
  */
 $messages['lv'] = array(
@@ -800,7 +800,7 @@ $messages['mhr'] = array(
 	'editcount_username' => 'Пайдаланыше:',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Brest
  */
 $messages['mk'] = array(
@@ -823,7 +823,7 @@ $messages['ml'] = array(
 	'editcount_total' => 'ആകെ',
 );
 
-/** Mongolian (Монгол)
+/** Mongolian (монгол)
  * @author Chinneeb
  */
 $messages['mn'] = array(
@@ -914,7 +914,7 @@ $messages['nl'] = array(
 	'editcount_total' => 'Totaal',
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
  * @author Eirik
  * @author Frokor
  */
@@ -937,7 +937,7 @@ $messages['nso'] = array(
 	'editcount_total' => 'Yohle',
 );
 
-/** Occitan (Occitan)
+/** Occitan (occitan)
  * @author Cedric31
  */
 $messages['oc'] = array(
@@ -977,7 +977,7 @@ $messages['pdt'] = array(
 	'editcount_username' => 'Brucker:',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Derbeth
  * @author McMonster
  */
@@ -1012,7 +1012,7 @@ $messages['ps'] = array(
 	'editcount_total' => 'ټولټال',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Malafaya
  */
 $messages['pt'] = array(
@@ -1023,7 +1023,7 @@ $messages['pt'] = array(
 	'editcount_total' => 'Total',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Eduardo.mps
  * @author Jesielt
  */
@@ -1035,12 +1035,12 @@ $messages['pt-br'] = array(
 	'editcount_total' => 'Total',
 );
 
-/** Romansh (Rumantsch) */
+/** Romansh (rumantsch) */
 $messages['rm'] = array(
 	'editcount_username' => 'Utilisader:',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author Firilacroco
  * @author KlaudiuMihaila
  * @author Minisarm
@@ -1053,7 +1053,7 @@ $messages['ro'] = array(
 	'editcount_total' => 'Total',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
@@ -1064,7 +1064,7 @@ $messages['roa-tara'] = array(
 	'editcount_total' => 'Totele',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author VasilievVV
  * @author Александр Сигачёв
  */
@@ -1086,7 +1086,7 @@ $messages['rue'] = array(
 	'editcount_total' => 'Цілком',
 );
 
-/** Sakha (Саха тыла)
+/** Sakha (саха тыла)
  * @author HalanTul
  */
 $messages['sah'] = array(
@@ -1097,7 +1097,7 @@ $messages['sah'] = array(
 	'editcount_total' => 'Барыта',
 );
 
-/** Sardinian (Sardu)
+/** Sardinian (sardu)
  * @author Marzedu
  */
 $messages['sc'] = array(
@@ -1105,7 +1105,7 @@ $messages['sc'] = array(
 	'editcount_total' => 'Totale',
 );
 
-/** Sicilian (Sicilianu)
+/** Sicilian (sicilianu)
  * @author Santu
  */
 $messages['scn'] = array(
@@ -1126,7 +1126,7 @@ $messages['sdc'] = array(
 	'editcount_total' => 'Totari',
 );
 
-/** Serbo-Croatian (Srpskohrvatski)
+/** Serbo-Croatian (srpskohrvatski / српскохрватски)
  * @author OC Ripper
  */
 $messages['sh'] = array(
@@ -1148,7 +1148,7 @@ $messages['si'] = array(
 	'editcount_total' => 'සියල්ල',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  */
 $messages['sk'] = array(
@@ -1159,7 +1159,7 @@ $messages['sk'] = array(
 	'editcount_total' => 'Celkom',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  */
 $messages['sl'] = array(
@@ -1170,7 +1170,7 @@ $messages['sl'] = array(
 	'editcount_total' => 'Skupaj',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  * @author Sasa Stefanovic
  * @author Михајло Анђелковић
@@ -1183,7 +1183,7 @@ $messages['sr-ec'] = array(
 	'editcount_total' => 'Укупно',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪srpski (latinica)‬)
  * @author Michaello
  * @author Sasa Stefanovic
  */
@@ -1224,7 +1224,7 @@ $messages['su'] = array(
 	'editcount_total' => 'Total',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Lejonel
  * @author M.M.S.
  * @author Tobulos1
@@ -1289,7 +1289,7 @@ $messages['te'] = array(
 	'editcount_total' => 'మొత్తం',
 );
 
-/** Tajik (Cyrillic script) (Тоҷикӣ)
+/** Tajik (Cyrillic script) (тоҷикӣ)
  * @author Ibrahim
  */
 $messages['tg-cyrl'] = array(
@@ -1297,7 +1297,7 @@ $messages['tg-cyrl'] = array(
 	'editcount_submit' => 'Ирсол',
 );
 
-/** Tajik (Latin script) (Tojikī)
+/** Tajik (Latin script) (tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
@@ -1347,7 +1347,7 @@ $messages['tr'] = array(
 	'editcount_total' => 'Toplam',
 );
 
-/** Tatar (Cyrillic script) (Татарча)
+/** Tatar (Cyrillic script) (татарча)
  * @author Рашат Якупов
  */
 $messages['tt-cyrl'] = array(
@@ -1358,7 +1358,7 @@ $messages['tt-cyrl'] = array(
 	'editcount_total' => 'Тулысынча',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author Ahonc
  */
 $messages['uk'] = array(
@@ -1369,7 +1369,7 @@ $messages['uk'] = array(
 	'editcount_total' => 'Усього',
 );
 
-/** Vèneto (Vèneto)
+/** vèneto (vèneto)
  * @author Candalua
  */
 $messages['vec'] = array(
@@ -1433,7 +1433,7 @@ $messages['yue'] = array(
 	'editcount_total' => '總數',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author PhiLiP
  * @author Shinjiman
  */
@@ -1445,7 +1445,7 @@ $messages['zh-hans'] = array(
 	'editcount_total' => '总数',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Mark85296341
  * @author Oapbtommy
  * @author Shinjiman
