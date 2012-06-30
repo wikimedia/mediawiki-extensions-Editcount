@@ -23,6 +23,11 @@ $specialPageAliases['arz'] = array(
 	'Editcount' => array( 'عدد_التعديلات' ),
 );
 
+/** Assamese (অসমীয়া) */
+$specialPageAliases['as'] = array(
+	'Editcount' => array( 'সম্পাদনা_গণনা' ),
+);
+
 /** Banjar (Bahasa Banjar) */
 $specialPageAliases['bjn'] = array(
 	'Editcount' => array( 'Jumlah_babakan' ),
@@ -43,7 +48,7 @@ $specialPageAliases['diq'] = array(
 	'Editcount' => array( 'AmargeyaVurnayışan' ),
 );
 
-/** Lower Sorbian (Dolnoserbski) */
+/** Lower Sorbian (dolnoserbski) */
 $specialPageAliases['dsb'] = array(
 	'Editcount' => array( 'Licak_změnow' ),
 );
@@ -78,7 +83,7 @@ $specialPageAliases['frp'] = array(
 	'Editcount' => array( 'Comptor_de_changements', 'ComptorDeChangements' ),
 );
 
-/** Galician (Galego) */
+/** Galician (galego) */
 $specialPageAliases['gl'] = array(
 	'Editcount' => array( 'Contador_de_edicións' ),
 );
@@ -103,7 +108,7 @@ $specialPageAliases['hr'] = array(
 	'Editcount' => array( 'Brojač_izmjena' ),
 );
 
-/** Upper Sorbian (Hornjoserbsce) */
+/** Upper Sorbian (hornjoserbsce) */
 $specialPageAliases['hsb'] = array(
 	'Editcount' => array( 'Ličak_změnow' ),
 );
