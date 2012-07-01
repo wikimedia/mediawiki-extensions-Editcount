@@ -44,7 +44,7 @@ $messages['af'] = array(
 	'editcount_total' => 'Totaal',
 );
 
-/** Aragonese (Aragonés)
+/** Aragonese (aragonés)
  * @author Juanpabl
  */
 $messages['an'] = array(
@@ -148,7 +148,7 @@ $messages['bcl'] = array(
 	'editcount_submit' => 'Isumitir',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -245,7 +245,7 @@ $messages['cs'] = array(
 	'editcount_total' => 'Celkem',
 );
 
-/** Church Slavic (Словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
+/** Church Slavic (словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
  * @author ОйЛ
  */
 $messages['cu'] = array(
@@ -294,7 +294,7 @@ $messages['diq'] = array(
 	'editcount_total' => 'Pêro piya',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -437,7 +437,7 @@ $messages['fy'] = array(
 	'editcount_username' => 'Meidogger:',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Alma
  * @author Xosé
  */
@@ -515,7 +515,7 @@ $messages['hr'] = array(
 	'editcount_total' => 'Ukupno',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
@@ -1076,7 +1076,7 @@ $messages['ru'] = array(
 	'editcount_total' => 'Всего',
 );
 
-/** Rusyn (Русиньскый)
+/** Rusyn (русиньскый)
  * @author Gazeb
  */
 $messages['rue'] = array(
@@ -1249,7 +1249,7 @@ $messages['sw'] = array(
 	'editcount_total' => 'Jumla',
 );
 
-/** Silesian (Ślůnski)
+/** Silesian (ślůnski)
  * @author Herr Kriss
  */
 $messages['szl'] = array(
