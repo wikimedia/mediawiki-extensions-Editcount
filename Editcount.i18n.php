@@ -686,6 +686,7 @@ $messages['ksh'] = array(
  */
 $messages['ku-latn'] = array(
 	'editcount_username' => 'Bikarhêner:',
+	'editcount_submit' => 'Tomar bike',
 	'editcount_total' => 'Hemû',
 );
 
