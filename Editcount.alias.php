@@ -275,7 +275,7 @@ $specialPageAliases['sw'] = array(
 
 /** Tagalog (Tagalog) */
 $specialPageAliases['tl'] = array(
-	'Editcount' => array( 'Bilang ng pamamatnugot' ),
+	'Editcount' => array( 'Bilang_ng_pamamatnugot' ),
 );
 
 /** Turkish (Türkçe) */
