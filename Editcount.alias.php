@@ -188,7 +188,7 @@ $specialPageAliases['ms'] = array(
 	'Editcount' => array( 'Jumlah_suntingan' ),
 );
 
-/** Erzya (Эрзянь) */
+/** Erzya (эрзянь) */
 $specialPageAliases['myv'] = array(
 	'Editcount' => array( 'ВитнеманьПетнеманьЦёт' ),
 );

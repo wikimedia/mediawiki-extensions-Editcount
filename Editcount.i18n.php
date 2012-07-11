@@ -216,7 +216,7 @@ $messages['ca'] = array(
 	'editcount_total' => 'Total',
 );
 
-/** Chechen (Нохчийн)
+/** Chechen (нохчийн)
  * @author Sasan700
  */
 $messages['ce'] = array(
@@ -794,7 +794,7 @@ $messages['mg'] = array(
 	'editcount_total' => 'Tontaly',
 );
 
-/** Eastern Mari (Олык Марий)
+/** Eastern Mari (олык марий)
  * @author Сай
  */
 $messages['mhr'] = array(
@@ -866,7 +866,7 @@ $messages['mt'] = array(
 	'editcount_total' => 'Total',
 );
 
-/** Erzya (Эрзянь)
+/** Erzya (эрзянь)
  * @author Botuzhaleny-sodamo
  */
 $messages['myv'] = array(
@@ -886,9 +886,7 @@ $messages['nah'] = array(
 	'editcount_total' => 'Mochīntīn',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
- */
+/** Norwegian Bokmål (‪norsk (bokmål)‬) */
 $messages['nb'] = array(
 	'editcount' => 'Redigeringsteller',
 	'editcount-desc' => 'Viser [[Special:Editcount|redigeringsteller]] for en bruker',
@@ -1381,7 +1379,7 @@ $messages['vec'] = array(
 	'editcount_total' => 'Totale',
 );
 
-/** Veps (Vepsän kel’)
+/** Veps (vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
