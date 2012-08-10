@@ -633,10 +633,14 @@ $messages['jv'] = array(
 );
 
 /** Georgian (ქართული)
+ * @author David1010
  * @author Malafaya
  */
 $messages['ka'] = array(
+	'editcount' => 'რედაქტირებათა მთვლელი',
 	'editcount_username' => 'მომხმარებელი:',
+	'editcount_submit' => 'მიღება',
+	'editcount_total' => 'სულ',
 );
 
 /** Khmer (ភាសាខ្មែរ)
