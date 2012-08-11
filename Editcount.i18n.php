@@ -71,7 +71,7 @@ $messages['ar'] = array(
 	'editcount' => 'عداد المساهمات',
 	'editcount-desc' => 'يعرض [[Special:Editcount|عداد المساهمات]] لمستخدم',
 	'editcount_username' => 'مستخدم:',
-	'editcount_submit' => 'أرسل',
+	'editcount_submit' => 'إرسال',
 	'editcount_total' => 'الإجمالي',
 );
 
