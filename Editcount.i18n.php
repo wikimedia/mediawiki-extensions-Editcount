@@ -437,6 +437,13 @@ $messages['fy'] = array(
 	'editcount_username' => 'Meidogger:',
 );
 
+/** Irish (Gaeilge)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ga'] = array(
+	'editcount_username' => 'Úsáideoir:',
+);
+
 /** Galician (galego)
  * @author Alma
  * @author Xosé
