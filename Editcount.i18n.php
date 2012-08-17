@@ -1379,6 +1379,16 @@ $messages['uk'] = array(
 	'editcount_total' => 'Усього',
 );
 
+/** Urdu (اردو)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ur'] = array(
+	'editcount' => 'شمار میں ترمیم کریں',
+	'editcount_username' => 'صارف:',
+	'editcount_submit' => 'جمع کرائیں',
+	'editcount_total' => 'کل',
+);
+
 /** vèneto (vèneto)
  * @author Candalua
  */
