@@ -967,10 +967,11 @@ $messages['os'] = array(
 
 /** Punjabi (ਪੰਜਾਬੀ)
  * @author Gman124
+ * @author TariButtar
  */
 $messages['pa'] = array(
 	'editcount_username' => 'ਮੈਂਬਰ:',
-	'editcount_total' => 'ਕੁਲ',
+	'editcount_total' => 'ਕੁੱਲ',
 );
 
 /** Deitsch (Deitsch)
