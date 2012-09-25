@@ -198,7 +198,7 @@ $specialPageAliases['nah'] = array(
 	'Editcount' => array( 'TlapatlaliztliTlapōhualiztli', 'Ediciones' ),
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬) */
+/** Norwegian Bokmål (norsk (bokmål)‎) */
 $specialPageAliases['nb'] = array(
 	'Editcount' => array( 'Redigeringsteller' ),
 );
@@ -258,7 +258,7 @@ $specialPageAliases['sk'] = array(
 	'Editcount' => array( 'PočetPríspevkov' ),
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬) */
+/** Serbian (Cyrillic script) (српски (ћирилица)‎) */
 $specialPageAliases['sr-ec'] = array(
 	'Editcount' => array( 'Уреди_број' ),
 );
@@ -288,12 +288,12 @@ $specialPageAliases['vi'] = array(
 	'Editcount' => array( 'Số_sửa_đổi' ),
 );
 
-/** Simplified Chinese (‪中文（简体）‬) */
+/** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'Editcount' => array( '编辑计数' ),
 );
 
-/** Traditional Chinese (‪中文（繁體）‬) */
+/** Traditional Chinese (中文（繁體）‎) */
 $specialPageAliases['zh-hant'] = array(
 	'Editcount' => array( '編輯數統計' ),
 );
