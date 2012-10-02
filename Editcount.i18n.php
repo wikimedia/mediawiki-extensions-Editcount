@@ -148,7 +148,7 @@ $messages['bcl'] = array(
 	'editcount_submit' => 'Isumitir',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -692,7 +692,7 @@ $messages['ksh'] = array(
 	'editcount_total' => 'Zosamme',
 );
 
-/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+/** Kurdish (Latin script) (Kurdî (latînî)‎)
  * @author George Animal
  */
 $messages['ku-latn'] = array(
@@ -897,7 +897,7 @@ $messages['nah'] = array(
 	'editcount_total' => 'Mochīntīn',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬) */
+/** Norwegian Bokmål (norsk (bokmål)‎) */
 $messages['nb'] = array(
 	'editcount' => 'Redigeringsteller',
 	'editcount-desc' => 'Viser [[Special:Editcount|redigeringsteller]] for en bruker',
@@ -924,7 +924,7 @@ $messages['nl'] = array(
 	'editcount_total' => 'Totaal',
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
+/** Norwegian Nynorsk (norsk (nynorsk)‎)
  * @author Eirik
  * @author Frokor
  */
@@ -1181,7 +1181,7 @@ $messages['sl'] = array(
 	'editcount_total' => 'Skupaj',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  * @author Sasa Stefanovic
  * @author Михајло Анђелковић
@@ -1194,7 +1194,7 @@ $messages['sr-ec'] = array(
 	'editcount_total' => 'Укупно',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬)
+/** Serbian (Latin script) (srpski (latinica)‎)
  * @author Michaello
  * @author Sasa Stefanovic
  */
@@ -1454,7 +1454,7 @@ $messages['yue'] = array(
 	'editcount_total' => '總數',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author PhiLiP
  * @author Shinjiman
  */
@@ -1466,7 +1466,7 @@ $messages['zh-hans'] = array(
 	'editcount_total' => '总数',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Mark85296341
  * @author Oapbtommy
  * @author Shinjiman
