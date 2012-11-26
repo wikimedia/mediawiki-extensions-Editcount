@@ -218,6 +218,11 @@ $specialPageAliases['oc'] = array(
 	'Editcount' => array( 'ComptadorEdicion' ),
 );
 
+/** Punjabi (ਪੰਜਾਬੀ) */
+$specialPageAliases['pa'] = array(
+	'Editcount' => array( 'ਫੇਰ-ਬਦਲ_ਗਿਣਤੀ' ),
+);
+
 /** Polish (polski) */
 $specialPageAliases['pl'] = array(
 	'Editcount' => array( 'Liczba_edycji' ),
