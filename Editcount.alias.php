@@ -203,7 +203,7 @@ $specialPageAliases['nb'] = array(
 	'Editcount' => array( 'Redigeringsteller' ),
 );
 
-/** Nedersaksisch (Nedersaksisch) */
+/** Nedersaksies (Nedersaksies) */
 $specialPageAliases['nds-nl'] = array(
 	'Editcount' => array( 'Bewarksteller' ),
 );
