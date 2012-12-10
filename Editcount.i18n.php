@@ -1478,4 +1478,3 @@ $messages['zh-hant'] = array(
 	'editcount_submit' => '提交',
 	'editcount_total' => '總數',
 );
-
