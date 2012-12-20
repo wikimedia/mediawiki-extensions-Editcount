@@ -223,8 +223,11 @@ $messages['ce'] = array(
 	'editcount_username' => 'Декъашхо:',
 );
 
-/** Sorani Kurdish (کوردی) */
+/** Sorani Kurdish (کوردی)
+ * @author Calak
+ */
 $messages['ckb'] = array(
+	'editcount' => 'ژمارەی دەستکارییەکان',
 	'editcount_username' => 'بەکارهێنەر:',
 	'editcount_submit' => 'ناردن',
 );
