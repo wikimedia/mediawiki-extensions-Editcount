@@ -363,6 +363,7 @@ $messages['es'] = array(
  * @author Avjoska
  */
 $messages['et'] = array(
+	'editcount' => 'Redigeerimiste arv',
 	'editcount_username' => 'Kasutaja:',
 );
 
