@@ -268,9 +268,13 @@ $messages['cy'] = array(
 
 /** Danish (dansk)
  * @author Jon Harald Søby
+ * @author Tjernobyl
  */
 $messages['da'] = array(
+	'editcount' => 'Antal redigeringer',
 	'editcount_username' => 'Bruger:',
+	'editcount_submit' => 'Indsend',
+	'editcount_total' => 'I alt',
 );
 
 /** German (Deutsch)
@@ -602,9 +606,12 @@ $messages['ig'] = array(
 	'editcount_total' => 'Òlé níle',
 );
 
-/** Icelandic (íslenska) */
+/** Icelandic (íslenska)
+ * @author පසිඳු කාවින්ද
+ */
 $messages['is'] = array(
 	'editcount_username' => 'Notandi:',
+	'editcount_total' => 'Alls',
 );
 
 /** Italian (italiano)
