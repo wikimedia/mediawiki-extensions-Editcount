@@ -1401,6 +1401,18 @@ $messages['ur'] = array(
 	'editcount_total' => 'کل',
 );
 
+/** Uzbek (oʻzbekcha)
+ * @author Akmalzhon
+ * @author CoderSI
+ */
+$messages['uz'] = array(
+	'editcount' => 'Tahrir hisobi',
+	'editcount-desc' => 'Foydalanuvchining [[Special:Editcount|tahrirlar sonini]] koʻrsatadi',
+	'editcount_username' => 'Foydalanuvchi:',
+	'editcount_submit' => "Jo'natish",
+	'editcount_total' => 'Jami',
+);
+
 /** vèneto (vèneto)
  * @author Candalua
  */
