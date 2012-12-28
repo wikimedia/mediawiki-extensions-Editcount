@@ -139,6 +139,14 @@ $messages['az'] = array(
 	'editcount_total' => 'Ümumi',
 );
 
+/** South Azerbaijani (تورکجه)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['azb'] = array(
+	'editcount_username' => 'ایستیفاده‌چی:',
+	'editcount_submit' => 'گؤندر',
+);
+
 /** Bikol Central (Bikol Central)
  * @author Filipinayzd
  */
