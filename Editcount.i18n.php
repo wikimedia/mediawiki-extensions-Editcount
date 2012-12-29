@@ -1169,10 +1169,12 @@ $messages['sh'] = array(
 
 /** Sinhala (සිංහල)
  * @author චතුනි අලහප්පෙරුම
+ * @author පසිඳු කාවින්ද
  * @author බිඟුවා
  */
 $messages['si'] = array(
 	'editcount' => 'සංස්කරණ ගණනය',
+	'editcount-desc' => 'පරිශීලකයෙකුගේ [[Special:Editcount|සංස්කරණ ගණන]] පෙන්වයි',
 	'editcount_username' => 'පරිශීලකයා:',
 	'editcount_submit' => 'යොමුකරන්න',
 	'editcount_total' => 'සියල්ල',
