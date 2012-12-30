@@ -441,6 +441,7 @@ $messages['fr'] = array(
  */
 $messages['frp'] = array(
 	'editcount' => 'Comptor de changements',
+	'editcount-desc' => 'Fât vêre lo [[Special:Editcount|comptor de changements]] d’un utilisator',
 	'editcount_username' => 'Usanciér :',
 	'editcount_submit' => 'Sometre',
 	'editcount_total' => 'Soma',
