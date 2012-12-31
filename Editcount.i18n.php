@@ -147,6 +147,15 @@ $messages['azb'] = array(
 	'editcount_submit' => 'گؤندر',
 );
 
+/** Bashkir (башҡортса)
+ * @author Ләйсән
+ */
+$messages['ba'] = array(
+	'editcount_username' => 'Ҡатнашыусы:',
+	'editcount_submit' => 'Һанарға',
+	'editcount_total' => 'Бөтәһе',
+);
+
 /** Bikol Central (Bikol Central)
  * @author Filipinayzd
  */
@@ -976,6 +985,13 @@ $messages['oc'] = array(
 	'editcount_username' => 'Utilizaire :',
 	'editcount_submit' => 'Sometre',
 	'editcount_total' => 'Soma',
+);
+
+/** Oriya (ଓଡ଼ିଆ)
+ * @author Ansumang
+ */
+$messages['or'] = array(
+	'editcount_total' => 'ସର୍ବମୋଟ',
 );
 
 /** Ossetic (Ирон)
