@@ -140,11 +140,15 @@ $messages['az'] = array(
 );
 
 /** South Azerbaijani (تورکجه)
+ * @author Mousa
  * @author පසිඳු කාවින්ද
  */
 $messages['azb'] = array(
+	'editcount' => 'دَییشیکلیک سایی‌سی',
+	'editcount-desc' => 'بیر ایستیفاده‌چی‌نین [[Special:Editcount|دَییشیکلیک سایی‌سینی]] گؤسترر',
 	'editcount_username' => 'ایستیفاده‌چی:',
 	'editcount_submit' => 'گؤندر',
+	'editcount_total' => 'توپلام',
 );
 
 /** Bashkir (башҡортса)
