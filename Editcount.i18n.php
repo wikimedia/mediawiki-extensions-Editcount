@@ -253,7 +253,8 @@ $messages['ckb'] = array(
 	'editcount_submit' => 'ناردن',
 );
 
-/** Corsican (corsu) */
+/** Corsican (corsu)
+ */
 $messages['co'] = array(
 	'editcount_username' => 'Utilizatore:',
 );
@@ -794,7 +795,7 @@ $messages['lt'] = array(
 	'editcount_total' => 'Viso',
 );
 
-/** Lushai (Mizo ţawng)
+/** Mizo (Mizo ţawng)
  * @author RMizo
  */
 $messages['lus'] = array(
@@ -930,7 +931,8 @@ $messages['nah'] = array(
 	'editcount_total' => 'Mochīntīn',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎) */
+/** Norwegian Bokmål (norsk (bokmål)‎)
+ */
 $messages['nb'] = array(
 	'editcount' => 'Redigeringsteller',
 	'editcount-desc' => 'Viser [[Special:Editcount|redigeringsteller]] for en bruker',
@@ -1086,7 +1088,8 @@ $messages['pt-br'] = array(
 	'editcount_total' => 'Total',
 );
 
-/** Romansh (rumantsch) */
+/** Romansh (rumantsch)
+ */
 $messages['rm'] = array(
 	'editcount_username' => 'Utilisader:',
 );
