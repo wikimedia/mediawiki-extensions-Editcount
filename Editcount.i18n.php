@@ -1496,8 +1496,11 @@ $messages['vo'] = array(
  * @author פוילישער
  */
 $messages['yi'] = array(
+	'editcount' => 'צאל רעדאקטירונגען',
+	'editcount-desc' => 'ווײַזט [[Special:Editcount|צאָל רעדאַקטירונגען]] פֿון א באַניצער',
 	'editcount_username' => 'באַניצער:',
 	'editcount_submit' => 'אײַנגעבן',
+	'editcount_total' => 'סה"כ',
 );
 
 /** Cantonese (粵語)
