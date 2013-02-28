@@ -23,10 +23,11 @@ $messages['en'] = array(
 /** Message documentation (Message documentation)
  * @author Jon Harald Søby
  * @author Purodha
+ * @author Shirayuki
  * @author The Evil IP address
  */
 $messages['qqq'] = array(
-	'editcount-desc' => '{{desc}}',
+	'editcount-desc' => '{{desc|name=Editcount|url=http://www.mediawiki.org/wiki/Extension:Editcount}}',
 	'editcount_username' => '{{Identical|User}}',
 	'editcount_submit' => '{{Identical|Submit}}',
 	'editcount_total' => '{{Identical|Total}}',
