@@ -847,6 +847,17 @@ $messages['mhr'] = array(
 	'editcount_username' => 'Пайдаланыше:',
 );
 
+/** Minangkabau (Baso Minangkabau)
+ * @author Iwan Novirion
+ */
+$messages['min'] = array(
+	'editcount' => 'Jumlah suntiangan',
+	'editcount-desc' => 'Tampilkan [[Special:Editcount|jumlah suntiangan]] pangguno',
+	'editcount_username' => 'Pangguno:',
+	'editcount_submit' => 'Kirim',
+	'editcount_total' => 'Total',
+);
+
 /** Macedonian (македонски)
  * @author Brest
  */
