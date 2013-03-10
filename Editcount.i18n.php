@@ -132,9 +132,12 @@ $messages['avk'] = array(
 
 /** Azerbaijani (azərbaycanca)
  * @author Cekli829
+ * @author Khan27
  * @author Wertuose
  */
 $messages['az'] = array(
+	'editcount' => 'Redaktə sayı',
+	'editcount-desc' => 'Bu istifadəçinin [[Special:Editcount|redaktə sayını]] göstərir',
 	'editcount_username' => 'İstifadəçi:',
 	'editcount_submit' => 'Hesabla',
 	'editcount_total' => 'Ümumi',
@@ -252,6 +255,7 @@ $messages['ckb'] = array(
 	'editcount' => 'ژمارەی دەستکارییەکان',
 	'editcount_username' => 'بەکارهێنەر:',
 	'editcount_submit' => 'ناردن',
+	'editcount_total' => 'سەرجەم',
 );
 
 /** Corsican (corsu)
