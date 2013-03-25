@@ -27,6 +27,7 @@ $messages['en'] = array(
  * @author The Evil IP address
  */
 $messages['qqq'] = array(
+	'editcount' => '{{doc-special|EditCount|unlisted=1}}',
 	'editcount-desc' => '{{desc|name=Editcount|url=http://www.mediawiki.org/wiki/Extension:Editcount}}',
 	'editcount_username' => '{{Identical|User}}',
 	'editcount_submit' => '{{Identical|Submit}}',
@@ -684,6 +685,7 @@ $messages['jv'] = array(
  */
 $messages['ka'] = array(
 	'editcount' => 'რედაქტირებათა მთვლელი',
+	'editcount-desc' => 'აჩვენებს მომხმარებლის [[Special:Editcount|რედაქტირებების რაოდენობას]]',
 	'editcount_username' => 'მომხმარებელი:',
 	'editcount_submit' => 'მიღება',
 	'editcount_total' => 'სულ',
