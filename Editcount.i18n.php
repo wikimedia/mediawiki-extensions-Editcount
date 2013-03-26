@@ -27,7 +27,7 @@ $messages['en'] = array(
  * @author The Evil IP address
  */
 $messages['qqq'] = array(
-	'editcount' => '{{doc-special|EditCount|unlisted=1}}',
+	'editcount' => '{{doc-special|Editcount|unlisted=1}}',
 	'editcount-desc' => '{{desc|name=Editcount|url=http://www.mediawiki.org/wiki/Extension:Editcount}}',
 	'editcount_username' => '{{Identical|User}}',
 	'editcount_submit' => '{{Identical|Submit}}',
