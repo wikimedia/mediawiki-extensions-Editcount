@@ -960,10 +960,12 @@ $messages['nb'] = array(
 );
 
 /** Low German (Plattdüütsch)
+ * @author Joachim Mos
  * @author Slomox
  */
 $messages['nds'] = array(
 	'editcount_username' => 'Bruker:',
+	'editcount_submit' => 'Afschicken',
 );
 
 /** Dutch (Nederlands)
