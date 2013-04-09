@@ -23,7 +23,7 @@ $specialPageAliases['arz'] = array(
 	'Editcount' => array( 'عدد_التعديلات' ),
 );
 
-/** Assamese (অসমীয়া) */
+/** Assamese (অসমীয়া) */
 $specialPageAliases['as'] = array(
 	'Editcount' => array( 'সম্পাদনা_গণনা' ),
 );
@@ -246,6 +246,11 @@ $specialPageAliases['qu'] = array(
 /** Romanian (română) */
 $specialPageAliases['ro'] = array(
 	'Editcount' => array( 'Numărătoare_modificare' ),
+);
+
+/** Russian (русский) */
+$specialPageAliases['ru'] = array(
+	'Editcount' => array( 'Счётчик_правок' ),
 );
 
 /** Sanskrit (संस्कृतम्) */
