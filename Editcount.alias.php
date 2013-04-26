@@ -293,6 +293,11 @@ $specialPageAliases['tr'] = array(
 	'Editcount' => array( 'DeğişiklikSayacı', 'DüzenlemeSayacı' ),
 );
 
+/** Ukrainian (українська) */
+$specialPageAliases['uk'] = array(
+	'Editcount' => array( 'Лічильник_редагувань' ),
+);
+
 /** Vietnamese (Tiếng Việt) */
 $specialPageAliases['vi'] = array(
 	'Editcount' => array( 'Số_sửa_đổi' ),
