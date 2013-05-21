@@ -467,6 +467,17 @@ $messages['frp'] = array(
 	'editcount_total' => 'Soma',
 );
 
+/** Northern Frisian (Nordfriisk)
+ * @author Murma174
+ */
+$messages['frr'] = array(
+	'editcount' => 'Taal faan bewerkangen',
+	'editcount-desc' => 'Wiset en [[Special:Editcount|Spezialsidj]], huar a bewerkangen faan en brüker uunwiset wurd.',
+	'editcount_username' => 'Brüker:',
+	'editcount_submit' => 'Auerdreeg',
+	'editcount_total' => 'Tuup',
+);
+
 /** Western Frisian (Frysk)
  * @author Snakesteuben
  */
