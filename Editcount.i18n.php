@@ -98,7 +98,7 @@ $messages['arz'] = array(
 	'editcount_total' => 'الإجمالي',
 );
 
-/** Assamese (অসমীয়া)
+/** Assamese (অসমীয়া)
  * @author Chaipau
  */
 $messages['as'] = array(
@@ -960,7 +960,7 @@ $messages['nah'] = array(
 	'editcount_total' => 'Mochīntīn',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  */
 $messages['nb'] = array(
 	'editcount' => 'Redigeringsteller',
@@ -990,7 +990,7 @@ $messages['nl'] = array(
 	'editcount_total' => 'Totaal',
 );
 
-/** Norwegian Nynorsk (norsk (nynorsk)‎)
+/** Norwegian Nynorsk (norsk nynorsk)
  * @author Eirik
  * @author Frokor
  */
@@ -1024,7 +1024,7 @@ $messages['oc'] = array(
 	'editcount_total' => 'Soma',
 );
 
-/** Oriya (ଓଡ଼ିଆ)
+/** Oriya (ଓଡ଼ିଆ)
  * @author Ansumang
  */
 $messages['or'] = array(
