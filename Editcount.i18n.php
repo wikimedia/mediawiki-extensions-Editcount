@@ -471,8 +471,8 @@ $messages['frp'] = array(
  * @author Murma174
  */
 $messages['frr'] = array(
-	'editcount' => 'Taal faan bewerkangen',
-	'editcount-desc' => 'Wiset en [[Special:Editcount|Spezialsidj]], huar a bewerkangen faan en brüker uunwiset wurd.',
+	'editcount' => 'Taal faan feranrangen',
+	'editcount-desc' => 'Wiset en [[Special:Editcount|Spezialsidj]], huar a feranrangen faan en brüker uunwiset wurd.',
 	'editcount_username' => 'Brüker:',
 	'editcount_submit' => 'Auerdreeg',
 	'editcount_total' => 'Tuup',
