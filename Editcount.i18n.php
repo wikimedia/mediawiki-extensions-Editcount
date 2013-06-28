@@ -54,11 +54,12 @@ $messages['an'] = array(
 );
 
 /** Old English (Ænglisc)
+ * @author Gott wisst
  * @author Wōdenhelm
  */
 $messages['ang'] = array(
-	'editcount' => 'Ādihttæl',
-	'editcount-desc' => 'Ætīeƿþ [[Special:Editcount|ādihttæl]] brūcendes',
+	'editcount' => 'Adihtunga getæl',
+	'editcount-desc' => 'Īweþ [[Special:Editcount|adihtunga getæl]] brūcendes',
 	'editcount_username' => 'Brūcend:',
 	'editcount_submit' => 'Sendan',
 	'editcount_total' => 'Eall',
