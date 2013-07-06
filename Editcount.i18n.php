@@ -1040,11 +1040,15 @@ $messages['os'] = array(
 );
 
 /** Punjabi (ਪੰਜਾਬੀ)
+ * @author Babanwalia
  * @author Gman124
  * @author TariButtar
  */
 $messages['pa'] = array(
-	'editcount_username' => 'ਮੈਂਬਰ:',
+	'editcount' => 'ਸੋਧਾਂ ਦੀ ਗਿਣਤੀ',
+	'editcount-desc' => 'ਵਰਤੋਂਕਾਰ ਦੀਆਂ [[Special:Editcount|ਸੋਧਾਂ ਦੀ ਗਿਣਤੀ]] ਵਿਖਾਉਂਦਾ ਹੈ',
+	'editcount_username' => 'ਵਰਤੋਂਕਾਰ:',
+	'editcount_submit' => 'ਸਪੁਰਦ ਕਰੋ',
 	'editcount_total' => 'ਕੁੱਲ',
 );
 
