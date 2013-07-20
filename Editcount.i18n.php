@@ -281,6 +281,8 @@ $messages['cs'] = array(
  * @author ОйЛ
  */
 $messages['cu'] = array(
+	'editcount' => 'мѣнъ число',
+	'editcount-desc' => 'польꙃєватєлꙗ [[Special:Editcount|мѣнъ числа]] каꙁаниѥ',
 	'editcount_username' => 'по́льꙃєватєл҄ь :',
 );
 
