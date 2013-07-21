@@ -245,8 +245,10 @@ $messages['ca'] = array(
 
 /** Chechen (нохчийн)
  * @author Sasan700
+ * @author Умар
  */
 $messages['ce'] = array(
+	'editcount' => 'Нисдаршан ларар',
 	'editcount_username' => 'Декъашхо:',
 );
 
@@ -283,7 +285,7 @@ $messages['cs'] = array(
 $messages['cu'] = array(
 	'editcount' => 'мѣнъ число',
 	'editcount-desc' => 'польꙃєватєлꙗ [[Special:Editcount|мѣнъ числа]] каꙁаниѥ',
-	'editcount_username' => 'по́льꙃєватєл҄ь :',
+	'editcount_username' => 'польꙃєватєл҄ь :',
 );
 
 /** Welsh (Cymraeg)
