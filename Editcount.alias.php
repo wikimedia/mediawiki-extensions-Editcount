@@ -38,6 +38,11 @@ $specialPageAliases['bs'] = array(
 	'Editcount' => array( 'BrojacIzmjena' ),
 );
 
+/** Chechen (нохчийн) */
+$specialPageAliases['ce'] = array(
+	'Editcount' => array( 'Нисдарш_лорург' ),
+);
+
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'Editcount' => array( 'Beitragszähler' ),
