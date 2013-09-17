@@ -65,7 +65,7 @@ $specialPageAliases['eo'] = array(
 
 /** Spanish (español) */
 $specialPageAliases['es'] = array(
-	'Editcount' => array( 'Ediciones_de_Usuario' ),
+	'Editcount' => array( 'Ediciones_de_Usuario', 'Contador_de_ediciones', 'ContadorEdiciones' ),
 );
 
 /** Persian (فارسی) */
