@@ -5,6 +5,7 @@
  * @file
  * @ingroup Extensions
  */
+// @codingStandardsIgnoreFile
 
 $specialPageAliases = array();
 
@@ -301,6 +302,11 @@ $specialPageAliases['tr'] = array(
 /** Ukrainian (українська) */
 $specialPageAliases['uk'] = array(
 	'Editcount' => array( 'Лічильник_редагувань' ),
+);
+
+/** vèneto (vèneto) */
+$specialPageAliases['vec'] = array(
+	'Editcount' => array( 'ContaContributi' ),
 );
 
 /** Vietnamese (Tiếng Việt) */
