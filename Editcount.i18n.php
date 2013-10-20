@@ -250,6 +250,7 @@ $messages['ca'] = array(
 $messages['ce'] = array(
 	'editcount' => 'Нисдаршан ларар',
 	'editcount_username' => 'Декъашхо:',
+	'editcount_total' => 'Ерриг',
 );
 
 /** Sorani Kurdish (کوردی)
