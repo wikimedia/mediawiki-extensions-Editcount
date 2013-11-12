@@ -326,9 +326,10 @@ $messages['de'] = array(
 
 /** Zazaki (Zazaki)
  * @author Erdemaslancan
+ * @author Gorizon
  */
 $messages['diq'] = array(
-	'editcount' => 'Amarê vurnayîşî',
+	'editcount' => 'Amora Timar kerdışi',
 	'editcount-desc' => '[[Special:Editcount|Amariya vurnayışan]] de karberi mocneno',
 	'editcount_username' => 'Karber:',
 	'editcount_submit' => 'Bırşê',
