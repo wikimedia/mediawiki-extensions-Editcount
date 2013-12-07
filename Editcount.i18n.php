@@ -269,7 +269,7 @@ $messages['co'] = array(
 	'editcount_username' => 'Utilizatore:',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Matěj Grabovský
  */
 $messages['cs'] = array(
@@ -280,7 +280,7 @@ $messages['cs'] = array(
 	'editcount_total' => 'Celkem',
 );
 
-/** Church Slavic (словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
+/** Church Slavic (словѣньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
  * @author ОйЛ
  */
 $messages['cu'] = array(
