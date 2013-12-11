@@ -1559,10 +1559,11 @@ $messages['yue'] = array(
 /** Simplified Chinese (中文（简体）‎)
  * @author PhiLiP
  * @author Shinjiman
+ * @author Xiaomingyan
  */
 $messages['zh-hans'] = array(
 	'editcount' => '编辑次数',
-	'editcount-desc' => '显示用户的[[Special:Editcount|编辑次数]]',
+	'editcount-desc' => '显示用户的[[Special:Editcount|编辑数]]',
 	'editcount_username' => '用户:',
 	'editcount_submit' => '提交',
 	'editcount_total' => '总数',
