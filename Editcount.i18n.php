@@ -1214,12 +1214,14 @@ $messages['scn'] = array(
 
 /** Sassaresu (Sassaresu)
  * @author Felis
+ * @author Jun Misugi
  */
 $messages['sdc'] = array(
-	'editcount' => 'Cuntéggiu di li mudìffighi',
+	'editcount' => 'Cuntéggiu di li mudìfigghi',
+	'editcount-desc' => "Musthra [[Special:Editcount|edit count]] di un' utenti",
 	'editcount_username' => 'Utenti:',
 	'editcount_submit' => 'Invia',
-	'editcount_total' => 'Totari',
+	'editcount_total' => 'Tutari',
 );
 
 /** Serbo-Croatian (srpskohrvatski / српскохрватски)
