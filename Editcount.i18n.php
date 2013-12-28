@@ -731,12 +731,13 @@ $messages['kn'] = array(
 
 /** Korean (한국어)
  * @author Kwj2772
+ * @author 아라
  */
 $messages['ko'] = array(
-	'editcount' => '편집 횟수',
-	'editcount-desc' => '사용자의 [[Special:Editcount|총편집횟수]]를 보여 줌',
+	'editcount' => '편집 수',
+	'editcount-desc' => '사용자의 [[Special:Editcount|편집 수]]를 보여줍니다',
 	'editcount_username' => '사용자:',
-	'editcount_submit' => '확인',
+	'editcount_submit' => '제출',
 	'editcount_total' => '합계',
 );
 
