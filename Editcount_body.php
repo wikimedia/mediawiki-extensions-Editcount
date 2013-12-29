@@ -167,7 +167,7 @@ class EditcountHTML extends Editcount {
 
 		$this->setHeaders();
 
-		$action = $this->getTitle()->escapeLocalUrl();
+		$action = htmlspecialchars( $this->getTitle()->getLocalUrl() );
 		$user = wfMsgHtml( 'editcount_username' );
 		$submit = wfMsgHtml( 'editcount_submit' );
 		$out = "
