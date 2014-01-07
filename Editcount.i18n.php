@@ -248,7 +248,7 @@ $messages['ca'] = array(
  * @author Умар
  */
 $messages['ce'] = array(
-	'editcount' => 'Нисдаршан ларар',
+	'editcount' => 'Нисдарш ларар',
 	'editcount_username' => 'Декъашхо:',
 	'editcount_total' => 'Ерриг',
 );
