@@ -264,9 +264,10 @@ $messages['ckb'] = array(
 );
 
 /** Corsican (corsu)
+ * @author Paulu
  */
 $messages['co'] = array(
-	'editcount_username' => 'Utilizatore:',
+	'editcount_username' => 'Cuntributore:',
 );
 
 /** Czech (čeština)
