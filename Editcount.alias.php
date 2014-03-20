@@ -199,7 +199,7 @@ $specialPageAliases['myv'] = array(
 	'Editcount' => array( 'ВитнеманьПетнеманьЦёт' ),
 );
 
-/** Nahuatl (Nāhuatl) */
+/** Nāhuatl (Nāhuatl) */
 $specialPageAliases['nah'] = array(
 	'Editcount' => array( 'TlapatlaliztliTlapōhualiztli', 'Ediciones' ),
 );
