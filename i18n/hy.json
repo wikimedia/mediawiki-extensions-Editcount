@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Teak"
-        ]
-    },
-    "editcount": "Խմբագրումների հաշվում",
-    "editcount_username": "Մասնակից.",
-    "editcount_submit": "Հաշվել",
-    "editcount_total": "Ընդհանուր"
+	"@metadata": {
+		"authors": [
+			"Teak"
+		]
+	},
+	"editcount": "Խմբագրումների հաշվում",
+	"editcount_username": "Մասնակից.",
+	"editcount_submit": "Հաշվել",
+	"editcount_total": "Ընդհանուր"
 }

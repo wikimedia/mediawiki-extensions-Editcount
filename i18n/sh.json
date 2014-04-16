@@ -1,12 +1,12 @@
 {
-    "@metadata": {
-        "authors": [
-            "OC Ripper"
-        ]
-    },
-    "editcount": "Brojač izmjena",
-    "editcount-desc": "Prikazuje [[Special:Editcount|brojač izmjena]] korisnika",
-    "editcount_username": "Korisnik:",
-    "editcount_submit": "Unesi",
-    "editcount_total": "Ukupno"
+	"@metadata": {
+		"authors": [
+			"OC Ripper"
+		]
+	},
+	"editcount": "Brojač izmjena",
+	"editcount-desc": "Prikazuje [[Special:Editcount|brojač izmjena]] korisnika",
+	"editcount_username": "Korisnik:",
+	"editcount_submit": "Unesi",
+	"editcount_total": "Ukupno"
 }

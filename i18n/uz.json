@@ -1,13 +1,13 @@
 {
-    "@metadata": {
-        "authors": [
-            "Akmalzhon",
-            "CoderSI"
-        ]
-    },
-    "editcount": "Tahrir hisobi",
-    "editcount-desc": "Foydalanuvchining [[Special:Editcount|tahrirlar sonini]] koʻrsatadi",
-    "editcount_username": "Foydalanuvchi:",
-    "editcount_submit": "Jo'natish",
-    "editcount_total": "Jami"
+	"@metadata": {
+		"authors": [
+			"Akmalzhon",
+			"CoderSI"
+		]
+	},
+	"editcount": "Tahrir hisobi",
+	"editcount-desc": "Foydalanuvchining [[Special:Editcount|tahrirlar sonini]] koʻrsatadi",
+	"editcount_username": "Foydalanuvchi:",
+	"editcount_submit": "Jo'natish",
+	"editcount_total": "Jami"
 }

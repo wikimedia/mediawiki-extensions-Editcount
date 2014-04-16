@@ -1,14 +1,14 @@
 {
-    "@metadata": {
-        "authors": [
-            "Lejonel",
-            "M.M.S.",
-            "Tobulos1"
-        ]
-    },
-    "editcount": "Redigeringsräknare",
-    "editcount-desc": "Visar [[Special:Editcount|antalet redigeringar]] som en användare gjort",
-    "editcount_username": "Användare:",
-    "editcount_submit": "Räkna",
-    "editcount_total": "Totalt"
+	"@metadata": {
+		"authors": [
+			"Lejonel",
+			"M.M.S.",
+			"Tobulos1"
+		]
+	},
+	"editcount": "Redigeringsräknare",
+	"editcount-desc": "Visar [[Special:Editcount|antalet redigeringar]] som en användare gjort",
+	"editcount_username": "Användare:",
+	"editcount_submit": "Räkna",
+	"editcount_total": "Totalt"
 }

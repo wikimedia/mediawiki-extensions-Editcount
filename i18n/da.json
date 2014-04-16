@@ -1,12 +1,12 @@
 {
-    "@metadata": {
-        "authors": [
-            "Jon Harald Søby",
-            "Tjernobyl"
-        ]
-    },
-    "editcount": "Antal redigeringer",
-    "editcount_username": "Bruger:",
-    "editcount_submit": "Indsend",
-    "editcount_total": "I alt"
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby",
+			"Tjernobyl"
+		]
+	},
+	"editcount": "Antal redigeringer",
+	"editcount_username": "Bruger:",
+	"editcount_submit": "Indsend",
+	"editcount_total": "I alt"
 }

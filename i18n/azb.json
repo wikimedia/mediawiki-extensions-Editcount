@@ -1,13 +1,13 @@
 {
-    "@metadata": {
-        "authors": [
-            "Mousa",
-            "පසිඳු කාවින්ද"
-        ]
-    },
-    "editcount": "دَییشیکلیک سایی‌سی",
-    "editcount-desc": "بیر ایستیفاده‌چی‌نین [[Special:Editcount|دَییشیکلیک سایی‌سینی]] گؤسترر",
-    "editcount_username": "ایستیفاده‌چی:",
-    "editcount_submit": "گؤندر",
-    "editcount_total": "توپلام"
+	"@metadata": {
+		"authors": [
+			"Mousa",
+			"පසිඳු කාවින්ද"
+		]
+	},
+	"editcount": "دَییشیکلیک سایی‌سی",
+	"editcount-desc": "بیر ایستیفاده‌چی‌نین [[Special:Editcount|دَییشیکلیک سایی‌سینی]] گؤسترر",
+	"editcount_username": "ایستیفاده‌چی:",
+	"editcount_submit": "گؤندر",
+	"editcount_total": "توپلام"
 }
