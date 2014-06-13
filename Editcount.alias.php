@@ -276,7 +276,7 @@ $specialPageAliases['sk'] = array(
 
 /** Serbian (Cyrillic script) (српски (ћирилица)‎) */
 $specialPageAliases['sr-ec'] = array(
-	'Editcount' => array( 'Уреди_број' ),
+	'Editcount' => array( 'БројИзмена' ),
 );
 
 /** Swedish (svenska) */
