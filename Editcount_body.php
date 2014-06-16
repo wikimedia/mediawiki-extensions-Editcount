@@ -1,5 +1,5 @@
 <?php
-if (!defined('MEDIAWIKI')) die();
+if ( !defined( 'MEDIAWIKI' ) ) die();
 
 class Editcount extends IncludableSpecialPage {
 	/**
@@ -13,32 +13,37 @@ class Editcount extends IncludableSpecialPage {
 	 * main()
 	 */
 	public function execute( $par ) {
-		global $wgRequest, $wgOut, $wgContLang;
-		
+		global $wgContLang;
 
-		$target = isset( $par ) ? $par : $wgRequest->getText( 'username' );
+		$target = isset( $par ) ? $par : $this->getRequest()->getText( 'username' );
 
 		list( $username, $namespace ) = $this->extractParamaters( $target );
 
-		$username = Title::newFromText( $username );
-		$username = is_object( $username ) ? $username->getText() : '';
+		$user = User::newFromName( $username );
+		$username = is_object( $user ) ? $user->getName() : '';
 
-		$uid = User::idFromName( $username );
+		$uid = $user->getId();
 
 		if ( $this->including() ) {
 			if ( $namespace === null ) {
-				if ($uid != 0)
-					$out = $wgContLang->formatNum( User::edits( $uid ) );
-				else
+				if ( $uid != 0 ) {
+					$out = $wgContLang->formatNum( $user->getEditCount() );
+
+				} else {
 					$out = "";
+				}
 			} else {
 				$out = $wgContLang->formatNum( $this->editsInNs( $uid, $namespace ) );
 			}
-			$wgOut->addHTML( $out );
+			$this->getOutput()->addHTML( $out );
 		} else {
-			if ($uid != 0)
-				$total = $this->getTotal( $nscount = $this->editsByNs( $uid ) );
+			if ( $uid != 0 ) {
+				$nscount = $this->editsByNs( $uid );
+				$total = $this->getTotal( $nscount );
+			}
 			$html = new EditcountHTML;
+			$html->setContext( $this->getContext() );
+			// @fixme don't use @
 			$html->outputHTML( $username, $uid, @$nscount, @$total );
 		}
 	}
@@ -54,7 +59,8 @@ class Editcount extends IncludableSpecialPage {
 	function extractParamaters( $par ) {
 		global $wgContLang;
 
-		@list($user, $namespace) = explode( '/', $par, 2 );
+		// @fixme don't use @
+		@list( $user, $namespace ) = explode( '/', $par, 2 );
 
 		// str*cmp sucks
 		if ( isset( $namespace ) )
@@ -86,7 +92,6 @@ class Editcount extends IncludableSpecialPage {
 	 * @return array
 	 */
 	function editsByNs( $uid ) {
-		$fname = 'Editcount::editsByNs';
 		$nscount = array();
 
 		$dbr = wfGetDB( DB_SLAVE );
@@ -98,7 +103,7 @@ class Editcount extends IncludableSpecialPage {
 				'rev_user = user_id',
 				'rev_page = page_id'
 			),
-			$fname,
+			__METHOD__,
 			array( 'GROUP BY' => 'page_namespace' )
 		);
 
@@ -117,9 +122,6 @@ class Editcount extends IncludableSpecialPage {
 	 * @return string
 	 */
 	function editsInNs( $uid, $ns ) {
-		$fname = 'Editcount::editsInNs';
-		$nscount = array();
-
 		$dbr = wfGetDB( DB_SLAVE );
 		$res = $dbr->selectField(
 			array( 'user', 'revision', 'page' ),
@@ -130,7 +132,7 @@ class Editcount extends IncludableSpecialPage {
 				'rev_user = user_id',
 				'rev_page = page_id'
 			),
-			$fname,
+			__METHOD__,
 			array( 'GROUP BY' => 'page_namespace' )
 		);
 
@@ -140,16 +142,14 @@ class Editcount extends IncludableSpecialPage {
 
 class EditcountHTML extends Editcount {
 	/**
-	 * @access private
 	 * @var array
 	 */
-	var $nscount;
+	private $nscount;
 
 	/**
-	 * @access private
 	 * @var int
 	 */
-	var $total;
+	private $total;
 
 	/**
 	 * Output the HTML form on Special:Editcount
@@ -163,13 +163,11 @@ class EditcountHTML extends Editcount {
 		$this->nscount = $nscount;
 		$this->total = $total;
 
-		global $wgOut, $wgLang;
-
 		$this->setHeaders();
 
-		$action = htmlspecialchars( $this->getTitle()->getLocalUrl() );
-		$user = wfMsgHtml( 'editcount_username' );
-		$submit = wfMsgHtml( 'editcount_submit' );
+		$action = htmlspecialchars( $this->getPageTitle()->getLocalUrl() );
+		$user = $this->msg( 'editcount_username' )->escaped();
+		$submit = $this->msg( 'editcount_submit' )->escaped();
 		$out = "
 		<form id='editcount' method='post' action=\"$action\">
 			<table>
@@ -178,7 +176,7 @@ class EditcountHTML extends Editcount {
 					<td><input tabindex='1' type='text' size='20' name='username' value=\"" . htmlspecialchars( $username ) . "\"/></td>
 					<td><input type='submit' name='submit' value=\"$submit\"/></td>
 				</tr>";
-		if ($username != null && $uid != 0) {
+		if ( $username != null && $uid != 0 ) {
 			$editcounttable = $this->makeTable();
 			$out .= "
 				<tr>
@@ -190,7 +188,7 @@ class EditcountHTML extends Editcount {
 		$out .="
 			</table>
 		</form>";
-		$wgOut->addHTML( $out );
+		$this->getOutput()->addHTML( $out );
 	}
 
 	/**
@@ -199,11 +197,12 @@ class EditcountHTML extends Editcount {
 	 * @access private
 	 */
 	function makeTable() {
-		global $wgLang;
+		$lang = $this->getLanguage();
 
-		$total = wfMsgHtml( 'editcount_total' );
-		$ftotal = $wgLang->formatNum( $this->total );
+		$total = $this->msg( 'editcount_total' )->escaped();
+		$ftotal = $lang->formatNum( $this->total );
 		$percent = $this->total > 0 ? wfPercent( $this->total / $this->total * 100 , 2 ) : wfPercent( 0 ); // @bug 4400
+		// @fixme don't use inline styles
 		$ret = "<table border='1' style='background-color: #fff; border: 1px #aaa solid; border-collapse: collapse;'>
 				<tr>
 					<th>$total</th>
@@ -213,10 +212,10 @@ class EditcountHTML extends Editcount {
 		";
 
 		foreach ($this->nscount as $ns => $edits) {
-			$fedits = $wgLang->formatNum( $edits );
-			$fns = $ns == NS_MAIN ? wfMsg( 'blanknamespace' ) : $wgLang->getFormattedNsText( $ns );
+			$fedits = $lang->formatNum( $edits );
+			$fns = $ns == NS_MAIN ? $this->msg( 'blanknamespace' ) : $lang->getFormattedNsText( $ns );
 			$percent = wfPercent( $edits / $this->total * 100 );
-			$fpercent = $wgLang->formatNum( $percent );
+			$fpercent = $lang->formatNum( $percent );
 			$ret .="
 				<tr>
 					<td>$fns</td>

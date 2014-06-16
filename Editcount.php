@@ -23,7 +23,7 @@ $wgExtensionCredits['specialpage'][] = array(
 
 $dir = dirname(__FILE__) . '/';
 $wgMessagesDirs['Editcount'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['Editcount'] = $dir . 'Editcount.i18n.php';
-$wgExtensionMessagesFiles['EditcountAliases'] = $dir . 'Editcount.alias.php';
-$wgAutoloadClasses['Editcount'] = $dir . 'Editcount_body.php';
+$wgExtensionMessagesFiles['Editcount'] = __DIR__ . '/Editcount.i18n.php';
+$wgExtensionMessagesFiles['EditcountAliases'] = __DIR__ . '/Editcount.alias.php';
+$wgAutoloadClasses['Editcount'] = __DIR__ . '/Editcount_body.php';
 $wgSpecialPages['Editcount'] = 'Editcount';
