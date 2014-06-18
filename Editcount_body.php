@@ -1,5 +1,4 @@
 <?php
-if ( !defined( 'MEDIAWIKI' ) ) die();
 
 class Editcount extends IncludableSpecialPage {
 	/**
@@ -10,7 +9,9 @@ class Editcount extends IncludableSpecialPage {
 	}
 
 	/**
-	 * main()
+	 * Show the special page
+	 *
+	 * @param string|null $par User name, optionally followed by a namespace, or null
 	 */
 	public function execute( $par ) {
 		global $wgContLang;
@@ -28,9 +29,8 @@ class Editcount extends IncludableSpecialPage {
 			if ( $namespace === null ) {
 				if ( $uid != 0 ) {
 					$out = $wgContLang->formatNum( $user->getEditCount() );
-
 				} else {
-					$out = "";
+					$out = '';
 				}
 			} else {
 				$out = $wgContLang->formatNum( $this->editsInNs( $uid, $namespace ) );
@@ -63,8 +63,9 @@ class Editcount extends IncludableSpecialPage {
 		@list( $user, $namespace ) = explode( '/', $par, 2 );
 
 		// str*cmp sucks
-		if ( isset( $namespace ) )
+		if ( isset( $namespace ) ) {
 			$namespace = $wgContLang->getNsIndex( $namespace );
+		}
 
 		return array( $user, $namespace );
 	}
@@ -79,8 +80,9 @@ class Editcount extends IncludableSpecialPage {
 	 */
 	function getTotal( $nscount ) {
 		$total = 0;
-		foreach ( array_values( $nscount ) as $i )
+		foreach ( array_values( $nscount ) as $i ) {
 			$total += $i;
+		}
 
 		return $total;
 	}
@@ -97,7 +99,7 @@ class Editcount extends IncludableSpecialPage {
 		$dbr = wfGetDB( DB_SLAVE );
 		$res = $dbr->select(
 			array( 'user', 'revision', 'page' ),
-			array( 'page_namespace', 'COUNT(*) as count' ),
+			array( 'page_namespace', 'COUNT(*) AS count' ),
 			array(
 				'user_id' => $uid,
 				'rev_user = user_id',
@@ -107,7 +109,7 @@ class Editcount extends IncludableSpecialPage {
 			array( 'GROUP BY' => 'page_namespace' )
 		);
 
-		while( $row = $dbr->fetchObject( $res ) ) {
+		foreach ( $res as $row ) {
 			$nscount[$row->page_namespace] = $row->count;
 		}
 
@@ -125,7 +127,7 @@ class Editcount extends IncludableSpecialPage {
 		$dbr = wfGetDB( DB_SLAVE );
 		$res = $dbr->selectField(
 			array( 'user', 'revision', 'page' ),
-			array( 'COUNT(*) as count' ),
+			array( 'COUNT(*) AS count' ),
 			array(
 				'user_id' => $uid,
 				'page_namespace' => $ns,
@@ -165,7 +167,7 @@ class EditcountHTML extends Editcount {
 
 		$this->setHeaders();
 
-		$action = htmlspecialchars( $this->getPageTitle()->getLocalUrl() );
+		$action = htmlspecialchars( $this->getPageTitle()->getLocalURL() );
 		$user = $this->msg( 'editcount_username' )->escaped();
 		$submit = $this->msg( 'editcount_submit' )->escaped();
 		$out = "
@@ -185,9 +187,9 @@ class EditcountHTML extends Editcount {
 					<td>&#160;</td>
 				</tr>";
 		}
-		$out .="
+		$out .= '
 			</table>
-		</form>";
+		</form>';
 		$this->getOutput()->addHTML( $out );
 	}
 
@@ -211,12 +213,12 @@ class EditcountHTML extends Editcount {
 				</tr>
 		";
 
-		foreach ($this->nscount as $ns => $edits) {
+		foreach ( $this->nscount as $ns => $edits ) {
 			$fedits = $lang->formatNum( $edits );
-			$fns = $ns == NS_MAIN ? $this->msg( 'blanknamespace' ) : $lang->getFormattedNsText( $ns );
+			$fns = ( $ns == NS_MAIN ) ? $this->msg( 'blanknamespace' ) : $lang->getFormattedNsText( $ns );
 			$percent = wfPercent( $edits / $this->total * 100 );
 			$fpercent = $lang->formatNum( $percent );
-			$ret .="
+			$ret .= "
 				<tr>
 					<td>$fns</td>
 					<td>$fedits</td>
@@ -224,8 +226,8 @@ class EditcountHTML extends Editcount {
 				</tr>
 			";
 		}
-		$ret .= "</table>
-		";
+		$ret .= '</table>
+		';
 
 		return $ret;
 	}
