@@ -321,5 +321,5 @@ $specialPageAliases['zh-hans'] = array(
 
 /** Traditional Chinese (中文（繁體）‎) */
 $specialPageAliases['zh-hant'] = array(
-	'Editcount' => array( '編輯數統計' ),
+	'Editcount' => array( '編輯次數' ),
 );
