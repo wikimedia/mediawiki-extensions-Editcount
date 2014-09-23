@@ -199,7 +199,7 @@ $specialPageAliases['myv'] = array(
 	'Editcount' => array( 'ВитнеманьПетнеманьЦёт' ),
 );
 
-/** Nahuatl (Nāhuatl) */
+/** Nāhuatl (Nāhuatl) */
 $specialPageAliases['nah'] = array(
 	'Editcount' => array( 'TlapatlaliztliTlapōhualiztli', 'Ediciones' ),
 );
@@ -304,7 +304,7 @@ $specialPageAliases['uk'] = array(
 	'Editcount' => array( 'Лічильник_редагувань' ),
 );
 
-/** vèneto (vèneto) */
+/** Venetian (vèneto) */
 $specialPageAliases['vec'] = array(
 	'Editcount' => array( 'ContaContributi' ),
 );
