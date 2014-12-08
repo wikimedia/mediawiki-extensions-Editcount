@@ -23,7 +23,7 @@ class Editcount extends IncludableSpecialPage {
 		$user = User::newFromName( $username );
 		$username = is_object( $user ) ? $user->getName() : '';
 
-		$uid = $user->getId();
+		$uid = ( $user instanceof User ? $user->getId() : 0 );
 
 		if ( $this->including() ) {
 			if ( $namespace === null ) {
