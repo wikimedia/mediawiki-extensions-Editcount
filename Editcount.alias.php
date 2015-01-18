@@ -304,6 +304,11 @@ $specialPageAliases['uk'] = array(
 	'Editcount' => array( 'Лічильник_редагувань' ),
 );
 
+/** Urdu (اردو) */
+$specialPageAliases['ur'] = array(
+	'Editcount' => array( 'شمار_ترامیم' ),
+);
+
 /** Venetian (vèneto) */
 $specialPageAliases['vec'] = array(
 	'Editcount' => array( 'ContaContributi' ),
