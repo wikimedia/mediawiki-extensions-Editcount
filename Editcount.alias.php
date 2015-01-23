@@ -29,6 +29,11 @@ $specialPageAliases['as'] = array(
 	'Editcount' => array( 'সম্পাদনা_গণনা' ),
 );
 
+/** Avaric (авар) */
+$specialPageAliases['av'] = array(
+	'Editcount' => array( 'Счётчик_правок' ),
+);
+
 /** Banjar (Bahasa Banjar) */
 $specialPageAliases['bjn'] = array(
 	'Editcount' => array( 'Jumlah_babakan' ),
