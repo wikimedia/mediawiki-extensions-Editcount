@@ -28,4 +28,5 @@ $wgMessagesDirs['Editcount'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['Editcount'] = __DIR__ . '/Editcount.i18n.php';
 $wgExtensionMessagesFiles['EditcountAliases'] = __DIR__ . '/Editcount.alias.php';
 $wgAutoloadClasses['Editcount'] = __DIR__ . '/Editcount_body.php';
+$wgAutoloadClasses['EditcountHTML'] = __DIR__ . '/Editcount_body.php';
 $wgSpecialPages['Editcount'] = 'Editcount';
