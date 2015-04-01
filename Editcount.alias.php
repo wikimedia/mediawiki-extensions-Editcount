@@ -56,7 +56,7 @@ $specialPageAliases['de'] = array(
 
 /** Zazaki (Zazaki) */
 $specialPageAliases['diq'] = array(
-	'Editcount' => array( 'AmareyaVurnayışan' ),
+	'Editcount' => array( 'AmarêVurnayışan' ),
 );
 
 /** Lower Sorbian (dolnoserbski) */
