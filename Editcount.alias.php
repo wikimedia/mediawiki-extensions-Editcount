@@ -34,6 +34,11 @@ $specialPageAliases['av'] = array(
 	'Editcount' => array( 'Счётчик_правок' ),
 );
 
+/** Western Balochi (بلوچی رخشانی) */
+$specialPageAliases['bgn'] = array(
+	'Editcount' => array( 'دستکاری_ئانی_اندازه_گ' ),
+);
+
 /** Banjar (Bahasa Banjar) */
 $specialPageAliases['bjn'] = array(
 	'Editcount' => array( 'Jumlah_babakan' ),
