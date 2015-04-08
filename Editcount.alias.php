@@ -184,6 +184,11 @@ $specialPageAliases['lb'] = array(
 	'Editcount' => array( 'Compteur_vun_den_Ännerungen' ),
 );
 
+/** لوری (لوری) */
+$specialPageAliases['lrc'] = array(
+	'Editcount' => array( 'ویرایشت_شمار' ),
+);
+
 /** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'Editcount' => array( 'БројНаУредувања' ),
