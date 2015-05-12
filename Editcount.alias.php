@@ -19,7 +19,7 @@ $specialPageAliases['ar'] = array(
 	'Editcount' => array( 'عدد_التعديلات' ),
 );
 
-/** Egyptian Spoken Arabic (مصرى) */
+/** Egyptian Arabic (مصرى) */
 $specialPageAliases['arz'] = array(
 	'Editcount' => array( 'عدد_التعديلات' ),
 );
@@ -94,7 +94,7 @@ $specialPageAliases['fr'] = array(
 	'Editcount' => array( 'Compteur_de_modifications', 'CompteurModifications', 'CompteurEditions', 'CompteurÉditions', 'Compteur_d\'éditions', 'CompteurÉdition', 'CompteurEdition' ),
 );
 
-/** Franco-Provençal (arpetan) */
+/** Arpitan (arpetan) */
 $specialPageAliases['frp'] = array(
 	'Editcount' => array( 'Comptor_de_changements', 'ComptorDeChangements' ),
 );
@@ -184,7 +184,7 @@ $specialPageAliases['lb'] = array(
 	'Editcount' => array( 'Compteur_vun_den_Ännerungen' ),
 );
 
-/** لوری (لوری) */
+/** لوری مینجایی (لوری مینجایی) */
 $specialPageAliases['lrc'] = array(
 	'Editcount' => array( 'ویرایشت_شمار' ),
 );
