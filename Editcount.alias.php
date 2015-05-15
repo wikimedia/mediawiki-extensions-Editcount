@@ -184,7 +184,7 @@ $specialPageAliases['lb'] = array(
 	'Editcount' => array( 'Compteur_vun_den_Ännerungen' ),
 );
 
-/** لوری مینجایی (لوری مینجایی) */
+/** Northern Luri (لوری مینجایی) */
 $specialPageAliases['lrc'] = array(
 	'Editcount' => array( 'ویرایشت_شمار' ),
 );
