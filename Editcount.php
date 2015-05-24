@@ -12,21 +12,16 @@
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
 
-if ( !defined( 'MEDIAWIKI' ) ) {
-	die();
+if ( function_exists( 'wfLoadExtension' ) ) {
+	wfLoadExtension( 'Editcount' );
+	// Keep i18n globals so mergeMessageFileList.php doesn't break
+	$wgMessagesDirs['Editcount'] = __DIR__ . '/i18n';
+	$wgExtensionMessagesFiles['EditcountAlias'] = __DIR__ . '/Editcount.alias.php';
+	wfWarn(
+		'Deprecated PHP entry point used for Editcount extension. Please use wfLoadExtension instead, ' .
+		'see https://www.mediawiki.org/wiki/Extension_registration for more details.'
+	);
+	return;
+} else {
+	die( 'This version of the Editcount extension requires MediaWiki 1.25+' );
 }
-
-$wgExtensionCredits['specialpage'][] = array(
-	'path' => __FILE__,
-	'name' => 'Editcount',
-	'author' => 'Ævar Arnfjörð Bjarmason',
-	'descriptionmsg' => 'editcount-desc',
-	'url' => 'https://www.mediawiki.org/wiki/Extension:Editcount',
-);
-
-$wgMessagesDirs['Editcount'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['Editcount'] = __DIR__ . '/Editcount.i18n.php';
-$wgExtensionMessagesFiles['EditcountAliases'] = __DIR__ . '/Editcount.alias.php';
-$wgAutoloadClasses['Editcount'] = __DIR__ . '/Editcount_body.php';
-$wgAutoloadClasses['EditcountHTML'] = __DIR__ . '/Editcount_body.php';
-$wgSpecialPages['Editcount'] = 'Editcount';
