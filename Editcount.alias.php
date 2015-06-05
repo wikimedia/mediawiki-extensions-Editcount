@@ -186,7 +186,7 @@ $specialPageAliases['lb'] = array(
 
 /** Northern Luri (لوری مینجایی) */
 $specialPageAliases['lrc'] = array(
-	'Editcount' => array( 'ویرایشت_شمار' ),
+	'Editcount' => array( 'ڤیرایئشت_شومار' ),
 );
 
 /** Macedonian (македонски) */
