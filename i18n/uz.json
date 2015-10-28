@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Akmalzhon",
-			"CoderSI"
+			"CoderSI",
+			"Sociologist"
 		]
 	},
 	"editcount": "Tahrir hisobi",
 	"editcount-desc": "Foydalanuvchining [[Special:Editcount|tahrirlar sonini]] koʻrsatadi",
 	"editcount_username": "Foydalanuvchi:",
-	"editcount_submit": "Jo'natish",
+	"editcount_submit": "Joʻnatish",
 	"editcount_total": "Jami"
 }
