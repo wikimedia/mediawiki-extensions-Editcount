@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Fluence"
+			"Fluence",
+			"Taresi"
 		]
 	},
-	"editcount": "Tlapatlaliztli tlapōhualli",
+	"editcount": "Tlapatlaliztlapōhualli",
 	"editcount-desc": "Quinēxtīz cē tlatequitiltilīlli [[Special:Editcount|ītlapatlaliz tlapōhualli]]",
 	"editcount_username": "Tlatequitiltilīlli:",
 	"editcount_submit": "Tiquihuāz",
