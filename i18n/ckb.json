@@ -6,6 +6,7 @@
 		]
 	},
 	"editcount": "ژمارەی دەستکارییەکان",
+	"editcount-desc": "[[Special:Editcount|ژمارەی دەستکارییەکان]]ی بەکارھێنەر نیشان دەدات",
 	"editcount_username": "بەکارھێنەر:",
 	"editcount_submit": "ناردن",
 	"editcount_total": "سەرجەم"
