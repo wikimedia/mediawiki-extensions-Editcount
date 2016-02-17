@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Teak"
+			"Teak",
+			"Աշոտ1997"
 		]
 	},
 	"editcount": "Խմբագրումների հաշվում",
+	"editcount-desc": "Ցույց տալ մասնակցի [[Special:Editcount|խմբագրումների քանակը]]",
 	"editcount_username": "Մասնակից.",
 	"editcount_submit": "Հաշվել",
 	"editcount_total": "Ընդհանուր"
