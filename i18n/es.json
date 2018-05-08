@@ -8,7 +8,7 @@
 		]
 	},
 	"editcount": "Contador de ediciones",
-	"editcount-desc": "Muestra el [[Special:Editcount|conteo de ediciones]] de un usuario",
+	"editcount-desc": "Muestra el [[Special:Editcount|recuento de ediciones]] de un usuario",
 	"editcount_username": "Usuario:",
 	"editcount_submit": "Enviar",
 	"editcount_total": "Total"
