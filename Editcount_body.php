@@ -120,7 +120,7 @@ class Editcount extends IncludableSpecialPage {
 	 * Count the number of edits of a user in a given namespace
 	 *
 	 * @param int $uid The user ID to check
-	 * @param int $ns  The namespace to check
+	 * @param int $ns The namespace to check
 	 * @return string
 	 */
 	function editsInNs( $uid, $ns ) {
@@ -157,9 +157,9 @@ class EditcountHTML extends Editcount {
 	 * Output the HTML form on Special:Editcount
 	 *
 	 * @param string $username
-	 * @param int    $uid
-	 * @param array  $nscount
-	 * @param int    $total
+	 * @param int $uid
+	 * @param array $nscount
+	 * @param int $total
 	 */
 	function outputHTML( $username, $uid, $nscount, $total ) {
 		$this->nscount = $nscount;
