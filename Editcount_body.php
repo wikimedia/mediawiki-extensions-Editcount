@@ -96,7 +96,7 @@ class Editcount extends IncludableSpecialPage {
 	function editsByNs( $uid ) {
 		$nscount = [];
 
-		$dbr = wfGetDB( DB_SLAVE );
+		$dbr = wfGetDB( DB_REPLICA );
 		$res = $dbr->select(
 			[ 'user', 'revision', 'page' ],
 			[ 'page_namespace', 'COUNT(*) AS count' ],
@@ -124,7 +124,7 @@ class Editcount extends IncludableSpecialPage {
 	 * @return string
 	 */
 	function editsInNs( $uid, $ns ) {
-		$dbr = wfGetDB( DB_SLAVE );
+		$dbr = wfGetDB( DB_REPLICA );
 		$res = $dbr->selectField(
 			[ 'user', 'revision', 'page' ],
 			[ 'COUNT(*) AS count' ],
