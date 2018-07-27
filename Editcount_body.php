@@ -67,7 +67,7 @@ class Editcount extends IncludableSpecialPage {
 			$namespace = $wgContLang->getNsIndex( $namespace );
 		}
 
-		return array( $user, $namespace );
+		return [ $user, $namespace ];
 	}
 
 	/**
@@ -94,19 +94,19 @@ class Editcount extends IncludableSpecialPage {
 	 * @return array
 	 */
 	function editsByNs( $uid ) {
-		$nscount = array();
+		$nscount = [];
 
 		$dbr = wfGetDB( DB_SLAVE );
 		$res = $dbr->select(
-			array( 'user', 'revision', 'page' ),
-			array( 'page_namespace', 'COUNT(*) AS count' ),
-			array(
+			[ 'user', 'revision', 'page' ],
+			[ 'page_namespace', 'COUNT(*) AS count' ],
+			[
 				'user_id' => $uid,
 				'rev_user = user_id',
 				'rev_page = page_id'
-			),
+			],
 			__METHOD__,
-			array( 'GROUP BY' => 'page_namespace' )
+			[ 'GROUP BY' => 'page_namespace' ]
 		);
 
 		foreach ( $res as $row ) {
@@ -126,16 +126,16 @@ class Editcount extends IncludableSpecialPage {
 	function editsInNs( $uid, $ns ) {
 		$dbr = wfGetDB( DB_SLAVE );
 		$res = $dbr->selectField(
-			array( 'user', 'revision', 'page' ),
-			array( 'COUNT(*) AS count' ),
-			array(
+			[ 'user', 'revision', 'page' ],
+			[ 'COUNT(*) AS count' ],
+			[
 				'user_id' => $uid,
 				'page_namespace' => $ns,
 				'rev_user = user_id',
 				'rev_page = page_id'
-			),
+			],
 			__METHOD__,
-			array( 'GROUP BY' => 'page_namespace' )
+			[ 'GROUP BY' => 'page_namespace' ]
 		);
 
 		return $res;
