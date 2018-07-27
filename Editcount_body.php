@@ -203,7 +203,7 @@ class EditcountHTML extends Editcount {
 
 		$total = $this->msg( 'editcount_total' )->escaped();
 		$ftotal = $lang->formatNum( $this->total );
-		$percent = $this->total > 0 ? wfPercent( $this->total / $this->total * 100 , 2 ) : wfPercent( 0 ); // @bug 4400
+		$percent = $this->total > 0 ? wfPercent( $this->total / $this->total * 100, 2 ) : wfPercent( 0 ); // @bug 4400
 		// @fixme don't use inline styles
 		$ret = "<table border='1' style='background-color: #fff; border: 1px #aaa solid; border-collapse: collapse;'>
 				<tr>
