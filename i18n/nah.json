@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Fluence",
-			"Taresi"
+			"Taresi",
+			"Akapochtli"
 		]
 	},
 	"editcount": "Tlapatlaliztlapōhualli",
 	"editcount-desc": "Quinēxtīz cē tlatequitiltilīlli [[Special:Editcount|ītlapatlaliz tlapōhualli]]",
-	"editcount_username": "Tlatequitiltilīlli:",
+	"editcount_username": "Tequitiuhqui:",
 	"editcount_submit": "Tiquihuāz",
 	"editcount_total": "Mochīntīn"
 }
