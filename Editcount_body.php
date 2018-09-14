@@ -19,6 +19,7 @@ class Editcount extends IncludableSpecialPage {
 		$target = isset( $par ) ? $par : $this->getRequest()->getText( 'username' );
 
 		list( $username, $namespace ) = $this->extractParamaters( $target );
+		$this->getOutput()->enableOOUI();
 
 		$user = User::newFromName( $username );
 		$username = is_object( $user ) ? $user->getName() : '';
@@ -169,14 +170,21 @@ class EditcountHTML extends Editcount {
 
 		$action = htmlspecialchars( $this->getPageTitle()->getLocalURL() );
 		$user = $this->msg( 'editcount_username' )->escaped();
-		$submit = $this->msg( 'editcount_submit' )->escaped();
 		$out = "
 		<form id='editcount' method='post' action=\"$action\">
 			<table>
 				<tr>
 					<td>$user</td>
-					<td><input tabindex='1' type='text' size='20' name='username' value=\"" . htmlspecialchars( $username ) . "\"/></td>
-					<td><input type='submit' name='submit' value=\"$submit\"/></td>
+					<td>" . new OOUI\TextInputWidget( [
+						'name' => 'username',
+						'value' => $username,
+						'autofocus' => true,
+					] ) . "</td>
+					<td>" . new OOUI\ButtonInputWidget( [
+						'label' => $this->msg( 'editcount_submit' )->text(),
+						'flags' => [ 'primary', 'progressive' ],
+						'type' => 'submit',
+					] ) . " </td>
 				</tr>";
 		if ( $username != null && $uid != 0 ) {
 			$editcounttable = $this->makeTable();
