@@ -5,341 +5,340 @@
  * @file
  * @ingroup Extensions
  */
-// @codingStandardsIgnoreFile
 
-$specialPageAliases = array();
+$specialPageAliases = [];
 
 /** English (English) */
-$specialPageAliases['en'] = array(
-	'Editcount' => array( 'Editcount' ),
-);
+$specialPageAliases['en'] = [
+	'Editcount' => [ 'Editcount' ],
+];
 
 /** Arabic (العربية) */
-$specialPageAliases['ar'] = array(
-	'Editcount' => array( 'عدد_التعديلات' ),
-);
+$specialPageAliases['ar'] = [
+	'Editcount' => [ 'عدد_التعديلات' ],
+];
 
 /** Egyptian Arabic (مصرى) */
-$specialPageAliases['arz'] = array(
-	'Editcount' => array( 'عدد_التعديلات' ),
-);
+$specialPageAliases['arz'] = [
+	'Editcount' => [ 'عدد_التعديلات' ],
+];
 
 /** Assamese (অসমীয়া) */
-$specialPageAliases['as'] = array(
-	'Editcount' => array( 'সম্পাদনা_গণনা' ),
-);
+$specialPageAliases['as'] = [
+	'Editcount' => [ 'সম্পাদনা_গণনা' ],
+];
 
 /** Avaric (авар) */
-$specialPageAliases['av'] = array(
-	'Editcount' => array( 'Счётчик_правок' ),
-);
+$specialPageAliases['av'] = [
+	'Editcount' => [ 'Счётчик_правок' ],
+];
 
 /** Western Balochi (بلوچی رخشانی) */
-$specialPageAliases['bgn'] = array(
-	'Editcount' => array( 'دستکاری_ئانی_اندازه_گ' ),
-);
+$specialPageAliases['bgn'] = [
+	'Editcount' => [ 'دستکاری_ئانی_اندازه_گ' ],
+];
 
 /** Banjar (Bahasa Banjar) */
-$specialPageAliases['bjn'] = array(
-	'Editcount' => array( 'Jumlah_babakan' ),
-);
+$specialPageAliases['bjn'] = [
+	'Editcount' => [ 'Jumlah_babakan' ],
+];
 
 /** Bosnian (bosanski) */
-$specialPageAliases['bs'] = array(
-	'Editcount' => array( 'BrojacIzmjena' ),
-);
+$specialPageAliases['bs'] = [
+	'Editcount' => [ 'BrojacIzmjena' ],
+];
 
 /** Chechen (нохчийн) */
-$specialPageAliases['ce'] = array(
-	'Editcount' => array( 'Нисдарш_лорург' ),
-);
+$specialPageAliases['ce'] = [
+	'Editcount' => [ 'Нисдарш_лорург' ],
+];
 
 /** German (Deutsch) */
-$specialPageAliases['de'] = array(
-	'Editcount' => array( 'Beitragszähler' ),
-);
+$specialPageAliases['de'] = [
+	'Editcount' => [ 'Beitragszähler' ],
+];
 
 /** Zazaki (Zazaki) */
-$specialPageAliases['diq'] = array(
-	'Editcount' => array( 'AmarêVurnayışan' ),
-);
+$specialPageAliases['diq'] = [
+	'Editcount' => [ 'AmarêVurnayışan' ],
+];
 
 /** Lower Sorbian (dolnoserbski) */
-$specialPageAliases['dsb'] = array(
-	'Editcount' => array( 'Licak_změnow' ),
-);
+$specialPageAliases['dsb'] = [
+	'Editcount' => [ 'Licak_změnow' ],
+];
 
 /** Esperanto (Esperanto) */
-$specialPageAliases['eo'] = array(
-	'Editcount' => array( 'Redaktkontilo' ),
-);
+$specialPageAliases['eo'] = [
+	'Editcount' => [ 'Redaktkontilo' ],
+];
 
 /** Spanish (español) */
-$specialPageAliases['es'] = array(
-	'Editcount' => array( 'Ediciones_de_Usuario', 'Contador_de_ediciones', 'ContadorEdiciones' ),
-);
+$specialPageAliases['es'] = [
+	'Editcount' => [ 'Ediciones_de_Usuario', 'Contador_de_ediciones', 'ContadorEdiciones' ],
+];
 
 /** Persian (فارسی) */
-$specialPageAliases['fa'] = array(
-	'Editcount' => array( 'شمار_ویرایش‌ها' ),
-);
+$specialPageAliases['fa'] = [
+	'Editcount' => [ 'شمار_ویرایش‌ها' ],
+];
 
 /** Finnish (suomi) */
-$specialPageAliases['fi'] = array(
-	'Editcount' => array( 'Muokkauslaskuri' ),
-);
+$specialPageAliases['fi'] = [
+	'Editcount' => [ 'Muokkauslaskuri' ],
+];
 
 /** French (français) */
-$specialPageAliases['fr'] = array(
-	'Editcount' => array( 'Compteur_de_modifications', 'CompteurModifications', 'CompteurEditions', 'CompteurÉditions', 'Compteur_d\'éditions', 'CompteurÉdition', 'CompteurEdition' ),
-);
+$specialPageAliases['fr'] = [
+	'Editcount' => [ 'Compteur_de_modifications', 'CompteurModifications', 'CompteurEditions', 'CompteurÉditions', 'Compteur_d\'éditions', 'CompteurÉdition', 'CompteurEdition' ],
+];
 
 /** Arpitan (arpetan) */
-$specialPageAliases['frp'] = array(
-	'Editcount' => array( 'Comptor_de_changements', 'ComptorDeChangements' ),
-);
+$specialPageAliases['frp'] = [
+	'Editcount' => [ 'Comptor_de_changements', 'ComptorDeChangements' ],
+];
 
 /** Galician (galego) */
-$specialPageAliases['gl'] = array(
-	'Editcount' => array( 'Contador_de_edicións' ),
-);
+$specialPageAliases['gl'] = [
+	'Editcount' => [ 'Contador_de_edicións' ],
+];
 
 /** Swiss German (Alemannisch) */
-$specialPageAliases['gsw'] = array(
-	'Editcount' => array( 'Byytragszeller' ),
-);
+$specialPageAliases['gsw'] = [
+	'Editcount' => [ 'Byytragszeller' ],
+];
 
 /** Gujarati (ગુજરાતી) */
-$specialPageAliases['gu'] = array(
-	'Editcount' => array( 'ફેરફારગણત્રી' ),
-);
+$specialPageAliases['gu'] = [
+	'Editcount' => [ 'ફેરફારગણત્રી' ],
+];
 
 /** Hebrew (עברית) */
-$specialPageAliases['he'] = array(
-	'Editcount' => array( 'מספר_עריכות' ),
-);
+$specialPageAliases['he'] = [
+	'Editcount' => [ 'מספר_עריכות' ],
+];
 
 /** Croatian (hrvatski) */
-$specialPageAliases['hr'] = array(
-	'Editcount' => array( 'Brojač_izmjena' ),
-);
+$specialPageAliases['hr'] = [
+	'Editcount' => [ 'Brojač_izmjena' ],
+];
 
 /** Upper Sorbian (hornjoserbsce) */
-$specialPageAliases['hsb'] = array(
-	'Editcount' => array( 'Ličak_změnow' ),
-);
+$specialPageAliases['hsb'] = [
+	'Editcount' => [ 'Ličak_změnow' ],
+];
 
 /** Haitian (Kreyòl ayisyen) */
-$specialPageAliases['ht'] = array(
-	'Editcount' => array( 'KontModifikasyon' ),
-);
+$specialPageAliases['ht'] = [
+	'Editcount' => [ 'KontModifikasyon' ],
+];
 
 /** Hungarian (magyar) */
-$specialPageAliases['hu'] = array(
-	'Editcount' => array( 'Szerkesztések_száma' ),
-);
+$specialPageAliases['hu'] = [
+	'Editcount' => [ 'Szerkesztések_száma' ],
+];
 
 /** Interlingua (interlingua) */
-$specialPageAliases['ia'] = array(
-	'Editcount' => array( 'Numero_de_modificationes' ),
-);
+$specialPageAliases['ia'] = [
+	'Editcount' => [ 'Numero_de_modificationes' ],
+];
 
 /** Indonesian (Bahasa Indonesia) */
-$specialPageAliases['id'] = array(
-	'Editcount' => array( 'Jumlah_suntingan', 'JumlahSuntingan' ),
-);
+$specialPageAliases['id'] = [
+	'Editcount' => [ 'Jumlah_suntingan', 'JumlahSuntingan' ],
+];
 
 /** Igbo (Igbo) */
-$specialPageAliases['ig'] = array(
-	'Editcount' => array( 'ÓnúọgụgụOrü' ),
-);
+$specialPageAliases['ig'] = [
+	'Editcount' => [ 'ÓnúọgụgụOrü' ],
+];
 
 /** Japanese (日本語) */
-$specialPageAliases['ja'] = array(
-	'Editcount' => array( '編集回数' ),
-);
+$specialPageAliases['ja'] = [
+	'Editcount' => [ '編集回数' ],
+];
 
 /** Khmer (ភាសាខ្មែរ) */
-$specialPageAliases['km'] = array(
-	'Editcount' => array( 'ការរាប់កំណែប្រែ' ),
-);
+$specialPageAliases['km'] = [
+	'Editcount' => [ 'ការរាប់កំណែប្រែ' ],
+];
 
 /** Korean (한국어) */
-$specialPageAliases['ko'] = array(
-	'Editcount' => array( '기여횟수' ),
-);
+$specialPageAliases['ko'] = [
+	'Editcount' => [ '기여횟수' ],
+];
 
 /** Colognian (Ripoarisch) */
-$specialPageAliases['ksh'] = array(
-	'Editcount' => array( 'Änderunge_Zälle', 'ÄnderungeZälle' ),
-);
+$specialPageAliases['ksh'] = [
+	'Editcount' => [ 'Änderunge_Zälle', 'ÄnderungeZälle' ],
+];
 
 /** Ladino (Ladino) */
-$specialPageAliases['lad'] = array(
-	'Editcount' => array( 'ContarĒddisyones' ),
-);
+$specialPageAliases['lad'] = [
+	'Editcount' => [ 'ContarĒddisyones' ],
+];
 
 /** Luxembourgish (Lëtzebuergesch) */
-$specialPageAliases['lb'] = array(
-	'Editcount' => array( 'Compteur_vun_den_Ännerungen' ),
-);
+$specialPageAliases['lb'] = [
+	'Editcount' => [ 'Compteur_vun_den_Ännerungen' ],
+];
 
 /** Northern Luri (لۊری شومالی) */
-$specialPageAliases['lrc'] = array(
-	'Editcount' => array( 'ڤیرایئشت_شومار' ),
-);
+$specialPageAliases['lrc'] = [
+	'Editcount' => [ 'ڤیرایئشت_شومار' ],
+];
 
 /** Macedonian (македонски) */
-$specialPageAliases['mk'] = array(
-	'Editcount' => array( 'БројНаУредувања' ),
-);
+$specialPageAliases['mk'] = [
+	'Editcount' => [ 'БројНаУредувања' ],
+];
 
 /** Malayalam (മലയാളം) */
-$specialPageAliases['ml'] = array(
-	'Editcount' => array( 'തിരുത്തലുകളുടെ_എണ്ണം' ),
-);
+$specialPageAliases['ml'] = [
+	'Editcount' => [ 'തിരുത്തലുകളുടെ_എണ്ണം' ],
+];
 
 /** Marathi (मराठी) */
-$specialPageAliases['mr'] = array(
-	'Editcount' => array( 'संपादनसंख्या' ),
-);
+$specialPageAliases['mr'] = [
+	'Editcount' => [ 'संपादनसंख्या' ],
+];
 
 /** Malay (Bahasa Melayu) */
-$specialPageAliases['ms'] = array(
-	'Editcount' => array( 'Jumlah_suntingan' ),
-);
+$specialPageAliases['ms'] = [
+	'Editcount' => [ 'Jumlah_suntingan' ],
+];
 
 /** Erzya (эрзянь) */
-$specialPageAliases['myv'] = array(
-	'Editcount' => array( 'ВитнеманьПетнеманьЦёт' ),
-);
+$specialPageAliases['myv'] = [
+	'Editcount' => [ 'ВитнеманьПетнеманьЦёт' ],
+];
 
 /** Nāhuatl (Nāhuatl) */
-$specialPageAliases['nah'] = array(
-	'Editcount' => array( 'TlapatlaliztliTlapōhualiztli', 'Ediciones' ),
-);
+$specialPageAliases['nah'] = [
+	'Editcount' => [ 'TlapatlaliztliTlapōhualiztli', 'Ediciones' ],
+];
 
 /** Norwegian Bokmål (norsk bokmål) */
-$specialPageAliases['nb'] = array(
-	'Editcount' => array( 'Redigeringsteller' ),
-);
+$specialPageAliases['nb'] = [
+	'Editcount' => [ 'Redigeringsteller' ],
+];
 
 /** Low Saxon (Netherlands) (Nedersaksies) */
-$specialPageAliases['nds-nl'] = array(
-	'Editcount' => array( 'Bewarksteller' ),
-);
+$specialPageAliases['nds-nl'] = [
+	'Editcount' => [ 'Bewarksteller' ],
+];
 
 /** Dutch (Nederlands) */
-$specialPageAliases['nl'] = array(
-	'Editcount' => array( 'Bewerkingsteller' ),
-);
+$specialPageAliases['nl'] = [
+	'Editcount' => [ 'Bewerkingsteller' ],
+];
 
 /** Occitan (occitan) */
-$specialPageAliases['oc'] = array(
-	'Editcount' => array( 'ComptadorEdicion' ),
-);
+$specialPageAliases['oc'] = [
+	'Editcount' => [ 'ComptadorEdicion' ],
+];
 
 /** Punjabi (ਪੰਜਾਬੀ) */
-$specialPageAliases['pa'] = array(
-	'Editcount' => array( 'ਫੇਰ-ਬਦਲ_ਗਿਣਤੀ' ),
-);
+$specialPageAliases['pa'] = [
+	'Editcount' => [ 'ਫੇਰ-ਬਦਲ_ਗਿਣਤੀ' ],
+];
 
 /** Polish (polski) */
-$specialPageAliases['pl'] = array(
-	'Editcount' => array( 'Liczba_edycji' ),
-);
+$specialPageAliases['pl'] = [
+	'Editcount' => [ 'Liczba_edycji' ],
+];
 
 /** Portuguese (português) */
-$specialPageAliases['pt'] = array(
-	'Editcount' => array( 'Contador_de_edições' ),
-);
+$specialPageAliases['pt'] = [
+	'Editcount' => [ 'Contador_de_edições' ],
+];
 
 /** Brazilian Portuguese (português do Brasil) */
-$specialPageAliases['pt-br'] = array(
-	'Editcount' => array( 'Contador_de_edições' ),
-);
+$specialPageAliases['pt-br'] = [
+	'Editcount' => [ 'Contador_de_edições' ],
+];
 
 /** Quechua (Runa Simi) */
-$specialPageAliases['qu'] = array(
-	'Editcount' => array( 'RuraqpaLlamkapusqankuna' ),
-);
+$specialPageAliases['qu'] = [
+	'Editcount' => [ 'RuraqpaLlamkapusqankuna' ],
+];
 
 /** Romanian (română) */
-$specialPageAliases['ro'] = array(
-	'Editcount' => array( 'Numărătoare_modificare' ),
-);
+$specialPageAliases['ro'] = [
+	'Editcount' => [ 'Numărătoare_modificare' ],
+];
 
 /** Russian (русский) */
-$specialPageAliases['ru'] = array(
-	'Editcount' => array( 'Счётчик_правок' ),
-);
+$specialPageAliases['ru'] = [
+	'Editcount' => [ 'Счётчик_правок' ],
+];
 
 /** Sanskrit (संस्कृतम्) */
-$specialPageAliases['sa'] = array(
-	'Editcount' => array( 'गणनसम्पादन्‌' ),
-);
+$specialPageAliases['sa'] = [
+	'Editcount' => [ 'गणनसम्पादन्‌' ],
+];
 
 /** Sinhala (සිංහල) */
-$specialPageAliases['si'] = array(
-	'Editcount' => array( 'සංස්කරණ_ගණන' ),
-);
+$specialPageAliases['si'] = [
+	'Editcount' => [ 'සංස්කරණ_ගණන' ],
+];
 
 /** Slovak (slovenčina) */
-$specialPageAliases['sk'] = array(
-	'Editcount' => array( 'PočetPríspevkov' ),
-);
+$specialPageAliases['sk'] = [
+	'Editcount' => [ 'PočetPríspevkov' ],
+];
 
 /** Serbian (Cyrillic script) (српски (ћирилица)‎) */
-$specialPageAliases['sr-ec'] = array(
-	'Editcount' => array( 'БројИзмена' ),
-);
+$specialPageAliases['sr-ec'] = [
+	'Editcount' => [ 'БројИзмена' ],
+];
 
 /** Swedish (svenska) */
-$specialPageAliases['sv'] = array(
-	'Editcount' => array( 'Redigeringsräknare' ),
-);
+$specialPageAliases['sv'] = [
+	'Editcount' => [ 'Redigeringsräknare' ],
+];
 
 /** Swahili (Kiswahili) */
-$specialPageAliases['sw'] = array(
-	'Editcount' => array( 'Idadiyakuhariri' ),
-);
+$specialPageAliases['sw'] = [
+	'Editcount' => [ 'Idadiyakuhariri' ],
+];
 
 /** Tagalog (Tagalog) */
-$specialPageAliases['tl'] = array(
-	'Editcount' => array( 'Bilang_ng_pamamatnugot' ),
-);
+$specialPageAliases['tl'] = [
+	'Editcount' => [ 'Bilang_ng_pamamatnugot' ],
+];
 
 /** Turkish (Türkçe) */
-$specialPageAliases['tr'] = array(
-	'Editcount' => array( 'DeğişiklikSayacı', 'DüzenlemeSayacı' ),
-);
+$specialPageAliases['tr'] = [
+	'Editcount' => [ 'DeğişiklikSayacı', 'DüzenlemeSayacı' ],
+];
 
 /** Ukrainian (українська) */
-$specialPageAliases['uk'] = array(
-	'Editcount' => array( 'Лічильник_редагувань' ),
-);
+$specialPageAliases['uk'] = [
+	'Editcount' => [ 'Лічильник_редагувань' ],
+];
 
 /** Urdu (اردو) */
-$specialPageAliases['ur'] = array(
-	'Editcount' => array( 'شمار_ترامیم' ),
-);
+$specialPageAliases['ur'] = [
+	'Editcount' => [ 'شمار_ترامیم' ],
+];
 
 /** Venetian (vèneto) */
-$specialPageAliases['vec'] = array(
-	'Editcount' => array( 'ContaContributi' ),
-);
+$specialPageAliases['vec'] = [
+	'Editcount' => [ 'ContaContributi' ],
+];
 
 /** Vietnamese (Tiếng Việt) */
-$specialPageAliases['vi'] = array(
-	'Editcount' => array( 'Số_sửa_đổi' ),
-);
+$specialPageAliases['vi'] = [
+	'Editcount' => [ 'Số_sửa_đổi' ],
+];
 
 /** Simplified Chinese (中文（简体）‎) */
-$specialPageAliases['zh-hans'] = array(
-	'Editcount' => array( '编辑计数' ),
-);
+$specialPageAliases['zh-hans'] = [
+	'Editcount' => [ '编辑计数' ],
+];
 
 /** Traditional Chinese (中文（繁體）‎) */
-$specialPageAliases['zh-hant'] = array(
-	'Editcount' => array( '編輯次數' ),
-);
+$specialPageAliases['zh-hant'] = [
+	'Editcount' => [ '編輯次數' ],
+];
