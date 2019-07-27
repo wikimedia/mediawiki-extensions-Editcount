@@ -53,12 +53,10 @@ class Editcount extends IncludableSpecialPage {
 	/**
 	 * Parse the username and namespace parts of the input and return them
 	 *
-	 * @private
-	 *
 	 * @param string $par
 	 * @return array
 	 */
-	function extractParamaters( $par ) {
+	private function extractParamaters( $par ) {
 		// @fixme don't use @
 		@list( $user, $namespace ) = explode( '/', $par, 2 );
 
@@ -73,12 +71,10 @@ class Editcount extends IncludableSpecialPage {
 	/**
 	 * Compute and return the total edits in all namespaces
 	 *
-	 * @private
-	 *
 	 * @param array $nscount An associative array
 	 * @return int
 	 */
-	function getTotal( $nscount ) {
+	private function getTotal( $nscount ) {
 		$total = 0;
 		foreach ( array_values( $nscount ) as $i ) {
 			$total += $i;
@@ -203,9 +199,9 @@ class EditcountHTML extends Editcount {
 	/**
 	 * Make the editcount-by-namespaces HTML table
 	 *
-	 * @private
+	 * @return string
 	 */
-	function makeTable() {
+	private function makeTable() {
 		$lang = $this->getLanguage();
 
 		$total = $this->msg( 'editcount_total' )->escaped();
