@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\MediaWikiServices;
+
 class Editcount extends IncludableSpecialPage {
 	/**
 	 * Constructor
@@ -14,8 +16,6 @@ class Editcount extends IncludableSpecialPage {
 	 * @param string|null $par User name, optionally followed by a namespace, or null
 	 */
 	public function execute( $par ) {
-		global $wgContLang;
-
 		$target = isset( $par ) ? $par : $this->getRequest()->getText( 'username' );
 
 		list( $username, $namespace ) = $this->extractParamaters( $target );
@@ -27,14 +27,15 @@ class Editcount extends IncludableSpecialPage {
 		$uid = ( $user instanceof User ? $user->getId() : 0 );
 
 		if ( $this->including() ) {
+			$contLang = MediaWikiServices::getInstance()->getContentLanguage();
 			if ( $namespace === null ) {
 				if ( $uid != 0 ) {
-					$out = $wgContLang->formatNum( $user->getEditCount() );
+					$out = $contLang->formatNum( $user->getEditCount() );
 				} else {
 					$out = '';
 				}
 			} else {
-				$out = $wgContLang->formatNum( $this->editsInNs( $uid, $namespace ) );
+				$out = $contLang->formatNum( $this->editsInNs( $uid, $namespace ) );
 			}
 			$this->getOutput()->addHTML( $out );
 		} else {
@@ -58,14 +59,12 @@ class Editcount extends IncludableSpecialPage {
 	 * @return array
 	 */
 	function extractParamaters( $par ) {
-		global $wgContLang;
-
 		// @fixme don't use @
 		@list( $user, $namespace ) = explode( '/', $par, 2 );
 
 		// str*cmp sucks
 		if ( isset( $namespace ) ) {
-			$namespace = $wgContLang->getNsIndex( $namespace );
+			$namespace = MediaWikiServices::getInstance()->getContentLanguage()->getNsIndex( $namespace );
 		}
 
 		return [ $user, $namespace ];
