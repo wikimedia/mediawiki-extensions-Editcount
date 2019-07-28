@@ -18,7 +18,7 @@ class Editcount extends IncludableSpecialPage {
 	public function execute( $par ) {
 		$target = isset( $par ) ? $par : $this->getRequest()->getText( 'username' );
 
-		list( $username, $namespace ) = $this->extractParamaters( $target );
+		list( $username, $namespace ) = $this->extractParameters( $target );
 		$this->getOutput()->enableOOUI();
 
 		$user = User::newFromName( $username );
@@ -56,7 +56,7 @@ class Editcount extends IncludableSpecialPage {
 	 * @param string $par
 	 * @return array
 	 */
-	private function extractParamaters( $par ) {
+	private function extractParameters( $par ) {
 		// @fixme don't use @
 		@list( $user, $namespace ) = explode( '/', $par, 2 );
 
