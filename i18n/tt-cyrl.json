@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Рашат Якупов"
+			"Рашат Якупов",
+			"Ерней"
 		]
 	},
 	"editcount": "Төзәтмәләр статистикасы",
 	"editcount-desc": "Катнашучының [[Special:Editcount|төзәтмәләр санын]] күрсәтә",
 	"editcount_username": "Катнашучы:",
 	"editcount_submit": "Санарга",
-	"editcount_total": "Тулысынча"
+	"editcount_total": "Барлыгы"
 }
