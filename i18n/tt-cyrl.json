@@ -6,7 +6,7 @@
 		]
 	},
 	"editcount": "Төзәтмәләр статистикасы",
-	"editcount-desc": "Катнашучының [[Special:Editcount|төзәтмәләр санын]] күрсәтә",
+	"editcount-desc": "Кулланучының [[Special:Editcount|төзәтмәләр исәбен]] күрсәтә",
 	"editcount_username": "Кулланучы:",
 	"editcount_submit": "Санарга",
 	"editcount_total": "Барлыгы"
