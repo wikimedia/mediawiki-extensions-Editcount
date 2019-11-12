@@ -3,9 +3,6 @@
 use MediaWiki\MediaWikiServices;
 
 class Editcount extends IncludableSpecialPage {
-	/**
-	 * Constructor
-	 */
 	public function __construct() {
 		parent::__construct( 'Editcount' );
 	}
@@ -22,9 +19,8 @@ class Editcount extends IncludableSpecialPage {
 		$this->getOutput()->enableOOUI();
 
 		$user = User::newFromName( $username );
-		$username = is_object( $user ) ? $user->getName() : '';
-
-		$uid = ( $user instanceof User ? $user->getId() : 0 );
+		$username = $user ? $user->getName() : '';
+		$uid = $user ? $user->getId() : 0;
 
 		if ( $this->including() ) {
 			$contLang = MediaWikiServices::getInstance()->getContentLanguage();
@@ -39,14 +35,10 @@ class Editcount extends IncludableSpecialPage {
 			}
 			$this->getOutput()->addHTML( $out );
 		} else {
-			if ( $uid != 0 ) {
-				$nscount = $this->editsByNs( $uid );
-				$total = $this->getTotal( $nscount );
-			}
+			$nscount = $this->editsByNs( $uid );
 			$html = new EditcountHTML;
 			$html->setContext( $this->getContext() );
-			// @fixme don't use @
-			$html->outputHTML( $username, $uid, @$nscount, @$total );
+			$html->outputHTML( $username, $uid, $nscount );
 		}
 	}
 
@@ -57,40 +49,23 @@ class Editcount extends IncludableSpecialPage {
 	 * @return array
 	 */
 	private function extractParameters( $par ) {
-		// @fixme don't use @
-		@list( $user, $namespace ) = explode( '/', $par, 2 );
-
-		// str*cmp sucks
-		if ( isset( $namespace ) ) {
-			$namespace = MediaWikiServices::getInstance()->getContentLanguage()->getNsIndex( $namespace );
-		}
-
-		return [ $user, $namespace ];
-	}
-
-	/**
-	 * Compute and return the total edits in all namespaces
-	 *
-	 * @param array $nscount An associative array
-	 * @return int
-	 */
-	private function getTotal( $nscount ) {
-		$total = 0;
-		foreach ( array_values( $nscount ) as $i ) {
-			$total += $i;
-		}
-
-		return $total;
+		$parts = explode( '/', $par, 2 );
+		$parts[1] = isset( $parts[1] )
+			? MediaWikiServices::getInstance()->getContentLanguage()->getNsIndex( $parts[1] )
+			: null;
+		return $parts;
 	}
 
 	/**
 	 * Count the number of edits of a user by namespace
 	 *
 	 * @param int $uid The user ID to check
-	 * @return array
+	 * @return int[]
 	 */
-	function editsByNs( $uid ) {
-		$nscount = [];
+	protected function editsByNs( $uid ) {
+		if ( $uid <= 0 ) {
+			return [];
+		}
 
 		$dbr = wfGetDB( DB_REPLICA );
 		$res = $dbr->select(
@@ -105,10 +80,10 @@ class Editcount extends IncludableSpecialPage {
 			[ 'GROUP BY' => 'page_namespace' ]
 		);
 
+		$nscount = [];
 		foreach ( $res as $row ) {
-			$nscount[$row->page_namespace] = $row->count;
+			$nscount[$row->page_namespace] = (int)$row->count;
 		}
-
 		return $nscount;
 	}
 
@@ -117,11 +92,15 @@ class Editcount extends IncludableSpecialPage {
 	 *
 	 * @param int $uid The user ID to check
 	 * @param int $ns The namespace to check
-	 * @return string
+	 * @return int
 	 */
-	function editsInNs( $uid, $ns ) {
+	protected function editsInNs( $uid, $ns ) {
+		if ( $uid <= 0 ) {
+			return 0;
+		}
+
 		$dbr = wfGetDB( DB_REPLICA );
-		$res = $dbr->selectField(
+		return (int)$dbr->selectField(
 			[ 'user', 'revision', 'page' ],
 			[ 'COUNT(*) AS count' ],
 			[
@@ -133,14 +112,12 @@ class Editcount extends IncludableSpecialPage {
 			__METHOD__,
 			[ 'GROUP BY' => 'page_namespace' ]
 		);
-
-		return $res;
 	}
 }
 
 class EditcountHTML extends Editcount {
 	/**
-	 * @var array
+	 * @var int[]
 	 */
 	private $nscount;
 
@@ -154,12 +131,12 @@ class EditcountHTML extends Editcount {
 	 *
 	 * @param string $username
 	 * @param int $uid
-	 * @param array $nscount
-	 * @param int $total
+	 * @param int[] $nscount
+	 * @param int|null $total
 	 */
-	function outputHTML( $username, $uid, $nscount, $total ) {
+	public function outputHTML( $username, $uid, array $nscount, $total = null ) {
 		$this->nscount = $nscount;
-		$this->total = $total;
+		$this->total = $total ?: array_sum( $nscount );
 
 		$this->setHeaders();
 
@@ -206,7 +183,7 @@ class EditcountHTML extends Editcount {
 
 		$total = $this->msg( 'editcount_total' )->escaped();
 		$ftotal = $lang->formatNum( $this->total );
-		$percent = $this->total > 0 ? wfPercent( $this->total / $this->total * 100, 2 ) : wfPercent( 0 ); // @bug 4400
+		$percent = wfPercent( $this->total ? 100 : 0 );
 		// @fixme don't use inline styles
 		$ret = "<table border='1' style='background-color: #fff; border: 1px #aaa solid; border-collapse: collapse;'>
 				<tr>
