@@ -31,11 +31,11 @@ class Editcount extends IncludableSpecialPage {
 					$out = '';
 				}
 			} else {
-				$out = $contLang->formatNum( $this->editsInNs( $uid, $namespace ) );
+				$out = $contLang->formatNum( $this->editsInNs( $user, $namespace ) );
 			}
 			$this->getOutput()->addHTML( $out );
 		} else {
-			$nscount = $this->editsByNs( $uid );
+			$nscount = $this->editsByNs( $user );
 			$html = new EditcountHTML;
 			$html->setContext( $this->getContext() );
 			$html->outputHTML( $username, $uid, $nscount );
@@ -59,25 +59,23 @@ class Editcount extends IncludableSpecialPage {
 	/**
 	 * Count the number of edits of a user by namespace
 	 *
-	 * @param int $uid The user ID to check
+	 * @param User $user The user to check
 	 * @return int[]
 	 */
-	protected function editsByNs( $uid ) {
-		if ( $uid <= 0 ) {
+	protected function editsByNs( $user ) {
+		if ( !$user || $user->getId() <= 0 ) {
 			return [];
 		}
 
 		$dbr = wfGetDB( DB_REPLICA );
+		$actorWhere = ActorMigration::newMigration()->getWhere( $dbr, 'rev_user', $user );
 		$res = $dbr->select(
-			[ 'user', 'revision', 'page' ],
+			[ 'revision', 'page' ] + $actorWhere['tables'],
 			[ 'page_namespace', 'COUNT(*) AS count' ],
-			[
-				'user_id' => $uid,
-				'rev_user = user_id',
-				'rev_page = page_id'
-			],
+			[ $actorWhere['conds'] ],
 			__METHOD__,
-			[ 'GROUP BY' => 'page_namespace' ]
+			[ 'GROUP BY' => 'page_namespace' ],
+			[ 'page' => [ 'JOIN', 'page.page_id = rev_page' ] ] + $actorWhere['joins']
 		);
 
 		$nscount = [];
@@ -90,27 +88,24 @@ class Editcount extends IncludableSpecialPage {
 	/**
 	 * Count the number of edits of a user in a given namespace
 	 *
-	 * @param int $uid The user ID to check
+	 * @param User $user The user to check
 	 * @param int $ns The namespace to check
 	 * @return int
 	 */
-	protected function editsInNs( $uid, $ns ) {
-		if ( $uid <= 0 ) {
+	protected function editsInNs( $user, $ns ) {
+		if ( !$user || $user->getId() <= 0 ) {
 			return 0;
 		}
 
 		$dbr = wfGetDB( DB_REPLICA );
+		$actorWhere = ActorMigration::newMigration()->getWhere( $dbr, 'rev_user', $user );
 		return (int)$dbr->selectField(
-			[ 'user', 'revision', 'page' ],
-			[ 'COUNT(*) AS count' ],
-			[
-				'user_id' => $uid,
-				'page_namespace' => $ns,
-				'rev_user = user_id',
-				'rev_page = page_id'
-			],
+			[ 'revision', 'page' ] + $actorWhere['tables'],
+			'COUNT(*)',
+			[ 'page_namespace' => $ns, $actorWhere['conds'] ],
 			__METHOD__,
-			[ 'GROUP BY' => 'page_namespace' ]
+			[],
+			[ 'page' => [ 'JOIN', 'page.page_id = rev_page' ] ] + $actorWhere['joins']
 		);
 	}
 }
