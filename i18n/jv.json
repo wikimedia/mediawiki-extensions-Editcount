@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
+			"Diki Ananta",
 			"Meursault2004",
 			"NoiX180"
 		]
 	},
 	"editcount": "Étungan besutan",
-	"editcount-desc": "Macak [[Special:Editcount|cacah besutan]] siji panganggo",
-	"editcount_username": "Panganggo:",
+	"editcount-desc": "Macak [[Special:Editcount|cacah besutan]] siji naraguna",
+	"editcount_username": "Naraguna:",
 	"editcount_submit": "Kirim",
 	"editcount_total": "Gunggung"
 }
