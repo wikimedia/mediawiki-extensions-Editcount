@@ -75,7 +75,7 @@ class Editcount extends IncludableSpecialPage {
 			[ $actorWhere['conds'] ],
 			__METHOD__,
 			[ 'GROUP BY' => 'page_namespace' ],
-			[ 'page' => [ 'JOIN', 'page.page_id = rev_page' ] ] + $actorWhere['joins']
+			[ 'page' => [ 'JOIN', 'page_id = rev_page' ] ] + $actorWhere['joins']
 		);
 
 		$nscount = [];
