@@ -245,7 +245,7 @@ $specialPageAliases['pa'] = [
 
 /** Polish (polski) */
 $specialPageAliases['pl'] = [
-	'Editcount' => [ 'Liczba_edycji' ],
+	'Editcount' => [ 'Licznik_edycji', 'Liczba_edycji' ],
 ];
 
 /** Portuguese (português) */
