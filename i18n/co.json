@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Jun Misugi",
 			"Paulu"
 		]
 	},
-	"editcount_username": "Cuntributore:"
+	"editcount_username": "Cuntributore:",
+	"editcount_submit": "Invià",
+	"editcount_total": "Tutale"
 }
