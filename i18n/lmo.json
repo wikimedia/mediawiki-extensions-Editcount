@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sprüngli"
+			"Sprüngli",
+			"Salvemm el lombard"
 		]
 	},
-	"editcount": "Cunt de li edizion",
-	"editcount-desc": "Al fa vider [[Special:Editcount|el cunt de li edizion]] d'un dovratt",
-	"editcount_username": "Dovratt:"
+	"editcount": "Cunt di edizzion",
+	"editcount-desc": "El fà vedè [[Special:Editcount|el cunt di contribussion]] d'on utent",
+	"editcount_username": "Utent:"
 }
