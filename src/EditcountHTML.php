@@ -51,6 +51,7 @@ class EditcountHTML extends Editcount {
 		$out .= '
 			</table>
 		</form>';
+		// @phan-suppress-next-line SecurityCheck-XSS
 		$this->getOutput()->addHTML( $out );
 	}
 

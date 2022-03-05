@@ -33,6 +33,7 @@ class Editcount extends IncludableSpecialPage {
 			} else {
 				$out = $contLang->formatNum( $this->editsInNs( $user, $namespace ) );
 			}
+			// @phan-suppress-next-line SecurityCheck-XSS
 			$this->getOutput()->addHTML( $out );
 		} else {
 			$nscount = $this->editsByNs( $user );
