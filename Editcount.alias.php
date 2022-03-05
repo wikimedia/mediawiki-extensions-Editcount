@@ -90,7 +90,15 @@ $specialPageAliases['fi'] = [
 
 /** French (français) */
 $specialPageAliases['fr'] = [
-	'Editcount' => [ 'Compteur_de_modifications', 'CompteurModifications', 'CompteurEditions', 'CompteurÉditions', 'Compteur_d\'éditions', 'CompteurÉdition', 'CompteurEdition' ],
+	'Editcount' => [
+		'Compteur_de_modifications',
+		'CompteurModifications',
+		'CompteurEditions',
+		'CompteurÉditions',
+		'Compteur_d\'éditions',
+		'CompteurÉdition',
+		'CompteurEdition'
+	],
 ];
 
 /** Arpitan (arpetan) */

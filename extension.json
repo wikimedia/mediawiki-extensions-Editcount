@@ -20,8 +20,8 @@
 		"EditcountAliases": "Editcount.alias.php"
 	},
 	"AutoloadClasses": {
-		"Editcount": "Editcount_body.php",
-		"EditcountHTML": "Editcount_body.php"
+		"Editcount": "src/Editcount.php",
+		"EditcountHTML": "src/EditcountHTML.php"
 	},
 	"manifest_version": 1
 }

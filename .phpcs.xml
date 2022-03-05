@@ -1,20 +1,6 @@
 <?xml version="1.0"?>
 <ruleset>
-	<rule ref="./vendor/mediawiki/mediawiki-codesniffer/MediaWiki">
-		<exclude name="Generic.Files.LineLength.TooLong" />
-	</rule>
-	<rule ref="Generic.Files.LineLength">
-		<properties>
-			<property name="lineLimit" value="111" />
-		</properties>
-		<exclude-pattern>Editcount\.alias\.php</exclude-pattern>
-	</rule>
-	<rule ref="Generic.Files.OneObjectStructurePerFile">
-		<exclude-pattern>Editcount_body\.php</exclude-pattern>
-	</rule>
-	<rule ref="MediaWiki.Files.ClassMatchesFilename">
-		<exclude-pattern>Editcount_body\.php</exclude-pattern>
-	</rule>
+	<rule ref="./vendor/mediawiki/mediawiki-codesniffer/MediaWiki" />
 	<file>.</file>
 	<arg name="extensions" value="php"/>
 	<arg name="encoding" value="UTF-8"/>
