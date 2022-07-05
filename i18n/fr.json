@@ -9,7 +9,7 @@
 	},
 	"editcount": "Compteur individuel de modifications",
 	"editcount-desc": "Affiche le [[Special:Editcount|compteur de modifications]] d’un utilisateur",
-	"editcount_username": "Utilisateur :",
+	"editcount_username": "Utilisateur :",
 	"editcount_submit": "Soumettre",
 	"editcount_total": "Total"
 }
