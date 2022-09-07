@@ -8,8 +8,8 @@
 			"Umherirrender"
 		]
 	},
-	"editcount": "{{doc-special|Editcount|unlisted=1}}",
-	"editcount-desc": "{{desc|name=Editcount|url=https://www.mediawiki.org/wiki/Extension:Editcount}}",
+	"editcount": "{{doc-special|EditCount}}",
+	"editcount-desc": "{{desc|name=EditCountNeue|url=https://www.mediawiki.org/wiki/Extension:EditCountNeue}}",
 	"editcount_username": "{{Identical|User}}",
 	"editcount_submit": "{{Identical|Submit}}",
 	"editcount_total": "{{Identical|Total}}"
