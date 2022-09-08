@@ -4,7 +4,6 @@
 			"SMP"
 		]
 	},
-	"editcount": "Comptador d'edicions",
 	"editcount-desc": "Mostra el [[Special:Editcount|recompte d'edicions]] d'un usuari",
 	"editcount_username": "Usuari:",
 	"editcount_submit": "Tramet",

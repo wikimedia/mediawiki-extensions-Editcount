@@ -4,7 +4,6 @@
 			"Siebrand"
 		]
 	},
-	"editcount": "Bewerkingsteller",
 	"editcount-desc": "Geeft een [[Special:Editcount|bewerkingsteller]] weer voor een gebruiker",
 	"editcount_username": "Gebruiker:",
 	"editcount_submit": "OK",

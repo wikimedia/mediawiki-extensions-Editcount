@@ -5,7 +5,6 @@
 			"Jesielt"
 		]
 	},
-	"editcount": "Contador de edições",
 	"editcount-desc": "Apresenta [[Special:Editcount|a contagem de edições]] de um usuário",
 	"editcount_username": "Usuário:",
 	"editcount_submit": "Enviar",

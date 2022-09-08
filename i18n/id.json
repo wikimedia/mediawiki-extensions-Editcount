@@ -5,7 +5,6 @@
 			"Rex"
 		]
 	},
-	"editcount": "Jumlah suntingan",
 	"editcount-desc": "Menampilkan [[Special:Editcount|jumlah suntingan]] pengguna",
 	"editcount_username": "Pengguna:",
 	"editcount_submit": "Kirim",

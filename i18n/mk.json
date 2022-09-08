@@ -4,7 +4,6 @@
 			"Brest"
 		]
 	},
-	"editcount": "Број на уредувања",
 	"editcount-desc": "Прикажува [[Special:Editcount|број на уредувања]] на корисник",
 	"editcount_username": "Корисник:",
 	"editcount_submit": "Потврди",

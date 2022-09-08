@@ -6,7 +6,6 @@
 			"Tobulos1"
 		]
 	},
-	"editcount": "Redigeringsräknare",
 	"editcount-desc": "Visar [[Special:Editcount|antalet redigeringar]] som en användare gjort",
 	"editcount_username": "Användare:",
 	"editcount_submit": "Räkna",

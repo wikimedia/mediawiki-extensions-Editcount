@@ -2,13 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Jon Harald Søby",
+			"Nike",
 			"Purodha",
 			"Shirayuki",
 			"The Evil IP address",
 			"Umherirrender"
 		]
 	},
-	"editcount": "{{doc-special|EditCount}}",
 	"editcount-desc": "{{desc|name=EditCountNeue|url=https://www.mediawiki.org/wiki/Extension:EditCountNeue}}",
 	"editcount_username": "{{Identical|User}}",
 	"editcount_submit": "{{Identical|Submit}}",
