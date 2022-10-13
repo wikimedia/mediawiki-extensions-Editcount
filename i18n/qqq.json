@@ -6,10 +6,11 @@
 			"Shirayuki",
 			"The Evil IP address",
 			"Umherirrender",
-			"Nike"
+			"Nike",
+			"Legoktm"
 		]
 	},
-	"editcount": "{{doc-special|Editcount|unlisted=1}}",
+	"editcount": "{{doc-special|Editcount}}",
 	"editcount-desc": "{{desc|name=EditCountNeue|url=https://www.mediawiki.org/wiki/Extension:EditCountNeue}}",
 	"editcount_username": "{{Identical|User}}",
 	"editcount_submit": "{{Identical|Submit}}",
