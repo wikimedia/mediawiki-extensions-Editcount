@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Hamilton Abreu",
 			"Malafaya"
 		]
 	},
+	"editcount": "Contagem de edições",
 	"editcount-desc": "Apresenta [[Special:Editcount|a contagem de edições]] de um utilizador",
 	"editcount_username": "Utilizador:",
 	"editcount_submit": "Enviar",
