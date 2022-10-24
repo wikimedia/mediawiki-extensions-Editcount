@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Brest"
+			"Brest",
+			"Bjankuloski06"
 		]
 	},
-	"editcount": "Број на уредувања",
+	"editcount": "Бројач на уредувања",
 	"editcount-desc": "Прикажува [[Special:Editcount|број на уредувања]] на корисник",
 	"editcount_username": "Корисник:",
 	"editcount_submit": "Потврди",
