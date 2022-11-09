@@ -3,9 +3,11 @@
 		"authors": [
 			"Kghbln",
 			"Leon Weber",
-			"Raimond Spekking"
+			"Raimond Spekking",
+			"TMg"
 		]
 	},
+	"editcount": "Bearbeitungszähler",
 	"editcount-desc": "Ergänzt eine [[Special:Editcount|Spezialseite]] zur Anzeige der Anzahl an Bearbeitungen eines Benutzers",
 	"editcount_username": "Benutzer:",
 	"editcount_submit": "Absenden",
