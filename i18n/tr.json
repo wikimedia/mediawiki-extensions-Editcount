@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Joseph",
-			"Karduelis"
+			"Karduelis",
+			"SaldırganSincap"
 		]
 	},
+	"editcount": "Değişiklik sayısı",
 	"editcount-desc": "Bir kullanıcının [[Special:Editcount|değişiklik sayısını]] görüntüler",
 	"editcount_username": "Kullanıcı:",
 	"editcount_submit": "Gönder",
