@@ -2,12 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Cwlin0416",
+			"Kly",
 			"Liuxinyu970226",
 			"Mark85296341",
 			"Oapbtommy",
 			"Shinjiman"
 		]
 	},
+	"editcount": "編輯次數",
 	"editcount-desc": "顯示一個使用者的[[Special:Editcount|編輯次數]]",
 	"editcount_username": "使用者：",
 	"editcount_submit": "送出",
