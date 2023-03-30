@@ -6,7 +6,7 @@
 		]
 	},
 	"editcount": "Število urejanj",
-	"editcount-desc": "Prikaže [[Special:Editcount|števec urejanj]] uporabnika",
+	"editcount-desc": "Prikaže [[Special:Editcount|števec uporabnikovih urejanj]]",
 	"editcount_username": "Uporabnik:",
 	"editcount_submit": "Pošlji",
 	"editcount_total": "Skupno"
