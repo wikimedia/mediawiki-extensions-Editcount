@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"01miki10",
 			"Jaakonam",
 			"Nike"
 		]
 	},
+	"editcount": "Muokkausmäärä",
 	"editcount-desc": "Näyttää käyttäjän [[Special:Editcount|muokkauslaskurin]]",
 	"editcount_username": "Käyttäjä",
 	"editcount_submit": "Hae",
