@@ -64,14 +64,16 @@ class EditcountHTML extends Editcount {
 		$lang = $this->getLanguage();
 
 		$total = $this->msg( 'editcount_total' )->escaped();
+		$namespace = $this->msg( 'editcount_namespace' )->escaped();
+		$edits = $this->msg( 'editcount_edits' )->escaped();
+		$percentage = $this->msg( 'editcount_percentage' )->escaped();
 		$ftotal = $lang->formatNum( $this->total );
-		$percent = wfPercent( $this->total ? 100 : 0 );
-		// @fixme don't use inline styles
-		$ret = "<table border='1' style='background-color: #fff; border: 1px #aaa solid; border-collapse: collapse;'>
+
+		$ret = "<table class='wikitable' style='text-align:center;'>
 				<tr>
-					<th>$total</th>
-					<th>$ftotal</th>
-					<th>$percent</th>
+					<th>$namespace</th>
+					<th>$edits</th>
+					<th>$percentage</th>
 				</tr>
 		";
 
@@ -88,6 +90,17 @@ class EditcountHTML extends Editcount {
 				</tr>
 			";
 		}
+
+		$percent = wfPercent( $this->total ? 100 : 0 );
+
+		$ret .= "
+				<tr>
+					<th>$total</th>
+					<td>$ftotal</th>
+					<td>$percent</th>
+				</tr>
+		";
+
 		$ret .= '</table>
 		';
 

@@ -17,6 +17,7 @@ class Editcount extends IncludableSpecialPage {
 
 		list( $username, $namespace ) = $this->extractParameters( $target );
 		$this->getOutput()->enableOOUI();
+		$this->getOutput()->addWikiMsg( 'editcount-before' );
 
 		$user = User::newFromName( $username );
 		$username = $user ? $user->getName() : '';
