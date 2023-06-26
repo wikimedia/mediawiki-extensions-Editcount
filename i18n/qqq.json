@@ -12,7 +12,11 @@
 	},
 	"editcount": "{{doc-special|Editcount}}",
 	"editcount-desc": "{{desc|name=EditCountNeue|url=https://www.mediawiki.org/wiki/Extension:EditCountNeue}}",
+	"editcount-before": "This tool allows you to view a given user's edit count across all namespaces.",
 	"editcount_username": "{{Identical|User}}",
 	"editcount_submit": "{{Identical|Submit}}",
+	"editcount_namespace": "{{Identical|Namespace}}",
+	"editcount_edits": "{{Identical|Edits}}",
+	"editcount_percentage": "{{Identical|Percentage}}",
 	"editcount_total": "{{Identical|Total}}"
 }

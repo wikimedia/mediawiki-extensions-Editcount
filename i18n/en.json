@@ -1,12 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"Rob Church"
+			"Rob Church",
+			"Evelyn Marie"
 		]
 	},
 	"editcount": "Edit count",
-	"editcount-desc": "Displays [[Special:Editcount|edit count]] of a user",
+	"editcount-desc": "Displays a given user's [[Special:Editcount|edit count]]",
+	"editcount-before": "This tool allows you to view a given user's edit count across all namespaces.",
 	"editcount_username": "User:",
 	"editcount_submit": "Submit",
+	"editcount_namespace": "Namespace",
+	"editcount_edits": "Edits",
+	"editcount_percentage": "Percentage",
 	"editcount_total": "Total"
 }
