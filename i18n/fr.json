@@ -2,14 +2,19 @@
 	"@metadata": {
 		"authors": [
 			"Bertrand Grondin",
+			"Gomoko",
 			"Grondin",
 			"Louperivois",
 			"Verdy p"
 		]
 	},
 	"editcount": "Nombre de modifications",
-	"editcount-desc": "Affiche le [[Special:Editcount|compteur de modifications]] d’un utilisateur.",
+	"editcount-desc": "Affiche le [[Special:Editcount|compteur de modifications]] d’un utilisateur donné.",
+	"editcount-before": "Cet outil vous permet d’afficher le compteur de modifications d’un utilisateur pour tous les espaces de nom.",
 	"editcount_username": "Utilisateur :",
 	"editcount_submit": "Soumettre",
+	"editcount_namespace": "Espace de noms",
+	"editcount_edits": "Modifications",
+	"editcount_percentage": "Pourcentage",
 	"editcount_total": "Total"
 }

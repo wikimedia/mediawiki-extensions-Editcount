@@ -8,8 +8,12 @@
 		]
 	},
 	"editcount": "מונה עריכות",
-	"editcount-desc": "הצגת [[Special:Editcount|מונה עריכות]] של משתמש",
+	"editcount-desc": "הצגת [[Special:Editcount|מונה עריכות]] של משתמש נתון",
+	"editcount-before": "הכלי הזה מאפשר לך להציג את מונה העריכות של משתמש נתון בכל מרחבי השם.",
 	"editcount_username": "משתמש:",
 	"editcount_submit": "שליחה",
+	"editcount_namespace": "מרחב שם",
+	"editcount_edits": "עריכות",
+	"editcount_percentage": "אחוז",
 	"editcount_total": "סך הכול"
 }

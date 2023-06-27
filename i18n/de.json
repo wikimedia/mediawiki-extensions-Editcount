@@ -9,7 +9,11 @@
 	},
 	"editcount": "Bearbeitungszähler",
 	"editcount-desc": "Ergänzt eine [[Special:Editcount|Spezialseite]] zur Anzeige der Anzahl an Bearbeitungen eines Benutzers",
+	"editcount-before": "Mit diesem Tool kannst du die Bearbeitungsanzahl eines bestimmten Benutzers in allen Namensräumen anzeigen.",
 	"editcount_username": "Benutzer:",
 	"editcount_submit": "Absenden",
+	"editcount_namespace": "Namensraum",
+	"editcount_edits": "Bearbeitungen",
+	"editcount_percentage": "Prozentsatz",
 	"editcount_total": "Insgesamt"
 }

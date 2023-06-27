@@ -6,8 +6,12 @@
 		]
 	},
 	"editcount": "Število urejanj",
-	"editcount-desc": "Prikaže [[Special:Editcount|števec uporabnikovih urejanj]]",
+	"editcount-desc": "Prikaže [[Special:Editcount|števec urejanj]] posameznega uporabnika",
+	"editcount-before": "To orodje vam omogoča ogled števila urejanj posameznega uporabnika v vseh imenskih prostorih.",
 	"editcount_username": "Uporabnik:",
 	"editcount_submit": "Pošlji",
+	"editcount_namespace": "Imenski prostor",
+	"editcount_edits": "Urejanja",
+	"editcount_percentage": "Odstotek",
 	"editcount_total": "Skupno"
 }

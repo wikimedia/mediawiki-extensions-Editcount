@@ -5,8 +5,12 @@
 		]
 	},
 	"editcount": "Numero de modificationes",
-	"editcount-desc": "Monstra le [[Special:Editcount|contator de modificationes]] de un usator",
+	"editcount-desc": "Monstra le [[Special:Editcount|numero de modificationes]] de un usator date",
+	"editcount-before": "Iste instrumento permitte vider le numero modificationes de un usator date in tote le spatios de nomines.",
 	"editcount_username": "Usator:",
 	"editcount_submit": "Submitter",
+	"editcount_namespace": "Spatio de nomines",
+	"editcount_edits": "Modificationes",
+	"editcount_percentage": "Percentage",
 	"editcount_total": "Total"
 }
