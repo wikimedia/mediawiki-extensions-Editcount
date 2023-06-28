@@ -1,11 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robby"
+			"Robby",
+			"Volvox"
 		]
 	},
 	"editcount-desc": "Weist d'[[Special:Editcount|Zuel vun den Ännerunge]] vun engem Benotzer",
 	"editcount_username": "Benotzer:",
 	"editcount_submit": "Späicheren",
+	"editcount_namespace": "Nummraum",
+	"editcount_edits": "Ännerungen",
 	"editcount_total": "Total"
 }
