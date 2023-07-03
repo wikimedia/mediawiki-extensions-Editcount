@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Milicevic01",
 			"Rancher",
 			"Sasa Stefanovic",
 			"Михајло Анђелковић"
@@ -9,5 +10,8 @@
 	"editcount-desc": "Приказује [[Special:Editcount|бројач измена]] корисника",
 	"editcount_username": "Корисник:",
 	"editcount_submit": "Пошаљи",
+	"editcount_namespace": "Именски простор",
+	"editcount_edits": "Измене",
+	"editcount_percentage": "Проценат",
 	"editcount_total": "Укупно"
 }

@@ -6,8 +6,12 @@
 		]
 	},
 	"editcount": "Бројач на уредувања",
-	"editcount-desc": "Прикажува [[Special:Editcount|број на уредувања]] на корисник",
+	"editcount-desc": "Прикажува [[Special:Editcount|број на уредувања]] на даден корисник",
+	"editcount-before": "Оваа алатка ви овозможува да го видите бројот на уредувања на даден корисник ширум сите именски простори.",
 	"editcount_username": "Корисник:",
 	"editcount_submit": "Потврди",
+	"editcount_namespace": "Именски простор",
+	"editcount_edits": "Уредувања",
+	"editcount_percentage": "Постоток",
 	"editcount_total": "Вкупно"
 }
