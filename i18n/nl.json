@@ -1,11 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
+			"HanV",
 			"Siebrand"
 		]
 	},
-	"editcount-desc": "Geeft een [[Special:Editcount|bewerkingsteller]] weer voor een gebruiker",
+	"editcount": "Aantal bewerkingen",
+	"editcount-desc": "Toont een [[Special:Editcount|bewerkingsteller]] van een gebruiker",
+	"editcount-before": "Met dit hulpmiddel kunt u het aantal bewerkingen van een bepaalde gebruiker in alle naamruimten bekijken.",
 	"editcount_username": "Gebruiker:",
 	"editcount_submit": "OK",
+	"editcount_namespace": "Naamruimte",
+	"editcount_edits": "Bewerkingen",
+	"editcount_percentage": "Percentage",
 	"editcount_total": "Totaal"
 }
