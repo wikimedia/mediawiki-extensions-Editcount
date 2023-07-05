@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Veeven"
+			"Veeven",
+			"Chaduvari"
 		]
 	},
-	"editcount": "మార్పుల సంఖ్య",
+	"editcount": "దిద్దుబాట్ల సంఖ్య",
 	"editcount-desc": "వాడుకరి యొక్క [[Special:Editcount|మార్పుల సంఖ్య]]ని చూపిస్తుంది",
 	"editcount_username": "వాడుకరి:",
-	"editcount_submit": "దాఖలుచెయ్యి",
+	"editcount_submit": "పంపించు",
 	"editcount_total": "మొత్తం"
 }
