@@ -3,12 +3,14 @@
 		"authors": [
 			"01miki10",
 			"Jaakonam",
-			"Nike"
+			"Nike",
+			"Pyscowicz"
 		]
 	},
 	"editcount": "Muokkausmäärä",
 	"editcount-desc": "Näyttää käyttäjän [[Special:Editcount|muokkauslaskurin]]",
 	"editcount_username": "Käyttäjä",
 	"editcount_submit": "Hae",
+	"editcount_namespace": "Nimiavaruus",
 	"editcount_total": "Yhteensä"
 }
