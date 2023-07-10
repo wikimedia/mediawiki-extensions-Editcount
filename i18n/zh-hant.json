@@ -10,8 +10,12 @@
 		]
 	},
 	"editcount": "編輯次數",
-	"editcount-desc": "顯示一個使用者的[[Special:Editcount|編輯次數]]",
+	"editcount-desc": "顯示一個指定使用者的[[Special:Editcount|編輯次數]]",
+	"editcount-before": "此工具允許您查看指定使用者在橫跨所有命名空間的編輯次數。",
 	"editcount_username": "使用者：",
 	"editcount_submit": "送出",
+	"editcount_namespace": "命名空間",
+	"editcount_edits": "編輯數",
+	"editcount_percentage": "百分比",
 	"editcount_total": "總數"
 }
