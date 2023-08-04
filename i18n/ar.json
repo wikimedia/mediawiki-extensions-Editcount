@@ -3,12 +3,14 @@
 		"authors": [
 			"Meno25",
 			"Mimouni",
-			"OsamaK"
+			"OsamaK",
+			"محمد أحمد عبد الفتاح"
 		]
 	},
 	"editcount": "عدد التعديلات",
 	"editcount-desc": "يعرض [[Special:Editcount|عداد المساهمات]] لمستخدم",
 	"editcount_username": "مستخدم:",
 	"editcount_submit": "إرسال",
+	"editcount_namespace": "النطاق",
 	"editcount_total": "الإجمالي"
 }
