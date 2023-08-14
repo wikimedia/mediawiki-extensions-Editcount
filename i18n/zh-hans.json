@@ -3,6 +3,7 @@
 		"authors": [
 			"CrownedWharf566",
 			"Impersonator 1",
+			"LittlePaw365",
 			"Liuxinyu970226",
 			"Mywood",
 			"PhiLiP",
@@ -10,7 +11,7 @@
 			"Xiaomingyan"
 		]
 	},
-	"editcount-desc": "显示用户的[[特殊:Editcount|编辑数]]",
+	"editcount-desc": "显示指定用户的[[Special:Editcount|编辑次数]]",
 	"editcount_username": "用户：",
 	"editcount_submit": "提交",
 	"editcount_total": "总数"
