@@ -5,8 +5,13 @@
 			"Jeeputer"
 		]
 	},
+	"editcount": "شمار ویرایش‌ها",
 	"editcount-desc": "[[Special:Editcount|تعداد ویرایش‌های]] یک کاربر را نشان می‌دهد",
+	"editcount-before": "این ابزار امکان مشاههدهٔ شمار ویرایش‌های یک کاربر خاص در تمام فضاهای نام را به شما می‌دهد.",
 	"editcount_username": "کاربر:",
 	"editcount_submit": "ارسال",
+	"editcount_namespace": "فضای نام",
+	"editcount_edits": "ویرایش‌ها",
+	"editcount_percentage": "درصد",
 	"editcount_total": "کل"
 }
