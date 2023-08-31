@@ -5,6 +5,7 @@
 			"Jeeputer"
 		]
 	},
+	"editcount": "شمار ویرایش‌ها",
 	"editcount-desc": "[[Special:Editcount|تعداد ویرایش‌های]] یک کاربر را نشان می‌دهد",
 	"editcount_username": "کاربر:",
 	"editcount_submit": "ارسال",
