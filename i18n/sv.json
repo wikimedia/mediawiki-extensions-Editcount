@@ -3,9 +3,11 @@
 		"authors": [
 			"Lejonel",
 			"M.M.S.",
-			"Tobulos1"
+			"Tobulos1",
+			"Skalman"
 		]
 	},
+	"editcount": "Antal redigeringar",
 	"editcount-desc": "Visar [[Special:Editcount|antalet redigeringar]] som en användare gjort",
 	"editcount_username": "Användare:",
 	"editcount_submit": "Räkna",
