@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"editcount": "Бројач измјена",
+	"editcount-desc": "Приказује [[Special:Editcount|бројач измјена]] корисника",
+	"editcount-before": "Овај алат вам омогућава да видите број измјена одређеног корисника у свим именским просторима.",
+	"editcount_username": "Корисник:",
+	"editcount_submit": "Пошаљи",
+	"editcount_namespace": "Именски простор",
+	"editcount_edits": "Измјене",
+	"editcount_percentage": "Проценат",
+	"editcount_total": "Укупно"
+}
