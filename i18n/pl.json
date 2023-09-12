@@ -9,7 +9,11 @@
 	},
 	"editcount": "Licznik edycji",
 	"editcount-desc": "Wyświetla [[Special:Editcount|liczbę edycji]] użytkownika",
+	"editcount-before": "To narzędzie umożliwia ci wyświetlenie liczby edycji danego użytkownika we wszystkich przestrzeniach nazw.",
 	"editcount_username": "Użytkownik:",
-	"editcount_submit": "Prześlij",
+	"editcount_submit": "Wyślij",
+	"editcount_namespace": "Przestrzeń nazw",
+	"editcount_edits": "Edycje",
+	"editcount_percentage": "Procent",
 	"editcount_total": "Razem"
 }
