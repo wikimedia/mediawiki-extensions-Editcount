@@ -8,11 +8,17 @@
 			"Mywood",
 			"PhiLiP",
 			"Shinjiman",
-			"Xiaomingyan"
+			"Xiaomingyan",
+			"沈澄心"
 		]
 	},
+	"editcount": "编辑次数",
 	"editcount-desc": "显示指定用户的[[Special:Editcount|编辑次数]]",
+	"editcount-before": "此工具允许您查看指定用户在所有命名空间中的编辑计数。",
 	"editcount_username": "用户：",
 	"editcount_submit": "提交",
+	"editcount_namespace": "命名空间",
+	"editcount_edits": "编辑数",
+	"editcount_percentage": "百分比",
 	"editcount_total": "总数"
 }
