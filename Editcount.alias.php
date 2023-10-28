@@ -301,6 +301,11 @@ $specialPageAliases['sr-ec'] = [
 	'Editcount' => [ 'БројИзмена' ],
 ];
 
+/** Serbian (Latin script) (srpski (latinica)‎) */
+$specialPageAliases['sr-el'] = [
+	'Editcount' => [ 'BrojIzmena' ],
+];
+
 /** Swedish (svenska) */
 $specialPageAliases['sv'] = [
 	'Editcount' => [ 'Redigeringsräknare' ],
