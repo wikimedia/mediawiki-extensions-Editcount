@@ -3,10 +3,12 @@
 		"authors": [
 			"Rancher",
 			"Sasa Stefanovic",
-			"Михајло Анђелковић"
+			"Михајло Анђелковић",
+			"Kizule",
+			"Milicevic01"
 		]
 	},
-	"editcount": "Бројач измена",
+	"editcount": "Број измена",
 	"editcount-desc": "Приказује [[Special:Editcount|бројач измена]] корисника",
 	"editcount_username": "Корисник:",
 	"editcount_submit": "Пошаљи",
