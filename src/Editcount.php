@@ -68,22 +68,24 @@ class Editcount extends IncludableSpecialPage {
 			return [];
 		}
 
-		$dbr = wfGetDB( DB_REPLICA );
-		$actorWhere = ActorMigration::newMigration()->getWhere( $dbr, 'rev_user', $user );
-		$res = $dbr->select(
-			[ 'revision', 'page' ] + $actorWhere['tables'],
-			[ 'page_namespace', 'COUNT(*) AS count' ],
-			[ $actorWhere['conds'] ],
-			__METHOD__,
-			[ 'GROUP BY' => 'page_namespace' ],
-			[ 'page' => [ 'JOIN', 'page_id = rev_page' ] ] + $actorWhere['joins']
-		);
+		$dbr = MediaWikiServices::getInstance()->getDBLoadBalancerFactory()->getReplicaDatabase();
+		$actorNormalization = MediaWikiServices::getInstance()->getActorNormalization();
+		$actorId = $actorNormalization->findActorId( $user, $dbr );
+		$query = $dbr->newSelectQueryBuilder()
+			->caller( __METHOD__ )
+			->select( [ 'page_namespace', 'count' => 'COUNT(*)' ] )
+			->from( 'revision' )
+			->join( 'page', null, 'page_id = rev_page' )
+			->join( 'actor', null, 'rev_actor = actor_id' )
+			->where( [ "actor_id" => $actorId ] )
+			->groupBy( 'page_namespace' );
+		$res = $query->fetchResultSet();
 
-		$nscount = [];
+		$nsCount = [];
 		foreach ( $res as $row ) {
-			$nscount[$row->page_namespace] = (int)$row->count;
+			$nsCount[$row->page_namespace] = (int)$row->count;
 		}
-		return $nscount;
+		return $nsCount;
 	}
 
 	/**
@@ -98,15 +100,16 @@ class Editcount extends IncludableSpecialPage {
 			return 0;
 		}
 
-		$dbr = wfGetDB( DB_REPLICA );
-		$actorWhere = ActorMigration::newMigration()->getWhere( $dbr, 'rev_user', $user );
-		return (int)$dbr->selectField(
-			[ 'revision', 'page' ] + $actorWhere['tables'],
-			'COUNT(*)',
-			[ 'page_namespace' => $ns, $actorWhere['conds'] ],
-			__METHOD__,
-			[],
-			[ 'page' => [ 'JOIN', 'page_id = rev_page' ] ] + $actorWhere['joins']
-		);
+		$dbr = MediaWikiServices::getInstance()->getDBLoadBalancerFactory()->getReplicaDatabase();
+		$actorNormalization = MediaWikiServices::getInstance()->getActorNormalization();
+		$actorId = $actorNormalization->findActorId( $user, $dbr );
+		$query = $dbr->newSelectQueryBuilder()
+			->caller( __METHOD__ )
+			->select( 'COUNT(*)' )
+			->from( 'revision' )
+			->join( 'page', null, 'page_id = rev_page' )
+			->join( 'actor', null, 'rev_actor = actor_id' )
+			->where( [ "actor_id" => $actorId, "page_namespace" => $ns ] );
+		return $query->fetchField();
 	}
 }
