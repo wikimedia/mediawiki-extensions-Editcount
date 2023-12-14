@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dr Lotus Black"
+			"Dr Lotus Black",
+			"Ninjastrikers"
 		]
 	},
-	"editcount-desc": "အသုံးပြုသူ၏ [[Special:Editcount|တည်းဖြတ်မှု အရေအတွက်]]ကို ဖော်ပြရန်",
+	"editcount-desc": "ပေးထားသော အသုံးပြုသူ၏ [[Special:Editcount|တည်းဖြတ်မှု အရေအတွက်]]ကို ဖော်ပြရန်",
 	"editcount_username": "အသုံးပြုသူ :",
 	"editcount_submit": "ထည့်သွင်းရန်",
 	"editcount_total": "စုစုပေါင်း"
