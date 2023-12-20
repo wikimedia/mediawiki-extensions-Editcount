@@ -2,10 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Bellayet",
-			"আফতাবুজ্জামান"
+			"আফতাবুজ্জামান",
+			"খাত্তাব হাসান"
 		]
 	},
+	"editcount": "সম্পাদনা গণনা",
 	"editcount-desc": "প্রদত্ত ব্যবহারকারীর [[Special:Editcount|সম্পাদনা সংখ্যা]] দেখায়",
+	"editcount-before": "এই টুলটি আপনাকে সমস্ত নামস্থানে প্রদত্ত ব্যবহারকারীর সম্পাদনা সংখ্যা দেখতে দেয়।",
 	"editcount_username": "ব্যবহারকারী:",
 	"editcount_submit": "জমা দাও",
 	"editcount_namespace": "নামস্থান",
