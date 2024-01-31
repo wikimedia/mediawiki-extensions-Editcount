@@ -6,8 +6,12 @@
 		]
 	},
 	"editcount": "Contagem de edições",
-	"editcount-desc": "Apresenta [[Special:Editcount|a contagem de edições]] de um utilizador",
+	"editcount-desc": "Apresenta a [[Special:Editcount|contagem de edições]] de um utilizador específico",
+	"editcount-before": "Esta ferramenta permite-lhe ver a contagem de edições de um determinado utilizador em todos os espaços nominais.",
 	"editcount_username": "Utilizador:",
 	"editcount_submit": "Enviar",
+	"editcount_namespace": "Espaço nominal",
+	"editcount_edits": "Edições",
+	"editcount_percentage": "Percentagem",
 	"editcount_total": "Total"
 }
