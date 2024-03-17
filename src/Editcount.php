@@ -15,7 +15,7 @@ class Editcount extends IncludableSpecialPage {
 	public function execute( $par ) {
 		$target = $par ?? $this->getRequest()->getText( 'username' );
 
-		list( $username, $namespace ) = $this->extractParameters( $target );
+		[ $username, $namespace ] = $this->extractParameters( $target );
 		$this->getOutput()->enableOOUI();
 		$this->getOutput()->addWikiMsg( 'editcount-before' );
 
