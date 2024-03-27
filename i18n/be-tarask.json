@@ -2,11 +2,17 @@
 	"@metadata": {
 		"authors": [
 			"EugeneZelenko",
-			"Jim-by"
+			"Jim-by",
+			"Renessaince"
 		]
 	},
-	"editcount-desc": "Паказвае [[Special:Editcount|колькасьць рэдагаваньняў]] удзельніка",
+	"editcount": "Колькасьць рэдагаваньняў",
+	"editcount-desc": "Паказвае [[Special:Editcount|колькасьць рэдагаваньняў]] гэтага ўдзельніка",
+	"editcount-before": "Гэты інструмэнт дазваляе вам праглядзець колькасьць рэдагаваньняў гэтага ўдзельніка ва ўсіх прасторах назваў.",
 	"editcount_username": "Удзельнік:",
 	"editcount_submit": "Падлічыць",
+	"editcount_namespace": "Прастора назваў",
+	"editcount_edits": "Рэдагаваньні",
+	"editcount_percentage": "Адсотак",
 	"editcount_total": "Усяго"
 }
