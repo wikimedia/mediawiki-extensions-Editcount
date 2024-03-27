@@ -4,13 +4,17 @@
 			"01miki10",
 			"Jaakonam",
 			"Nike",
-			"Pyscowicz"
+			"Pyscowicz",
+			"Samoasambia"
 		]
 	},
 	"editcount": "Muokkausmäärä",
-	"editcount-desc": "Näyttää käyttäjän [[Special:Editcount|muokkauslaskurin]]",
+	"editcount-desc": "Näyttää valitun käyttäjän [[Special:Editcount|muokkausmäärän]]",
+	"editcount-before": "Tämän työkalun avulla voit tarkastaa tietyn käyttäjän muokkausmäärän kaikissa nimiavaruuksissa.",
 	"editcount_username": "Käyttäjä",
 	"editcount_submit": "Hae",
 	"editcount_namespace": "Nimiavaruus",
+	"editcount_edits": "Muokkauksia",
+	"editcount_percentage": "Prosenttiosuus",
 	"editcount_total": "Yhteensä"
 }
