@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"EugeneZelenko",
-			"Jim-by"
+			"Jim-by",
+			"Renessaince"
 		]
 	},
+	"editcount": "Колькасьць рэдагаваньняў",
 	"editcount-desc": "Паказвае [[Special:Editcount|колькасьць рэдагаваньняў]] удзельніка",
 	"editcount_username": "Удзельнік:",
 	"editcount_submit": "Падлічыць",
