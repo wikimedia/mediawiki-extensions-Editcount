@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Aotake",
+			"Chqaz",
 			"JtFuruhata",
 			"MathXplore",
 			"Shirayuki",
@@ -9,9 +10,12 @@
 		]
 	},
 	"editcount": "編集回数",
-	"editcount-desc": "利用者の[[Special:Editcount|編集回数]]を表示する",
+	"editcount-desc": "指定された利用者の[[Special:Editcount|編集回数]]を表示する",
+	"editcount-before": "このツールを使用すると、すべての名前空間の指定された利用者の編集回数を表示できます。",
 	"editcount_username": "利用者:",
 	"editcount_submit": "表示",
 	"editcount_namespace": "名前空間",
+	"editcount_edits": "編集",
+	"editcount_percentage": "割合",
 	"editcount_total": "合計"
 }
