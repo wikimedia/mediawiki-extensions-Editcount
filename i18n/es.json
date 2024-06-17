@@ -9,7 +9,7 @@
 		]
 	},
 	"editcount": "Recuento de ediciones",
-	"editcount-desc": "Muestra el [[Special:Editcount|recuento de ediciones]] de un usuario",
+	"editcount-desc": "Muestra el [[Special:Editcount|recuento de ediciones]] de un usuario determinado",
 	"editcount-before": "Esta herramienta le permite ver el recuento de ediciones de un usuario determinado en todos los espacios de nombres.",
 	"editcount_username": "Usuario:",
 	"editcount_submit": "Enviar",
