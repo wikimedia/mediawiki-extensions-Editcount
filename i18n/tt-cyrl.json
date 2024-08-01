@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Ерней",
-			"Рашат Якупов"
+			"Рашат Якупов",
+			"Don Alessandro"
 		]
 	},
 	"editcount-desc": "Кулланучының [[Special:Editcount|төзәтмәләр исәбен]] күрсәтә",
 	"editcount_username": "Кулланучы:",
-	"editcount_submit": "Санарга",
+	"editcount_submit": "Сану",
 	"editcount_total": "Барлыгы"
 }
