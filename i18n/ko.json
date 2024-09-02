@@ -2,13 +2,18 @@
 	"@metadata": {
 		"authors": [
 			"Kwj2772",
+			"Suleiman the Magnificent Television",
 			"Ykhwong",
 			"아라"
 		]
 	},
 	"editcount": "편집 수",
-	"editcount-desc": "사용자의 [[Special:Editcount|편집 수]]를 보여줍니다",
+	"editcount-desc": "지정된 사용자의 [[Special:Editcount|편집 횟수]]를 표시합니다",
+	"editcount-before": "이 도구를 사용하면 특정 사용자의 모든 이름공간에서 편집 횟수를 볼 수 있습니다.",
 	"editcount_username": "사용자:",
 	"editcount_submit": "제출",
+	"editcount_namespace": "이름공간",
+	"editcount_edits": "편집",
+	"editcount_percentage": "백분율",
 	"editcount_total": "합계"
 }
