@@ -3,10 +3,11 @@
 		"authors": [
 			"Alma",
 			"Elisardojm",
-			"Xosé"
+			"Xosé",
+			"Toliño"
 		]
 	},
-	"editcount": "Total de edicións",
+	"editcount": "Contador de edicións",
 	"editcount-desc": "Amosa [[Special:Editcount|a conta de edicións]] dun usuario",
 	"editcount_username": "Usuario:",
 	"editcount_submit": "Enviar",
