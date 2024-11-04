@@ -5,7 +5,6 @@
 			"Glanthor Reviol"
 		]
 	},
-	"editcount": "Szerkesztések száma",
 	"editcount-desc": "Megjeleníti egy szerkesztő [[Special:Editcount|szerekesztésszámát]]",
 	"editcount_username": "Szerkesztő:",
 	"editcount_submit": "Elküld",
