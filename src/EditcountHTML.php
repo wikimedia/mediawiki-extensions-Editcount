@@ -79,7 +79,11 @@ class EditcountHTML extends Editcount {
 
 		foreach ( $this->nscount as $ns => $edits ) {
 			$fedits = $lang->formatNum( $edits );
-			$fns = ( $ns == NS_MAIN ) ? $this->msg( 'blanknamespace' ) : $lang->getFormattedNsText( $ns );
+			if ( $ns === NS_MAIN ) {
+				$fns = $this->msg( 'blanknamespace' );
+			} else {
+				$fns = $lang->getFormattedNsText( $ns ) ?: $ns;
+			}
 			$percent = wfPercent( $edits / $this->total * 100 );
 			$fpercent = $lang->formatNum( $percent );
 			$ret .= "
