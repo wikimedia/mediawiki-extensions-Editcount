@@ -2,10 +2,10 @@
 
 class EditcountHTML extends Editcount {
 	/** @var int[] */
-	private $nscount;
+	private array $nscount;
 
 	/** @var int */
-	private $total;
+	private int $total;
 
 	/**
 	 * Output the HTML form on Special:Editcount
@@ -15,7 +15,7 @@ class EditcountHTML extends Editcount {
 	 * @param int[] $nscount
 	 * @param int|null $total
 	 */
-	public function outputHTML( $username, $uid, array $nscount, $total = null ) {
+	public function outputHTML( string $username, int $uid, array $nscount, ?int $total = null ): void {
 		$this->nscount = $nscount;
 		$this->total = $total ?: array_sum( $nscount );
 
@@ -60,7 +60,7 @@ class EditcountHTML extends Editcount {
 	 *
 	 * @return string
 	 */
-	private function makeTable() {
+	private function makeTable(): string {
 		$lang = $this->getLanguage();
 
 		$total = $this->msg( 'editcount_total' )->escaped();
