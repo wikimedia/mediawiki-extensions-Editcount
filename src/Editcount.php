@@ -16,8 +16,6 @@ class Editcount extends IncludableSpecialPage {
 		$target = $par ?? $this->getRequest()->getText( 'username' );
 
 		[ $username, $namespace ] = $this->extractParameters( $target );
-		$this->getOutput()->enableOOUI();
-		$this->getOutput()->addWikiMsg( 'editcount-before' );
 
 		$user = User::newFromName( $username );
 		$username = $user ? $user->getName() : '';
@@ -37,6 +35,9 @@ class Editcount extends IncludableSpecialPage {
 			// @phan-suppress-next-line SecurityCheck-XSS
 			$this->getOutput()->addHTML( $out );
 		} else {
+			$this->getOutput()->enableOOUI();
+			$this->getOutput()->addWikiMsg( 'editcount-before' );
+
 			$nscount = $this->editsByNs( $user );
 			$html = new EditcountHTML;
 			$html->setContext( $this->getContext() );
