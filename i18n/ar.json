@@ -9,6 +9,7 @@
 	},
 	"editcount": "عدد التعديلات",
 	"editcount-desc": "يعرض [[Special:Editcount|عداد المساهمات]] لمستخدم",
+	"editcount-before": "تتيح لك هذه الأداة عرض عدد تعديلات مستخدم معين عبر جميع النطاقات.",
 	"editcount_username": "مستخدم:",
 	"editcount_submit": "إرسال",
 	"editcount_namespace": "النطاق",
