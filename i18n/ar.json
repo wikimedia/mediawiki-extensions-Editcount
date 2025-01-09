@@ -13,5 +13,7 @@
 	"editcount_username": "مستخدم:",
 	"editcount_submit": "إرسال",
 	"editcount_namespace": "النطاق",
+	"editcount_edits": "تعديلات",
+	"editcount_percentage": "نسبة مئوية",
 	"editcount_total": "الإجمالي"
 }
