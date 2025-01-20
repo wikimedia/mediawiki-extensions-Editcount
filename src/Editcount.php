@@ -80,7 +80,8 @@ class Editcount extends IncludableSpecialPage {
 			->join( 'page', null, 'page_id = rev_page' )
 			->join( 'actor', null, 'rev_actor = actor_id' )
 			->where( [ "actor_id" => $actorId ] )
-			->groupBy( 'page_namespace' );
+			->groupBy( 'page_namespace' )
+			->orderBy( 'page_namespace' );
 		$res = $query->fetchResultSet();
 
 		$nsCount = [];
