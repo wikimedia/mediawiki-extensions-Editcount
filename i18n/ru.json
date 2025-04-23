@@ -3,11 +3,17 @@
 		"authors": [
 			"Okras",
 			"VasilievVV",
-			"Александр Сигачёв"
+			"Александр Сигачёв",
+			"MidnightLG"
 		]
 	},
+	"editcount": "Счётчик правок",
 	"editcount-desc": "Показывает [[Special:Editcount|количество правок]] данного участника",
+	"editcount-before": "Эта страница позволяет узнать количество правок для выбранного пользователя с детализацией по всем пространствам имён.",
 	"editcount_username": "Участник:",
 	"editcount_submit": "Посчитать",
+	"editcount_namespace": "Пространство имён",
+	"editcount_edits": "Правки",
+	"editcount_percentage": "Процент",
 	"editcount_total": "Всего"
 }
