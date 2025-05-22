@@ -5,8 +5,13 @@
 			"Sasa Stefanovic"
 		]
 	},
+	"editcount": "Broj izmena",
 	"editcount-desc": "Prikazuje [[Special:Editcount|brojač izmena]] korisnika",
+	"editcount-before": "Ova alatka vam omogućava da vidite broj izmena datog korisnika u svim imenskim prostorima.",
 	"editcount_username": "Korisnik:",
 	"editcount_submit": "Pošalji",
+	"editcount_namespace": "Imenski prostor",
+	"editcount_edits": "Izmene",
+	"editcount_percentage": "Procenat",
 	"editcount_total": "Ukupno"
 }
