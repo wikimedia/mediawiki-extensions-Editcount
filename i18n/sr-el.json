@@ -5,6 +5,7 @@
 			"Sasa Stefanovic"
 		]
 	},
+	"editcount": "Broj izmena",
 	"editcount-desc": "Prikazuje [[Special:Editcount|brojač izmena]] korisnika",
 	"editcount_username": "Korisnik:",
 	"editcount_submit": "Pošalji",
