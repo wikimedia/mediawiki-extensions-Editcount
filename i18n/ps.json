@@ -5,8 +5,13 @@
 			"شاه زمان پټان"
 		]
 	},
-	"editcount-desc": "د يوه کارن [[Special:Editcount|د سمونونو شمېر]] ښکاره کوي",
+	"editcount": "سمون شمېر",
+	"editcount-desc": "د ورکړل‌شوي کارن [[Special:Editcount|د سمونونو شمېر]] ښکاره کوي",
+	"editcount-before": "دا توکی تاسو ته په ټولو نوم‌تشيالونو کې د ورکړل‌شوي کارن سمون شمېر کتلو پرېښولی درکوي.",
 	"editcount_username": "کارن:",
 	"editcount_submit": "سپارل",
+	"editcount_namespace": "نوم‌تشيال",
+	"editcount_edits": "سمونونه",
+	"editcount_percentage": "سلنه",
 	"editcount_total": "ټولټال"
 }
