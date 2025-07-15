@@ -346,12 +346,17 @@ $specialPageAliases['vi'] = [
 	'Editcount' => [ 'Số_sửa_đổi' ],
 ];
 
-/** Simplified Chinese (中文（简体）‎) */
-$specialPageAliases['zh-hans'] = [
-	'Editcount' => [ '编辑计数' ],
+/** Chinese (中文) */
+$specialPageAliases['zh'] = [
+	'Editcount' => [ 'Editcount' ],
 ];
 
-/** Traditional Chinese (中文（繁體）‎) */
+/** Simplified Chinese (中文（简体）) */
+$specialPageAliases['zh-hans'] = [
+	'Editcount' => [ '编辑次数', '编辑计数' ],
+];
+
+/** Traditional Chinese (中文（繁體）) */
 $specialPageAliases['zh-hant'] = [
 	'Editcount' => [ '編輯次數' ],
 ];
