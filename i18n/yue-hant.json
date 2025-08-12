@@ -1,11 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"Winston Sung"
+			"Winston Sung",
+			"JeffreyKim"
 		]
 	},
-	"editcount-desc": "顯示一位用戶嘅[[Special:Editcount|編輯次數]]",
+	"editcount": "編輯次數",
+	"editcount-desc": "[[Special:Editcount|編輯次數]]",
+	"editcount-before": "呢個工具畀你睇返特定用戶喺所有命名空間入面嘅編輯次數。",
 	"editcount_username": "用戶:",
 	"editcount_submit": "遞交",
+	"editcount_namespace": "命名空間",
+	"editcount_edits": "編輯",
+	"editcount_percentage": "百分比",
 	"editcount_total": "總數"
 }
