@@ -4,12 +4,17 @@
 			"Lejonel",
 			"M.M.S.",
 			"Skalman",
+			"Stefan2255",
 			"Tobulos1"
 		]
 	},
 	"editcount": "Antal redigeringar",
 	"editcount-desc": "Visar [[Special:Editcount|antalet redigeringar]] som en användare gjort",
+	"editcount-before": "Det här verktyget låter dig se en given användares redigeringsantal i alla namnrymder.",
 	"editcount_username": "Användare:",
 	"editcount_submit": "Räkna",
+	"editcount_namespace": "Namnrymd",
+	"editcount_edits": "Redigeringar",
+	"editcount_percentage": "Procent",
 	"editcount_total": "Totalt"
 }
