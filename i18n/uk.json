@@ -1,11 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahonc"
+			"Ahonc",
+			"Repakr"
 		]
 	},
+	"editcount": "Лічильник редагувань",
 	"editcount-desc": "Показує [[Special:Editcount|кількість редагувань]] користувача",
+	"editcount-before": "Цей інструмент дозволяє Вам переглядати кількість редагувань певного користувача у всіх просторах назв.",
 	"editcount_username": "Користувач:",
 	"editcount_submit": "Порахувати",
+	"editcount_namespace": "Простір назв",
+	"editcount_edits": "Редагувань",
+	"editcount_percentage": "Відсоток",
 	"editcount_total": "Усього"
 }
