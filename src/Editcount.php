@@ -32,8 +32,7 @@ class Editcount extends IncludableSpecialPage {
 			} else {
 				$out = $contLang->formatNum( $this->editsInNs( $user, $namespace ) );
 			}
-			// @phan-suppress-next-line SecurityCheck-XSS
-			$this->getOutput()->addHTML( $out );
+			$this->getOutput()->addHTML( htmlspecialchars( $out ) );
 		} else {
 			$this->getOutput()->enableOOUI();
 			$this->getOutput()->addWikiMsg( 'editcount-before' );
