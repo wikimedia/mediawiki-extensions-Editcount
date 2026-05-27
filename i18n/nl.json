@@ -6,7 +6,7 @@
 		]
 	},
 	"editcount": "Aantal bewerkingen",
-	"editcount-desc": "Toont een [[Special:Editcount|bewerkingsteller]] van een gebruiker",
+	"editcount-desc": "[[Special:Editcount|Bewerkingsteller]] van een gebruiker",
 	"editcount-before": "Met dit hulpmiddel kunt u het aantal bewerkingen van een bepaalde gebruiker in alle naamruimten bekijken.",
 	"editcount_username": "Gebruiker:",
 	"editcount_submit": "OK",
