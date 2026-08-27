@@ -5,8 +5,13 @@
 			"Wizzard"
 		]
 	},
+	"editcount": "Počet úprav",
 	"editcount-desc": "Zobrazuje [[Special:Editcount|počet úprav]] daného používateľa",
+	"editcount-before": "Tento nástroj umožňuje zobraziť počet úprav zadaného používateľa vo všetkých menných priestoroch.",
 	"editcount_username": "Používateľ:",
 	"editcount_submit": "Odoslať",
+	"editcount_namespace": "Menný priestor",
+	"editcount_edits": "Úpravy",
+	"editcount_percentage": "Percento",
 	"editcount_total": "Celkom"
 }
