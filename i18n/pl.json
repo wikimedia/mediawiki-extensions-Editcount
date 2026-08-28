@@ -4,12 +4,13 @@
 			"Derbeth",
 			"McMonster",
 			"Rail",
-			"Railfail536"
+			"Railfail536",
+			"PanWor"
 		]
 	},
 	"editcount": "Licznik edycji",
 	"editcount-desc": "Wyświetla [[Special:Editcount|liczbę edycji]] użytkownika",
-	"editcount-before": "To narzędzie umożliwia ci wyświetlenie liczby edycji danego użytkownika we wszystkich przestrzeniach nazw.",
+	"editcount-before": "To narzędzie umożliwia Ci wyświetlenie liczby edycji danego użytkownika we wszystkich przestrzeniach nazw.",
 	"editcount_username": "Użytkownik:",
 	"editcount_submit": "Wyślij",
 	"editcount_namespace": "Przestrzeń nazw",
