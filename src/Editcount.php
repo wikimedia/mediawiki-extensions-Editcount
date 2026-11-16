@@ -61,16 +61,17 @@ class Editcount extends IncludableSpecialPage {
 	/**
 	 * Count the number of edits of a user by namespace
 	 *
-	 * @param User $user The user to check
+	 * @param User|false $user The user to check
 	 * @return int[]
 	 */
 	protected function editsByNs( $user ) {
-		if ( !$user || $user->getId() <= 0 ) {
+		if ( !$user || !$user->isRegistered() ) {
 			return [];
 		}
 
-		$dbr = MediaWikiServices::getInstance()->getDBLoadBalancerFactory()->getReplicaDatabase();
-		$actorNormalization = MediaWikiServices::getInstance()->getActorNormalization();
+		$services = MediaWikiServices::getInstance();
+		$dbr = $services->getConnectionProvider()->getReplicaDatabase();
+		$actorNormalization = $services->getActorNormalization();
 		$actorId = $actorNormalization->findActorId( $user, $dbr );
 		$query = $dbr->newSelectQueryBuilder()
 			->caller( __METHOD__ )
@@ -93,17 +94,18 @@ class Editcount extends IncludableSpecialPage {
 	/**
 	 * Count the number of edits of a user in a given namespace
 	 *
-	 * @param User $user The user to check
+	 * @param User|false $user The user to check
 	 * @param int $ns The namespace to check
 	 * @return int
 	 */
 	protected function editsInNs( $user, $ns ) {
-		if ( !$user || $user->getId() <= 0 ) {
+		if ( !$user || !$user->isRegistered() ) {
 			return 0;
 		}
 
-		$dbr = MediaWikiServices::getInstance()->getDBLoadBalancerFactory()->getReplicaDatabase();
-		$actorNormalization = MediaWikiServices::getInstance()->getActorNormalization();
+		$services = MediaWikiServices::getInstance();
+		$dbr = $services->getConnectionProvider()->getReplicaDatabase();
+		$actorNormalization = $services->getActorNormalization();
 		$actorId = $actorNormalization->findActorId( $user, $dbr );
 		$query = $dbr->newSelectQueryBuilder()
 			->caller( __METHOD__ )
